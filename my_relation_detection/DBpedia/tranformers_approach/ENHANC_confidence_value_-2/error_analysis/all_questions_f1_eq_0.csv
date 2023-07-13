@@ -1,0 +1,1067 @@
+,recall,precision,f1,word_count,rel_count,sys_relations,question,gold_relations,system_relations,question_type
+2,0.0,0.0,0.0,6,1,3,What country is charlie monroe from?,[['dbo:birthPlace']],"['dbo:country', 'dbo:hometown', 'dbo:nationality']",factoid
+21,0.0,0.0,0.0,8,1,4,Is KOMC-FM the sister station of KOMC (AM)?,[['dbo:sisterStation']],"['dbo:broadcastArea', 'dbo:programmeFormat', 'dbp:area', 'dbp:sisterStations']",boolean
+35,0.0,0.0,0.0,6,1,1,what company produced bill and ted?,[['dbp:productionCompanies']],['dbp:studio'],factoid
+50,0.0,0.0,0.0,7,1,1,what is the nationality of guri schanke?,[['dbo:hometown']],['dbo:nationality'],factoid
+89,0.0,0.0,0.0,8,1,1,In what country in the montessori oberschule potsdam,[['dbo:location']],['dbo:country'],factoid
+93,0.0,0.0,0.0,9,1,2,what country in east-central Asia is pagamsuren altantulga from,[['dbo:birthPlace']],"['dbo:country', 'dbo:nationality']",factoid
+101,0.0,0.0,0.0,7,1,1,What is the dubai zoo membership called?,[['dbp:members']],['dbp:purpose'],factoid
+111,0.0,0.0,0.0,9,1,1,What was the title of Joe Lovano's 21st album?,[['dbo:type']],['dbo:artist'],factoid
+113,0.0,0.0,0.0,7,1,1,Does Fa'a' International Airport serve tahiti too?,[['dbp:cityServed']],['dbo:city'],boolean
+114,0.0,0.0,0.0,7,1,1,Name a song written by michael giacchino,[['dbo:artist']],['dbo:writer'],list
+133,0.0,0.0,0.0,9,1,1,How many airlines are members of the Star Alliance?,[['dbo:alliance']],['dbo:hubAirport'],count
+136,0.0,0.0,0.0,9,1,1,Were the 1995 south pacific games hosted in tahiti?,[['dbp:hostCity']],['dbo:location'],factoid
+173,0.0,0.0,0.0,8,1,1,List the doctoral students of Harry Harlow ?,[['dbp:doctoralStudents']],['dbo:doctoralStudent'],list
+190,0.0,0.0,0.0,8,1,0,Which company's division is Audi India? Correct Question,[['dbp:divisions']],[],factoid
+194,0.0,0.0,0.0,20,2,0,Which ceremonial County of the East Tilbury is also the local authority of the Buckhurst Hill County High School ?,"[['dbo:localAuthority'], ['dbo:ceremonialCounty']]",[],factoid
+201,0.0,0.0,0.0,21,2,1,What is the local authority of the Buckhurst Hill County High School is also the birth palce of Sarah hampion ?,"[['dbo:localAuthority'], ['dbp:birthPlace']]",['dbp:placeOfBirth'],factoid
+204,0.0,0.0,0.0,4,1,0,Is lion an animal?,[['dbo:kingdom']],[],boolean
+245,0.0,0.0,0.0,5,1,2,What nationality is johnny clarke,[['dbo:hometown']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+247,0.0,0.0,0.0,14,2,4,What is the information appliance whose successor is PlayStation 4 and maker is Foxconn?,"[['dbp:manufacturer'], ['dbp:successor']]","['dbo:manufacturer', 'dbo:predecessor', 'dbo:successor', 'dbp:predecessor']",factoid
+257,0.0,0.0,0.0,8,1,1,what projects did susarla dakshinamurthi primarily work on,[['dbo:genre']],['dbo:writer'],factoid
+261,0.0,0.0,0.0,10,1,1,Was Zambezi originate in the north western province of zambia?,[['dbp:sourceRegion']],['dbo:origin'],boolean
+277,0.0,0.0,0.0,4,1,2,What county is taliesin,[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+285,0.0,0.0,0.0,10,1,1,what city in new york did joseph francis flannelly die,[['dbp:deathPlace']],['dbo:deathPlace'],factoid
+299,0.0,0.0,0.0,9,1,1,Where is the arena of WPC Dynamo Moscow situated?,[['dbp:arena']],['dbo:location'],factoid
+315,0.0,0.0,0.0,7,1,1,Name the incumbent of Linda Jenness ?,[['dbo:incumbent']],['dbp:deputy'],list
+328,0.0,0.0,0.0,8,1,0,Name the street address of Rhodes-Haverty Building ?,[['dbp:address']],[],list
+347,0.0,0.0,0.0,10,2,2,In which municipalities does the NYC housing authority own buildings?,"[['dbo:owningOrganisation'], ['dbo:municipality']]","['dbo:location', 'dbo:tenant']",factoid
+354,0.0,0.0,0.0,14,2,3,Give me all the alma mater of the relatives of Samuek Moreno Rojas ?,"[['dbo:relation'], ['dbp:almaMater']]","['dbo:almaMater', 'dbo:relative', 'dbp:relatives']",list
+361,0.0,0.0,0.0,6,1,2,which country is john berry from,[['dbo:birthPlace']],"['dbo:artist', 'dbo:nationality']",factoid
+367,0.0,0.0,0.0,7,1,0,Is Pixar Canada a subsidiary of Pixar?,[['dbo:subsidiary']],[],boolean
+371,0.0,0.0,0.0,8,1,1,Name the branch of Carroll E. Lanier ?,[['dbp:branch']],['dbo:relative'],list
+374,0.0,0.0,0.0,6,1,2,what state is mountain view from?,[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+384,0.0,0.0,0.0,7,1,1,kwyi's mainly plays what type of music?,[['dbo:programmeFormat']],['dbo:genre'],list
+388,0.0,0.0,0.0,6,1,1,Give me the Apollo 14 astronauts.,[['dbo:mission']],['dbp:mission'],list
+410,0.0,0.0,0.0,7,1,0,Was Yabanc Damat first aired in UAE?,[['dbp:firstAired']],[],boolean
+424,0.0,0.0,0.0,6,1,0,who are some miss michigan usa?,[['dbp:title']],[],factoid
+429,0.0,0.0,0.0,12,2,0,What is the country of the Hirth Acrostar and the Cobra missile?,"[['dbo:origin'], ['dbo:origin']]",[],factoid
+443,0.0,0.0,0.0,12,1,1,What is the name of an album by an arena rock band,[['dbo:genre']],['dbo:artist'],factoid
+471,0.0,0.0,0.0,6,1,1,Which country is greg demos from,[['dbo:nationality']],['dbo:artist'],factoid
+487,0.0,0.0,0.0,8,1,0,What basketball league's champion is Golden State Warriors,[['dbp:champion']],[],factoid
+515,0.0,0.0,0.0,7,1,1,What is aneek dhar's place of birth,[['dbo:hometown']],['dbo:birthPlace'],factoid
+526,0.0,0.0,0.0,11,1,1,Does A foreign policy of freedom belong to the genre Politics?,[['dbo:literaryGenre']],['dbo:type'],boolean
+529,0.0,0.0,0.0,9,1,0,How many states does the Pioneer corporation operate in?,[['dbp:country']],[],count
+534,0.0,0.0,0.0,6,1,1,What country is lawson robinson from?,[['dbo:birthPlace']],['dbo:nationality'],factoid
+540,0.0,0.0,0.0,7,1,2,who was the composer of momoiro sparkling?,[['dbo:musicalArtist']],"['dbo:writer', 'dbp:writer']",factoid
+549,0.0,0.0,0.0,7,1,0,Was the USS Tillamook built in Seattle?,[['dbp:shipBuilder']],[],boolean
+567,0.0,0.0,0.0,7,1,1,what position did bill fulcher ever play,[['dbp:playerPositions']],['dbo:position'],factoid
+574,0.0,0.0,0.0,11,2,5,"Which parties have their members live in the PM House, Colombo?","[['dbo:leader'], ['dbp:residence']]","['dbo:leaderName', 'dbo:party', 'dbo:residence', 'dbp:constituency', 'dbp:party']",factoid
+576,0.0,0.0,0.0,6,1,2,what state is sugar loaf in?,[['dbo:locatedInArea']],"['dbo:country', 'dbo:isPartOf']",factoid
+577,0.0,0.0,0.0,5,1,2,where was michael pinnella was,[['dbo:birthPlace']],"['dbo:country', 'dbo:region']",factoid
+578,0.0,0.0,0.0,16,2,0,What is the Recorded of the Kaptaan is also the headquarters of the Orient News ?,"[['dbp:recorded'], ['dbp:headquarters']]",[],factoid
+598,0.0,0.0,0.0,8,1,1,"Where was Live in Detroit, MI recorded ?",[['dbo:recordedIn']],['dbo:hometown'],factoid
+610,0.0,0.0,0.0,7,1,0,Which U.S. state has the abbreviation MN?,[['dbp:postalabbreviation']],[],factoid
+621,0.0,0.0,0.0,11,1,1,What is an example of a song by john lee hooker,[['dbo:writer']],['dbo:artist'],factoid
+624,0.0,0.0,0.0,8,1,2,List the writers of Tales of Suspense ?,[['dbp:writers']],"['dbp:author', 'dbp:writer']",list
+625,0.0,0.0,0.0,9,2,1,How many rivers start in an English speaking country?,"[['dbo:sourceCountry'], ['dbo:officialLanguage']]",['dbo:spokenIn'],count
+634,0.0,0.0,0.0,11,2,0,What is the common genere of Abhijit Kunte and Kasparov ?,"[['dbp:knownFor'], ['dbo:genre']]",[],factoid
+648,0.0,0.0,0.0,8,1,2,"which county is whitley heights, los angeles in",[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+649,0.0,0.0,0.0,18,2,0,Which parent company of the Cornell University Press is also the alma mater of the Mario Garca Menocal?,"[['dbo:parentCompany'], ['dbo:almaMater']]",[],factoid
+657,0.0,0.0,0.0,9,2,2,What was developed by someone working in Cockroach Labs?,"[['dbp:employer'], ['dbp:author']]","['dbo:developer', 'dbp:developer']",factoid
+658,0.0,0.0,0.0,17,2,2,List the stadium of the teams which uses Nea Smyrni  as one of the stadium ?,"[['dbp:stadium'], ['dbp:stadium']]","['dbo:tenant', 'dbp:tenants']",list
+680,0.0,0.0,0.0,7,1,2,what country is nóirín ní riain from,[['dbo:hometown']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+690,0.0,0.0,0.0,19,2,0,Which city is the route start of the Moscow-Kazan high-speed railway and birth place of the Ilya Savelev ?,"[['dbo:birthPlace'], ['dbo:routeStart']]",[],factoid
+708,0.0,0.0,0.0,3,1,1,Who created Wikipedia?,[['dbo:author']],['dbo:creator'],factoid
+709,0.0,0.0,0.0,8,1,0,Name the associate acts of  Martin Pugh?,[['dbp:associatedActs']],[],list
+717,0.0,0.0,0.0,5,1,1,Who wrote the red violin?,[['dbo:writer']],['dbo:instrument'],factoid
+718,0.0,0.0,0.0,15,2,0,Which river's source mountain is Baikal Mountains and it's mouth is Lena Delta Wildlife Reserve?,"[['dbo:riverMouth'], ['dbo:sourceMountain']]",[],factoid
+726,0.0,0.0,0.0,7,1,1,how would you label maurice gibb's music,[['dbo:genre']],['dbo:recordLabel'],factoid
+728,0.0,0.0,0.0,6,1,1,which country was louis tellier born,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+737,0.0,0.0,0.0,14,2,0,"What all are in the states whose anthem is Ja, vi esker dette landet?","[['dbo:anthem'], ['dbo:country']]",[],factoid
+756,0.0,0.0,0.0,7,1,1,What genre is king of the hill,[['dbo:genre']],['dbo:literaryGenre'],factoid
+757,0.0,0.0,0.0,7,1,2,what river does rathbun lake outflow to,[['dbo:outflow']],"['dbo:riverMouth', 'dbp:areas']",factoid
+771,0.0,0.0,0.0,7,1,1,Which music label is soulhead apart of?,[['dbo:recordLabel']],['dbo:genre'],factoid
+777,0.0,0.0,0.0,7,1,1,Who was on the Apollo 11 mission?,[['dbp:crewMembers']],['dbp:mission'],factoid
+788,0.0,0.0,0.0,6,1,1,Count the movies in Swedish language?,[['dbp:language']],['dbo:language'],count
+832,0.0,0.0,0.0,6,1,1,What style tv program is blood-c?,[['dbp:genre']],['dbo:genre'],factoid
+838,0.0,0.0,0.0,12,2,1,Which leader of Trump Entertainment Resorts is a relative of Maryanne Barry?,"[['dbo:relation'], ['dbo:keyPerson']]",['dbp:keyPeople'],factoid
+841,0.0,0.0,0.0,10,2,1,Which U.S. states are in the same timezone as Utah?,"[['dbp:timezone'], ['dbp:timezone']]",['dbo:timeZone'],factoid
+854,0.0,0.0,0.0,14,2,4,What is the largest city of the country which hosted the 1951 Asian Games?,"[['dbp:hostCity'], ['dbo:largestCity']]","['dbo:capital', 'dbo:country', 'dbo:location', 'dbp:country']",factoid
+862,0.0,0.0,0.0,9,1,4,Was David Gilmour a former member of Pink Floyd?,[['dbo:formerBandMember']],"['dbo:associatedBand', 'dbo:bandMember', 'dbp:currentMembers', 'dbp:pastMembers']",boolean
+877,0.0,0.0,0.0,12,1,1,"What is the serving railway line of Warwick railway station, Perth ?",[['dbo:servingRailwayLine']],['dbo:routeEnd'],factoid
+879,0.0,0.0,0.0,9,1,1,What is an album by the royal philharmonic orchestra,[['dbo:artist']],['dbo:type'],factoid
+902,0.0,0.0,0.0,6,1,2,How many people live in Poland?,[['dbo:populationTotal']],"['dbo:residence', 'dbp:residence']",count
+904,0.0,0.0,0.0,10,1,1,What type of rock is new ipswich mountain made of,[['dbo:type']],['dbo:genre'],factoid
+908,0.0,0.0,0.0,16,2,1,Name the TV show whose composer is Judy Hart Angelo and company as Paramount Television ?,"[['dbo:composer'], ['dbp:company']]",['dbp:themeMusicComposer'],list
+909,0.0,0.0,0.0,6,1,2,What US state is watervale located?,[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+947,0.0,0.0,0.0,16,2,1,Which company of Ford Theatre is the owning organization of F0ord Kansa City Assemply Plant ?,"[['dbo:owningOrganisation'], ['dbp:company']]",['dbp:owner'],factoid
+954,0.0,0.0,0.0,7,1,2,Who is the founder of Penguin Books?,[['dbo:founder']],"['dbo:author', 'dbo:foundedBy']",factoid
+973,0.0,0.0,0.0,12,1,1,Who was the writer for the episode titled old money (the simpsons),[['dbp:writer']],['dbo:writer'],factoid
+990,0.0,0.0,0.0,8,1,2,"what type of style is jama masjid, delhi?",[['dbp:architectureStyle']],"['dbo:architecturalStyle', 'dbo:genre']",factoid
+1006,0.0,0.0,0.0,9,2,3,How many different writers have written for Jump Square?,"[['dbp:magazine'], ['dbp:author']]","['dbo:author', 'dbo:writer', 'dbp:writer']",count
+1013,0.0,0.0,0.0,5,1,1,what anime aired in 1968?,[['dbo:language']],['dbp:genre'],factoid
+1030,0.0,0.0,0.0,6,1,0,What is the wavelength of Indigo?,[['dbo:wavelength']],[],factoid
+1049,0.0,0.0,0.0,5,1,2,where is gustav sprick from?,"[['dbp:birthPlace', 'dbo:birthPlace']]","['dbo:hometown', 'dbo:nationality']",factoid
+1056,0.0,0.0,0.0,9,2,0,Which country were the associates of Hilda Duhalde from?,"[['dbo:associate'], ['dbo:nationality']]",[],factoid
+1068,0.0,0.0,0.0,5,1,2,Where was pallavi purohit born,[['dbo:nationality']],"['dbo:birthPlace', 'dbp:birthPlace']",factoid
+1103,0.0,0.0,0.0,11,1,0,Did the New Way party merge in the One Israel party?,[['dbo:mergedIntoParty']],[],boolean
+1119,0.0,0.0,0.0,5,1,1,Which rivers start in Wyoming?,[['dbo:sourceRegion']],['dbo:city'],factoid
+1135,0.0,0.0,0.0,8,1,3,where in somalia is mohammed awale liban from,[['dbo:birthPlace']],"['dbo:country', 'dbo:hometown', 'dbo:nationality']",factoid
+1137,0.0,0.0,0.0,9,1,1,Was the body of Elsie Paroubek discovered in Chicago?,[['dbo:bodyDiscovered']],['dbo:discoverer'],boolean
+1138,0.0,0.0,0.0,7,1,2,how was beat street sold in stores,[['dbo:type']],"['dbo:distributor', 'dbo:publisher']",factoid
+1141,0.0,0.0,0.0,12,2,2,List the other members of the team where Jason Hayne currently plays?,"[['dbo:currentMember'], ['dbp:name']]","['dbo:formerTeam', 'dbo:team']",list
+1146,0.0,0.0,0.0,9,1,0,What is the automobile platform of Chiva bus ?,[['dbo:automobilePlatform']],[],factoid
+1147,0.0,0.0,0.0,10,1,2,What are the names of books written by george orwell?,[['dbo:literaryGenre']],"['dbo:author', 'dbo:notableWork']",factoid
+1151,0.0,0.0,0.0,15,1,0,When is the movie Worst Case Scenario going to be in cinemas in the Netherlands?,[['dbo:releaseDate']],[],factoid
+1153,0.0,0.0,0.0,6,1,1,what kind of album is reallive!,[['dbo:type']],['dbo:genre'],factoid
+1165,0.0,0.0,0.0,8,1,2,Which country did anthony acid have nationality in,[['dbo:hometown']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+1173,0.0,0.0,0.0,18,2,1, Name the city whose province is Metropolitan City of Venice and has leader as Luigi Brugnaro ?,"[['dbo:leaderName'], ['dbp:province']]",['dbo:leader'],list
+1199,0.0,0.0,0.0,13,2,3, Wringer (novel) and Maniac Magee is the notable work of which author?,"[['dbp:notableworks'], ['dbp:notableworks']]","['dbo:author', 'dbo:literaryGenre', 'dbo:notableWork']",list
+1223,0.0,0.0,0.0,9,1,1,Name a military leader from the battle of culloden,[['dbo:battle']],['dbo:place'],list
+1229,0.0,0.0,0.0,11,1,1,What are the countries for which History of Trier principal to?,[['dbo:capital']],['dbo:country'],factoid
+1251,0.0,0.0,0.0,15,2,0,Which district of Fort Heath radar station is also the state of Joesph Story ?,"[['dbp:district'], ['dbp:state']]",[],factoid
+1279,0.0,0.0,0.0,8,1,1,what is a work by donovan leitch (actor),[['dbo:director']],['dbo:writer'],factoid
+1288,0.0,0.0,0.0,7,1,0,Did Timm Gunn guest in Sunrise (HIMYM)?,[['dbp:guests']],[],boolean
+1291,0.0,0.0,0.0,8,1,2,which country is john jones a citizen of,[['dbo:hometown']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+1292,0.0,0.0,0.0,10,1,1,Is Mike Babcock the head coach of Toronto Maple Leafs?,[['dbp:headCoach']],['dbo:team'],boolean
+1296,0.0,0.0,0.0,8,1,0,Which state does Jerome B. Chaffee belong ?,[['dbp:state']],[],factoid
+1341,0.0,0.0,0.0,5,1,2,When did Michael Jackson die?,[['dbo:deathDate']],"['dbo:deathPlace', 'dbp:deathPlace']",factoid
+1349,0.0,0.0,0.0,12,2,0,What are some team members of the team based in Camp Nou?,"[['dbo:homeStadium'], ['dbp:name']]",[],factoid
+1355,0.0,0.0,0.0,10,1,1,President of Ghana is the leader title of which country?,[['dbp:leaderTitle']],['dbo:leader'],list
+1361,0.0,0.0,0.0,6,1,2,what state is shockoe bottom in,[['dbo:location']],"['dbo:country', 'dbo:region']",factoid
+1367,0.0,0.0,0.0,6,1,1,Where was jim mitchell (cartoonist) born?,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+1373,0.0,0.0,0.0,8,2,2,What are some famous veterinary physicians known for?,"[['dbp:field'], ['dbp:knownFor']]","['dbo:knownFor', 'dbo:occupation']",factoid
+1379,0.0,0.0,0.0,8,1,1,Name an album from the Black Label Society,[['dbo:genre']],['dbo:recordLabel'],list
+1382,0.0,0.0,0.0,15,2,0,"Enumerate all the first teams of the GPs which were held in Watkins Glen, NY?","[['dbp:location'], ['dbp:firstTeam']]",[],count
+1395,0.0,0.0,0.0,12,1,2,How many television shows have  Fox Broadcasting Company as their channel?,[['dbp:channel']],"['dbo:network', 'dbp:network']",count
+1401,0.0,0.0,0.0,8,1,1,Name a game published by delta tao software?,[['dbo:developer']],['dbo:publisher'],list
+1405,0.0,0.0,0.0,7,1,2,Which person works at the American Magazine?,[['dbo:employer']],"['dbo:occupation', 'dbp:employer']",factoid
+1406,0.0,0.0,0.0,7,1,2,Who are currently playing for Barcelona FC?,[['dbp:currentclub']],"['dbo:formerTeam', 'dbo:team']",factoid
+1418,0.0,0.0,0.0,9,2,1,Who composed songs in the Mr Tambourine Man album?,"[['dbp:album'], ['dbo:composer']]",['dbo:writer'],factoid
+1428,0.0,0.0,0.0,10,1,1,In which company is Raymond Conner at an important position?,[['dbo:keyPerson']],['dbp:keyPeople'],factoid
+1455,0.0,0.0,0.0,6,1,2,Where is Richard Stites located ?,[['dbo:birthPlace']],"['dbo:country', 'dbo:region']",factoid
+1459,0.0,0.0,0.0,9,2,1,List the producers who produced movies starring Michael Jackson.,"[['dbp:starring'], ['dbp:producer']]",['dbo:producer'],list
+1470,0.0,0.0,0.0,8,1,1,When did the Boston Tea Party take place?,[['dbp:date']],['dbo:place'],factoid
+1475,0.0,0.0,0.0,10,2,3,"What are Breann McGregor and Anika Knudsen, both known for?","[['dbp:knownFor'], ['dbp:knownFor']]","['dbo:field', 'dbo:knownFor', 'dbo:occupation']",factoid
+1490,0.0,0.0,0.0,6,1,1,what language is kaffe written in?,[['dbo:programmingLanguage']],['dbo:language'],factoid
+1494,0.0,0.0,0.0,10,1,0,Was A foreign policy on freedom covered by John Trumbull?,[['dbp:coverArtist']],[],boolean
+1507,0.0,0.0,0.0,6,1,1,who wrote the episode mother simpson,[['dbp:writer']],['dbo:writer'],factoid
+1514,0.0,0.0,0.0,7,1,0,Name the office of Richard Coke ?,[['dbp:office']],[],list
+1515,0.0,0.0,0.0,10,1,2,Does the Toyota Verossa have the front engine design platform?,[['dbo:automobilePlatform']],"['dbp:designer', 'dbp:engine']",boolean
+1546,0.0,0.0,0.0,6,1,1,which music is produced by speed,[['dbo:hometown']],['dbo:genre'],factoid
+1564,0.0,0.0,0.0,7,1,1,which 2009 album was released by adele?,[['dbo:artist']],['dbo:type'],factoid
+1592,0.0,0.0,0.0,12,2,1,In how many states can one find Burr Tuss kind of bridges?,"[['dbo:state'], ['dbp:style']]",['dbo:locatedInArea'],count
+1596,0.0,0.0,0.0,5,1,2,where was jános vass deliveed,[['dbo:birthPlace']],"['dbo:country', 'dbo:region']",factoid
+1597,0.0,0.0,0.0,7,1,2,Which city does the station wjbk serve,[['dbo:location']],"['dbo:broadcastArea', 'dbo:city']",factoid
+1602,0.0,0.0,0.0,10,2,2,Who are some cofounders of record labels with Frank Rogers?,"[['dbo:foundedBy'], ['dbp:founder']]","['dbo:recordLabel', 'dbp:label']",factoid
+1610,0.0,0.0,0.0,7,1,1,which albums were released by marduk (band)?,[['dbo:artist']],['dbo:type'],factoid
+1621,0.0,0.0,0.0,10,1,1,what music is played in the one for all album,[['dbo:genre']],['dbo:musicComposer'],factoid
+1630,0.0,0.0,0.0,5,1,1,which nationality is ramón carrillo,[['dbo:nationality']],['dbo:birthPlace'],factoid
+1636,0.0,0.0,0.0,4,1,1,Where did cyprian die,[['dbp:deathPlace']],['dbo:deathPlace'],factoid
+1642,0.0,0.0,0.0,8,1,1,What empire was gustav kirchhoff a part of,[['dbo:nationality']],['dbo:battle'],factoid
+1647,0.0,0.0,0.0,13,2,3,What are the american football players whose former team's coach is Jason Maas?,"[['dbo:formerTeam'], ['dbp:coach']]","['dbo:coach', 'dbo:team', 'dbp:headcoach']",factoid
+1651,0.0,0.0,0.0,6,1,1,which position does frank broyles play,[['dbp:playerPositions']],['dbo:position'],factoid
+1657,0.0,0.0,0.0,9,1,1,What is the profession of William Luther Hill ?,[['dbo:profession']],['dbo:occupation'],factoid
+1665,0.0,0.0,0.0,14,1,0,What is the country whose speaker of the Dewan Rakyat is Pandikar Amin Mulia?,[['dbp:leaderName']],[],factoid
+1683,0.0,0.0,0.0,13,2,2,Who were the opponents of the people buried in the tower of London?,"[['dbp:restingPlace'], ['dbo:opponent']]","['dbo:restingPlace', 'dbp:restingplace']",factoid
+1693,0.0,0.0,0.0,6,1,8,What is an airport inside ontario?,[['dbp:cityServed']],"['dbo:city', 'dbo:country', 'dbo:isPartOf', 'dbo:locatedInArea', 'dbo:location', 'dbo:province', 'dbo:region', 'dbo:state']",factoid
+1696,0.0,0.0,0.0,9,1,0,What is the city whose mayor is Giorgos Kaminis?,[['dbp:mayor']],[],factoid
+1706,0.0,0.0,0.0,16,2,0,"How many home stadium are there, of the soccer club seasons whose chairman is Merritt Paulson?","[['dbp:chairman'], ['dbo:homeStadium']]",[],count
+1716,0.0,0.0,0.0,5,1,1,what nationality is Émilie loit,[['dbo:country']],['dbo:birthPlace'],factoid
+1717,0.0,0.0,0.0,6,1,2,Where is hickam field located at?,[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+1728,0.0,0.0,0.0,12,1,1,Who gave the musical score  of 9 to 5 (musical) ?,[['dbo:musicBy']],['dbo:musicComposer'],factoid
+1730,0.0,0.0,0.0,5,1,1,Give me all Swedish holidays.,[['dbo:country']],['dbo:location'],list
+1750,0.0,0.0,0.0,7,1,1,which company produced so proudly we hail!,[['dbo:distributor']],['dbp:studio'],factoid
+1753,0.0,0.0,0.0,9,1,2,How many people currently play for the NYC FC?,[['dbp:currentclub']],"['dbo:formerTeam', 'dbo:team']",count
+1754,0.0,0.0,0.0,8,1,3,Was the Model K designed by Herny Ford?,[['dbo:designCompany']],"['dbo:architect', 'dbo:manufacturer', 'dbp:designer']",boolean
+1765,0.0,0.0,0.0,7,1,1,what is  john e. thrashers religion,[['dbo:religion']],['dbo:genre'],factoid
+1769,0.0,0.0,0.0,6,1,2,what are simple minds album names,[['dbo:artist']],"['dbo:genre', 'dbo:type']",factoid
+1775,0.0,0.0,0.0,7,1,1,What is the nationality of oscar mascorro?,[['dbo:birthPlace']],['dbo:nationality'],factoid
+1781,0.0,0.0,0.0,8,1,1,From which country is Lawrence Okoye's nationality ?,[['dbp:nationality']],['dbo:birthPlace'],factoid
+1789,0.0,0.0,0.0,7,1,1,what type of store is forever 21,[['dbo:industry']],['dbo:genre'],factoid
+1836,0.0,0.0,0.0,13,2,3,"Through which important cities the does the river originating from the Duwamish, flow?","[['dbo:source'], ['dbo:city']]","['dbo:mouthMountain', 'dbo:riverMouth', 'dbo:sourcePlace']",factoid
+1845,0.0,0.0,0.0,9,1,2,What is a body of work by sean delaney,[['dbo:artist']],"['dbo:author', 'dbo:writer']",factoid
+1847,0.0,0.0,0.0,4,1,0,Who is les schwab?,[['dbo:occupation']],[],factoid
+1853,0.0,0.0,0.0,8,1,1,which film was produced by abu dhabi media,[['dbp:studio']],['dbo:distributor'],factoid
+1866,0.0,0.0,0.0,11,1,3,was the first national bank and trust building architectured by Chicago?,[['dbo:architecturalStyle']],"['dbo:architect', 'dbo:tenant', 'dbp:address']",boolean
+1869,0.0,0.0,0.0,6,1,1,what types of play is geist,[['dbp:modes']],['dbo:genre'],factoid
+1873,0.0,0.0,0.0,12,1,3,"Did James brown make the song Killing is Out, School Is In?",[['dbo:musicalBand']],"['dbo:artist', 'dbo:subsequentWork', 'dbp:artist']",boolean
+1899,0.0,0.0,0.0,11,2,0,What is the common school of Chris Marve and Neria Douglass?,"[['dbo:school'], ['dbo:almaMater']]",[],factoid
+1902,0.0,0.0,0.0,6,1,1,where was  andrzej pałys born,[['dbo:nationality']],['dbo:birthPlace'],factoid
+1910,0.0,0.0,0.0,9,2,2,Who owns the company that made the Edsel Villager?,"[['dbp:products'], ['dbp:parent']]","['dbo:owner', 'dbp:owner']",factoid
+1921,0.0,0.0,0.0,8,1,3,What is the region of Lumberjack  ?,[['dbp:region']],"['dbo:country', 'dbo:isPartOf', 'dbo:occupation']",factoid
+1940,0.0,0.0,0.0,9,1,3,How many people are buried in Arlington National Cemetery?,[['dbp:placeofburial']],"['dbo:restingPlace', 'dbp:placeOfBurial', 'dbp:restingplace']",count
+1956,0.0,0.0,0.0,12,2,0,What is the home stadium of the club coached by Justine Omojong?,"[['dbp:coach'], ['dbp:homeStadium']]",[],factoid
+1963,0.0,0.0,0.0,8,1,1,Tandem Computers is the subsidiary of which company?,[['dbo:subsidiary']],['dbp:products'],factoid
+1970,0.0,0.0,0.0,11,1,0,Was the street dogs of south central narrated by Queen Latifah?,[['dbp:narrator']],[],boolean
+1976,0.0,0.0,0.0,7,1,1,What football position does matt odonnell play?,[['dbp:position']],['dbo:position'],factoid
+2002,0.0,0.0,0.0,12,2,0,Which prime ministers were served by the governor who appointed Murray Gleeson?,"[['dbo:appointer'], ['dbo:primeMinister']]",[],factoid
+2009,0.0,0.0,0.0,9,1,6,Is Rajya Sabha a house of parliament in India?,[['dbp:houses']],"['dbo:city', 'dbo:country', 'dbo:locatedInArea', 'dbo:location', 'dbo:region', 'dbo:state']",boolean
+2036,0.0,0.0,0.0,7,1,1,"What type of film is ""Mockingbird Lane""?",[['dbo:genre']],['dbo:language'],factoid
+2052,0.0,0.0,0.0,13,1,1,what is the name of the production company that released fright night ii?,[['dbo:distributor']],['dbp:studio'],factoid
+2061,0.0,0.0,0.0,7,1,1,which musical films were broadcasted in israel?,"[['dbo:genre', 'dbp:genre']]",['dbo:musicComposer'],factoid
+2074,0.0,0.0,0.0,11,2,0,On which river are there things belonging to zambezi river authority?,"[['dbp:owner'], ['dbo:river']]",[],factoid
+2080,0.0,0.0,0.0,3,1,1,Who developed Slack?,[['dbo:product']],['dbo:developer'],factoid
+2090,0.0,0.0,0.0,4,1,3,Where is tirich mir,[['dbo:locatedInArea']],"['dbo:country', 'dbo:isPartOf', 'dbo:region']",factoid
+2095,0.0,0.0,0.0,5,1,2,where was amy vanderbilt born,[['dbo:deathPlace']],"['dbo:birthPlace', 'dbp:birthPlace']",factoid
+2103,0.0,0.0,0.0,6,1,0,Who is the governor of Texas?,[['dbp:governor']],[],factoid
+2107,0.0,0.0,0.0,7,1,1,What song was written by vonda shepard?,[['dbo:artist']],['dbo:writer'],factoid
+2114,0.0,0.0,0.0,6,1,1,which film did siddiq barmak direct,[['dbo:editing']],['dbo:director'],factoid
+2126,0.0,0.0,0.0,11,1,0,Name the home Stadium of Kenya national under-20 football team ?,[['dbp:homeStadium']],[],list
+2133,0.0,0.0,0.0,7,1,1,what is a song by roger whittaker,[['dbo:writer']],['dbo:artist'],factoid
+2159,0.0,0.0,0.0,10,1,1,What is the country whose leader name is Grard Larcher?,[['dbp:leaderName']],['dbo:leader'],factoid
+2181,0.0,0.0,0.0,7,1,1,Is Tirana the largest city of Albania?,[['dbp:largestCity']],['dbo:largestCity'],boolean
+2212,0.0,0.0,0.0,7,1,1,What style of art does dueljewel create?,[['dbo:genre']],['dbo:movement'],factoid
+2218,0.0,0.0,0.0,15,2,2, How many scientist have won an award by the society led by Venkatraman Ramakrishnan?,"[['dbp:prizes'], ['dbp:leaderName']]","['dbo:almaMater', 'dbo:award']",count
+2237,0.0,0.0,0.0,14,1,1, what is the sixth compilation album by the Serbian punk rock rock band,[['dbo:genre']],['dbo:type'],factoid
+2239,0.0,0.0,0.0,5,1,1,where did nick rhodes originate?,[['dbo:birthPlace']],['dbo:hometown'],factoid
+2244,0.0,0.0,0.0,19,2,1,What is the home town of the Band which is the previous work of Sammy Hagar & Friends ?,"[['dbo:previousWork'], ['dbo:hometown']]",['dbo:subsequentWork'],factoid
+2245,0.0,0.0,0.0,10,1,0,"Does the white river flow into the connecticut river{u'_id': u'97e02dcf44aa43c1b7cc7a7c155b118f',",[['dbo:rightTributary']],[],boolean
+2249,0.0,0.0,0.0,17,2,0,List the pole drivers in the grand prixes where Williams Grand Prix Engineering was a first team?,"[['dbp:firstTeam'], ['dbo:poleDriver']]",[],list
+2264,0.0,0.0,0.0,6,1,1,what country is king o'malley form,[['dbo:nationality']],['dbo:country'],factoid
+2277,0.0,0.0,0.0,13,2,1,From which genres of music did those genres emerge where drums are important?,"[['dbp:instruments'], ['dbo:stylisticOrigin']]",['dbo:genre'],factoid
+2286,0.0,0.0,0.0,4,1,3,which country contains adevărul,[['dbo:headquarter']],"['dbo:country', 'dbo:isPartOf', 'dbo:region']",factoid
+2300,0.0,0.0,0.0,7,1,1,Name the composer of motorpsycho Nitemare ?,[['dbp:composer']],['dbp:writer'],list
+2306,0.0,0.0,0.0,10,1,1,how can fabric 12: the amalgamation of soundz be characterized,[['dbo:type']],['dbo:genre'],factoid
+2310,0.0,0.0,0.0,7,1,1,what music was composed by b. reith,[['dbo:recordLabel']],['dbo:writer'],factoid
+2312,0.0,0.0,0.0,7,1,2,which country was george schmidt born in,[['dbp:birthPlace']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+2314,0.0,0.0,0.0,8,1,0,Is Ingo Steuer the formercoach of Stanislav Morozov?,[['dbp:formercoach']],[],boolean
+2315,0.0,0.0,0.0,7,1,0,In which department does Raymond Baldwin work?,[['dbp:branch']],[],factoid
+2332,0.0,0.0,0.0,6,1,1,which country is aliff aziz from,[['dbo:hometown']],['dbo:birthPlace'],factoid
+2333,0.0,0.0,0.0,10,2,2,Which sitcoms are made by a company headquartered in NYC?,"[['dbo:company'], ['dbo:headquarter']]","['dbo:product', 'dbp:company']",factoid
+2335,0.0,0.0,0.0,9,1,3,What is the province of Rouen Business School ?,[['dbp:province']],"['dbo:city', 'dbo:country', 'dbo:state']",factoid
+2337,0.0,0.0,0.0,7,1,1,what is the nationality of tomasz szczypiński?,[['dbo:nationality']],['dbo:birthPlace'],factoid
+2338,0.0,0.0,0.0,9,1,1,what type of album is hot! live and otherwise?,[['dbo:genre']],['dbo:type'],factoid
+2354,0.0,0.0,0.0,7,1,1,what is an album by jerry garcia?,[['dbo:type']],['dbo:artist'],factoid
+2355,0.0,0.0,0.0,8,1,1,what city and state are post records from,[['dbo:hometown']],['dbo:recordLabel'],factoid
+2367,0.0,0.0,0.0,10,1,0,Name the movies writtten by the group Monty Python ?,[['dbp:writer']],[],list
+2378,0.0,0.0,0.0,7,1,1,Give me all animals that are extinct.,[['dbo:conservationStatus']],['dbo:species'],list
+2414,0.0,0.0,0.0,9,2,2,How many years was the Ford Model T manufactured?,"[['dbo:productionEndYear'], ['dbo:productionStartYear']]","['dbo:manufacturer', 'dbo:successor']",count
+2426,0.0,0.0,0.0,6,1,3,Which country was john smith from,[['dbo:country']],"['dbo:birthPlace', 'dbo:hometown', 'dbo:nationality']",factoid
+2430,0.0,0.0,0.0,8,1,1,what genre is the demon spirit classified as,[['dbo:literaryGenre']],['dbo:genre'],factoid
+2441,0.0,0.0,0.0,14,2,1,Which country were the people from who became famous for the Ramon Mangsaysay Award?,"[['dbo:knownFor'], ['dbo:stateOfOrigin']]",['dbo:award'],factoid
+2471,0.0,0.0,0.0,11,2,1,Who is the prime minister of the successor of Kingsley Wood?,"[['dbo:successor'], ['dbp:primeminister']]",['dbp:successor'],factoid
+2499,0.0,0.0,0.0,10,1,1,What is the currency of Republic of Montenegro (1992-2006) ?,[['dbp:currency']],['dbo:currency'],factoid
+2520,0.0,0.0,0.0,5,1,1,who made the film scooby-doo,[['dbo:writer']],['dbo:producer'],factoid
+2534,0.0,0.0,0.0,7,1,1,what is kapil dev's country of nationality?,[['dbo:birthPlace']],['dbo:nationality'],factoid
+2537,0.0,0.0,0.0,10,2,2,whose is famous works are Maniac Magee and Wringer ?,"[['dbp:notableworks'], ['dbp:notableworks']]","['dbo:author', 'dbo:notableWork']",factoid
+2556,0.0,0.0,0.0,7,1,0,Is Angola Avante the anthem of Angola?,[['dbo:anthem']],[],boolean
+2560,0.0,0.0,0.0,11,2,1,Who is the common parent of Gettv and hypnotize mind ?,"[['dbo:parentOrganisation'], ['dbp:parent']]",['dbo:parent'],factoid
+2564,0.0,0.0,0.0,7,1,1,which city did hans-walter heyne pass away,[['dbp:deathPlace']],['dbo:deathPlace'],factoid
+2570,0.0,0.0,0.0,7,1,1,What's a song written by jack johnson,[['dbo:artist']],['dbo:writer'],factoid
+2573,0.0,0.0,0.0,6,1,1,What country is harry winston from,[['dbo:birthPlace']],['dbo:nationality'],factoid
+2578,0.0,0.0,0.0,7,1,1,Which university provides license for WRVU ?,[['dbp:licensee']],['dbo:license'],factoid
+2582,0.0,0.0,0.0,8,1,2,pico basilé is a part of what island?,[['dbo:locatedInArea']],"['dbo:country', 'dbo:region']",list
+2597,0.0,0.0,0.0,6,1,2,which actor was born in sydney?,[['dbo:occupation']],"['dbo:birthPlace', 'dbp:birthPlace']",factoid
+2601,0.0,0.0,0.0,8,1,1,Is Lyndon bridge a kind of Truss bridge?,[['dbp:design']],['dbo:type'],boolean
+2602,0.0,0.0,0.0,7,1,0,which politician is currently ruling over Rishkiesh?,[['dbo:leaderName']],[],factoid
+2615,0.0,0.0,0.0,7,1,1,What genre is against a dark background,[['dbo:literaryGenre']],['dbo:genre'],factoid
+2618,0.0,0.0,0.0,8,2,0,In which cities are there stations of SCOLA?,"[['dbo:broadcastNetwork'], ['dbp:city']]",[],factoid
+2634,0.0,0.0,0.0,16,1,1,What country was the film living dolls: the making of a child beauty queen created in,[['dbo:director']],['dbo:country'],factoid
+2637,0.0,0.0,0.0,6,1,1,what game is about professional wrestling?,[['dbo:genre']],['dbo:occupation'],factoid
+2649,0.0,0.0,0.0,9,2,1,Who collaborated with Johnny Cash and Kris Kristofferson ?,"[['dbp:associatedActs'], ['dbp:associatedActs']]",['dbo:associatedMusicalArtist'],factoid
+2650,0.0,0.0,0.0,4,1,1,Where did rian james,[['dbo:deathPlace']],['dbo:country'],factoid
+2662,0.0,0.0,0.0,6,1,1,who genre is discussed in daybreak,[['dbo:genre']],['dbo:literaryGenre'],factoid
+2665,0.0,0.0,0.0,7,1,1,What's an album by the band portal,[['dbo:type']],['dbo:artist'],factoid
+2672,0.0,0.0,0.0,15,2,1,In which state does the ambassador who is in related with J Bennett Johnston live?,"[['dbo:relation'], ['dbp:state']]",['dbo:residence'],factoid
+2689,0.0,0.0,0.0,6,1,4,what towns are in lasalle county,[['dbo:writer']],"['dbo:isPartOf', 'dbo:locatedInArea', 'dbo:location', 'dbo:region']",factoid
+2705,0.0,0.0,0.0,5,1,2,where was saraswathi gora born?,[['dbo:nationality']],"['dbo:birthPlace', 'dbp:birthPlace']",factoid
+2711,0.0,0.0,0.0,6,1,1,what country is cher (department) in?,[['dbo:isPartOf']],['dbo:country'],factoid
+2713,0.0,0.0,0.0,6,1,1,which newspaper spread in hong kong,[['dbp:publishingCountry']],['dbo:headquarter'],factoid
+2724,0.0,0.0,0.0,10,2,0,What are some characters of series produced by Ricky Grevais?,"[['dbo:executiveProducer'], ['dbo:series']]",[],factoid
+2726,0.0,0.0,0.0,5,1,1,What is Jacek Boucki's nationality?,[['dbo:nationality']],['dbo:birthPlace'],factoid
+2757,0.0,0.0,0.0,8,1,1,What is the government type of Kumta ?,[['dbp:governmentType']],['dbo:type'],factoid
+2767,0.0,0.0,0.0,5,1,1,where is pepe martínez from?,[['dbo:hometown']],['dbo:birthPlace'],factoid
+2785,0.0,0.0,0.0,13,2,2,"In which ice hockey league, did the team coached by Joel Quenneville win?","[['dbp:champion'], ['dbp:headCoach']]","['dbo:coach', 'dbp:headcoach']",factoid
+2786,0.0,0.0,0.0,5,1,0,How tall is Michael Jordan?,[['dbo:height']],[],factoid
+2797,0.0,0.0,0.0,8,1,1,what type of software is virtuoso universal server,[['dbo:genre']],['dbo:license'],factoid
+2801,0.0,0.0,0.0,9,2,0,Which city's neighboring municipalities are Lancy and  Pregny-Chambsy?,"[['dbo:neighboringMunicipality'], ['dbp:neighboringMunicipalities']]",[],factoid
+2804,0.0,0.0,0.0,6,1,2,where is gaylord high school located,[['dbo:location']],"['dbo:city', 'dbo:state']",factoid
+2813,0.0,0.0,0.0,14,1,1,what is the name of the album by the American groove metal band Skinlab,[['dbo:type']],['dbo:artist'],factoid
+2834,0.0,0.0,0.0,10,1,1,What is an example of a song by Bob marley?,[['dbo:writer']],['dbo:artist'],factoid
+2845,0.0,0.0,0.0,11,2,3,"List all the movies whose directors were born in Kenosha, Wisconsin?","[['dbo:birthPlace'], ['dbp:director']]","['dbo:director', 'dbo:starring', 'dbp:starring']",list
+2859,0.0,0.0,0.0,13,1,0,"Was Francisco Pizarro of the monarch of Charles 5, of the roman empire?",[['dbo:monarch']],[],boolean
+2865,0.0,0.0,0.0,14,2,2,What awards have been given to people schooled in the Everton park state high?,"[['dbp:education'], ['dbp:awards']]","['dbo:almaMater', 'dbo:award']",factoid
+2880,0.0,0.0,0.0,15,2,0,Which mainter of Pandaruan Bridge is also the land of Malaysia junior Hockey league ?,"[['dbo:country'], ['dbo:maintainedBy']]",[],factoid
+2881,0.0,0.0,0.0,11,1,3,Which tv series have a score composed by judy hard angelo?,[['dbo:composer']],"['dbo:musicComposer', 'dbp:music', 'dbp:themeMusicComposer']",factoid
+2882,0.0,0.0,0.0,13,1,2,What is the political party to which Purnima Banerjee is a member of?,[['dbo:knownFor']],"['dbo:party', 'dbp:party']",factoid
+2886,0.0,0.0,0.0,10,2,1,What are some relatives of armymen who died in Germany?,"[['dbp:placeOfDeath'], ['dbo:relation']]",['dbo:deathPlace'],factoid
+2890,0.0,0.0,0.0,14,1,2,Which set of researchers won the Gold Medal of the Royal Astronomical Society award?,[['dbp:prizes']],"['dbo:award', 'dbp:awards']",factoid
+2900,0.0,0.0,0.0,7,1,0,is jeannie pepper african american or Caucasian,[['dbo:ethnicity']],[],boolean
+2903,0.0,0.0,0.0,5,1,2,what is henry février nationality?,[['dbo:country']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+2909,0.0,0.0,0.0,7,1,3,How did Letitia MacTavish Hargrave died ?,[['dbo:deathCause']],"['dbo:deathPlace', 'dbp:deathPlace', 'dbp:placeOfDeath']",factoid
+2919,0.0,0.0,0.0,15,2,0,"How many licensee are there, of the radio stations whose area is Nashville, Tennessee ?","[['dbp:area'], ['dbp:licensee']]",[],count
+2926,0.0,0.0,0.0,16,2,1,What is the base currency of the Benelux which can be used in Republic of Montenegro?,"[['dbp:currency'], ['dbp:currency']]",['dbo:currency'],factoid
+2934,0.0,0.0,0.0,9,1,1,which california theme park is mickey's toontown located in?,[['dbp:park']],['dbo:location'],factoid
+2949,0.0,0.0,0.0,16,2,1,"How many major shrine are there, of the saints whose beatified by Pope Pius XI ?","[['dbp:beatifiedBy'], ['dbo:majorShrine']]",['dbp:religion'],count
+2967,0.0,0.0,0.0,19,1,1,"What is a town known for the discovery of a T-Rex named Scotty located in division no. 4, saskatchewan?",[['dbo:isPartOf']],['dbo:location'],factoid
+2972,0.0,0.0,0.0,10,1,1,Is the Vadodara railway junction onwed by Indian Railway Ministry?,[['dbo:owningOrganisation']],['dbo:routeEnd'],boolean
+2981,0.0,0.0,0.0,5,1,2,what is freedy johnston's nationality,[['dbo:hometown']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+2995,0.0,0.0,0.0,9,1,2,What are the awrds won by Laemmle Theatres ?,[['dbo:service']],"['dbo:award', 'dbp:awards']",factoid
+2997,0.0,0.0,0.0,7,1,1,what was Chynna Phillips' debut solo album,[['dbo:type']],['dbo:artist'],factoid
+3001,0.0,0.0,0.0,7,1,0,Count the different types of Flatbread ?,[['dbo:type']],[],count
+3002,0.0,0.0,0.0,9,1,0,List the current members of Metro Station (band) ?,[['dbp:currentMembers']],[],list
+3003,0.0,0.0,0.0,7,1,2,What are the Languages of Zabbaleen ?,[['dbp:languages']],"['dbo:language', 'dbp:language']",factoid
+3004,0.0,0.0,0.0,6,1,1,what religion does charles devlin practice,[['dbp:religion']],['dbo:religion'],factoid
+3009,0.0,0.0,0.0,9,1,2,who produced the adventures of tom thumb and thumbelina,[['dbp:studio']],"['dbo:producer', 'dbp:producer']",factoid
+3015,0.0,0.0,0.0,18,2,0,Count everyone who was in the military unit which is structured like the Marine Aircraft Group 13 ?,"[['dbp:commandStructure'], ['dbo:militaryUnit']]",[],count
+3016,0.0,0.0,0.0,8,1,2,what location is part of the cascade range,"[['dbo:isPartOf', 'dbo:location']]","['dbo:country', 'dbo:state']",factoid
+3028,0.0,0.0,0.0,7,1,1,What film did alfred uhry contribute to?,[['dbo:writer']],['dbo:musicComposer'],factoid
+3048,0.0,0.0,0.0,11,1,2,Which military people served their allegiance to Union (American Civil War)?,[['dbp:allegiance']],"['dbo:battle', 'dbp:combatant']",factoid
+3053,0.0,0.0,0.0,17,2,0,What woman acted in the mating habits of earthbound humans and is often associated with Mams taylor?,"[['dbo:associatedMusicalArtist'], ['dbp:starring']]",[],factoid
+3055,0.0,0.0,0.0,7,1,2,Which state is mount washburn located in,[['dbo:locatedInArea']],"['dbo:country', 'dbo:isPartOf']",factoid
+3068,0.0,0.0,0.0,7,1,1,What is an album by Neville Staple?,[['dbo:type']],['dbo:artist'],factoid
+3070,0.0,0.0,0.0,22,2,1,What is the city of the Maine School of Science and Mathematics is also the resting place of Charles A. Boutelle ?,"[['dbp:restingplace'], ['dbo:authority']]",['dbo:restingPlace'],factoid
+3083,0.0,0.0,0.0,6,1,0,List the seven kings of Rome.,[['dbp:title']],[],list
+3087,0.0,0.0,0.0,9,1,1,Where in the united states is jones motor company,[['dbo:location']],['dbo:foundationPlace'],factoid
+3092,0.0,0.0,0.0,18,2,0,"Which location of  INKAS is also the location of  T.I. Ahmadiyya Senior High School, Kumasi ?","[['dbp:locations'], ['dbo:denomination']]",[],factoid
+3111,0.0,0.0,0.0,8,1,2,who impacted the work of charles scott sherrington,"[['dbo:influencedBy', 'dbo:influenced']]","['dbo:doctoralAdvisor', 'dbo:notableWork']",factoid
+3134,0.0,0.0,0.0,10,2,1,Who appointed Joseph Clay and William Cushing to their office?,"[['dbo:appointer'], ['dbo:appointer']]",['dbp:appointer'],factoid
+3151,0.0,0.0,0.0,6,1,2,Which county is raynham located in,[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+3153,0.0,0.0,0.0,6,1,2,what country is little walter from,[['dbo:hometown']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+3158,0.0,0.0,0.0,7,1,1,what is an album by fleetwood mac,[['dbo:type']],['dbo:artist'],factoid
+3160,0.0,0.0,0.0,6,1,1,What's an album that features dalida,[['dbo:type']],['dbo:artist'],factoid
+3162,0.0,0.0,0.0,13,2,3,Name the subsidary of Tandem Computers which was founded by Jim Harris ?,"[['dbo:foundedBy'], ['dbo:subsidiary']]","['dbo:foundationPlace', 'dbp:foundation', 'dbp:founder']",list
+3168,0.0,0.0,0.0,8,1,2,what is the nationality of thad h. brown,[['dbo:country']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+3171,0.0,0.0,0.0,14,1,2,does the US navy have the structure of command of us department of defence?,[['dbp:commandStructure']],"['dbo:commandStructure', 'dbo:type']",boolean
+3172,0.0,0.0,0.0,6,1,2,which country is silkville located in?,[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+3174,0.0,0.0,0.0,6,1,2,Where did Meg McGuffin graduated ?,[['dbo:education']],"['dbo:almaMater', 'dbp:almaMater']",factoid
+3180,0.0,0.0,0.0,6,1,1,where was ritchie pickett given birth,[['dbo:hometown']],['dbo:birthPlace'],factoid
+3185,0.0,0.0,0.0,6,1,1,What position does Lee Robinson play?,[['dbp:currentpositionplain']],['dbo:position'],factoid
+3186,0.0,0.0,0.0,6,1,0,What stadium's operator is Stan Kroenke,[['dbo:operator']],[],factoid
+3218,0.0,0.0,0.0,15,2,0,Which athlete was the flag bearer for Switzerland in 2004 and 2008 summer Olympics ?,"[['dbp:flagbearer'], ['dbp:flagbearer']]",[],factoid
+3222,0.0,0.0,0.0,7,2,1,Who directed the albums recorded in Anaheim?,"[['dbo:recordedIn'], ['dbp:director']]",['dbo:director'],factoid
+3230,0.0,0.0,0.0,6,1,1,what is john c. dvorak's nationality?,[['dbo:nationality']],['dbo:birthPlace'],factoid
+3249,0.0,0.0,0.0,7,1,4,where is crossing of the andes located,[['dbo:place']],"['dbo:country', 'dbo:locatedInArea', 'dbo:location', 'dbo:region']",factoid
+3252,0.0,0.0,0.0,12,1,5,What are the artists that have been in the band Framptons camel?,[['dbp:associatedActs']],"['dbo:associatedBand', 'dbo:bandMember', 'dbo:formerBandMember', 'dbp:currentMembers', 'dbp:pastMembers']",factoid
+3255,0.0,0.0,0.0,5,1,1,where was kasey kiker born,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+3268,0.0,0.0,0.0,13,1,1,the samuel wadsworth russell house is an example of what kind of architecture,[['dbo:architect']],['dbo:architecturalStyle'],factoid
+3269,0.0,0.0,0.0,5,1,1,what is cesare canevari's nationality,[['dbo:nationality']],['dbo:birthPlace'],factoid
+3275,0.0,0.0,0.0,5,1,2,What area does kutp serve,[['dbo:location']],"['dbo:broadcastArea', 'dbo:city']",factoid
+3277,0.0,0.0,0.0,11,1,1,what is a song by Madonna from her 2000 studio album,[['dbo:writer']],['dbo:artist'],factoid
+3285,0.0,0.0,0.0,9,2,0,Who trained the wrestlers who are billed in Wisconsin?,"[['dbo:billed'], ['dbo:trainer']]",[],factoid
+3295,0.0,0.0,0.0,13,2,1,What is the municipality of the Homestead Grays Bridge and Roberto Clemente Bridge?,"[['dbo:municipality'], ['dbo:municipality']]",['dbo:locatedInArea'],factoid
+3298,0.0,0.0,0.0,17,2,3,"What is the country which lies on the European route E8, and where Ragnhild Jolson was born?","[['dbo:county'], ['dbp:birthplace']]","['dbo:country', 'dbo:nationality', 'dbp:placeOfBirth']",factoid
+3302,0.0,0.0,0.0,15,2,0,What is the settlement whose neighboring municipalities is Lancy and mayor name is Esther Alder?,"[['dbo:mayor'], ['dbp:neighboringMunicipalities']]",[],factoid
+3306,0.0,0.0,0.0,8,1,1,What type of software is find my iphone?,[['dbo:license']],['dbo:genre'],factoid
+3307,0.0,0.0,0.0,7,1,1,What are some neighboring cities of cologny?,[['dbp:neighboringMunicipalities']],['dbo:nearestCity'],factoid
+3308,0.0,0.0,0.0,9,1,1,which category is the romulan way often put under,[['dbo:literaryGenre']],['dbo:genre'],factoid
+3326,0.0,0.0,0.0,14,2,2,"Which are the cities on the river which also flows in Tukwila, Washington ?","[['dbp:city'], ['dbo:city']]","['dbo:riverMouth', 'dbp:cities']",factoid
+3334,0.0,0.0,0.0,7,1,1,What's a track written by kelly clarkson,[['dbo:writer']],['dbo:artist'],factoid
+3349,0.0,0.0,0.0,9,1,1,who wrote i hope they serve beer in hell,[['dbo:author']],['dbo:writer'],factoid
+3351,0.0,0.0,0.0,13,2,2,Which parent organization of GetTV is also the label of next thing ?,"[['dbo:parentOrganisation'], ['dbo:recordLabel']]","['dbp:distributor', 'dbp:label']",factoid
+3358,0.0,0.0,0.0,7,1,2,where is trakai historical national park in,[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+3359,0.0,0.0,0.0,7,1,0,Who are in the liang chow club?,[['dbp:club']],[],factoid
+3372,0.0,0.0,0.0,8,1,1,which city and state is pink hill in,"[['dbo:country', 'dbo:isPartOf']]",['dbo:locatedInArea'],factoid
+3374,0.0,0.0,0.0,5,1,1,where are sparks hill located,"[['dbo:country', 'dbo:isPartOf']]",['dbo:locatedInArea'],factoid
+3376,0.0,0.0,0.0,11,2,3,Who was once married to both Kelly Brook and Rosie Huntington-Whiteley?,"[['dbo:partner'], ['dbo:partner']]","['dbo:spouse', 'dbp:children', 'dbp:spouse']",factoid
+3387,0.0,0.0,0.0,17,2,2,What is the sovereign state of the Dafydd Benfras where Jasmine Lowson is also citizen of ?,"[['dbo:country'], ['dbo:citizenship']]","['dbo:nationality', 'dbp:nationality']",factoid
+3400,0.0,0.0,0.0,8,1,1,What is Bob Adams (American football) known for?,[['dbp:knownFor']],['dbo:occupation'],factoid
+3422,0.0,0.0,0.0,6,1,1,Was Liliya Lobanova born in Ukraine?,[['dbp:birthplace']],['dbo:birthPlace'],boolean
+3438,0.0,0.0,0.0,6,1,1,what country is emilie snethlage from,[['dbo:nationality']],['dbo:birthPlace'],factoid
+3439,0.0,0.0,0.0,17,2,0,List all binomial authority of the insects whose one of the  binomial authority is douard Mntries?,"[['dbo:binomialAuthority'], ['dbo:binomialAuthority']]",[],list
+3450,0.0,0.0,0.0,6,2,1,What was the first Queen album?,"[['dbo:artist'], ['dbo:releaseDate']]",['dbo:type'],factoid
+3451,0.0,0.0,0.0,4,1,1,who wrote the line,[['dbp:writer']],['dbo:writer'],factoid
+3487,0.0,0.0,0.0,15,2,2,What was founded by pina Records which has name of Geography of Puerto Rico ?,"[['dbp:name'], ['dbp:founded']]","['dbp:foundation', 'dbp:label']",factoid
+3492,0.0,0.0,0.0,6,1,0,List the goverener of Winston Bryant?,[['dbp:governor']],[],list
+3496,0.0,0.0,0.0,10,1,1,Who have been the manager of national team of Spain?,[['dbp:nationalteam']],['dbo:managerClub'],factoid
+3501,0.0,0.0,0.0,9,1,0,Does Walt Disney Studio have a subsidiary called PixarCascadia_,[['dbo:subsidiary']],[],boolean
+3505,0.0,0.0,0.0,9,1,0,What is the homeport of INS Viraat (R22) ?,[['dbo:homeport']],[],factoid
+3524,0.0,0.0,0.0,8,1,1,which album is recorded by big daddy kane,[['dbo:recordLabel']],['dbo:artist'],factoid
+3543,0.0,0.0,0.0,8,1,1,which european nation does maria jacobini belong to?,[['dbo:nationality']],['dbo:birthPlace'],factoid
+3579,0.0,0.0,0.0,7,1,1,What is an album by various production?,[['dbo:artist']],['dbo:type'],factoid
+3593,0.0,0.0,0.0,9,1,2,Is greasy pop recording the distributor of festival records?,[['dbo:distributingLabel']],"['dbo:recordLabel', 'dbp:label']",boolean
+3610,0.0,0.0,0.0,6,1,3,what city is torre latinoamericana in?,[['dbo:location']],"['dbo:country', 'dbo:isPartOf', 'dbo:region']",factoid
+3611,0.0,0.0,0.0,5,1,2,which city was ralphs founded,[['dbo:foundationPlace']],"['dbo:birthPlace', 'dbo:hometown']",factoid
+3650,0.0,0.0,0.0,12,1,1,what type of musical compilation is the free for all tour (demo),[['dbo:type']],['dbo:genre'],factoid
+3669,0.0,0.0,0.0,7,1,1,What's a song written by bing crosby,[['dbo:artist']],['dbo:writer'],factoid
+3677,0.0,0.0,0.0,7,1,1,Where did Rheinmetall MG 60 originated ?,[['dbo:origin']],['dbo:hometown'],factoid
+3701,0.0,0.0,0.0,9,1,0,what was paintin' the town brown: ween live 1990–1998,[['dbo:type']],[],factoid
+3702,0.0,0.0,0.0,5,1,0,When was Olof Palme shot?,[['dbo:deathDate']],[],factoid
+3707,0.0,0.0,0.0,7,1,1,Where is the origin of Carolina reaper?,[['dbo:origin']],['dbo:hometown'],factoid
+3723,0.0,0.0,0.0,11,2,1,"What region was Gloria Schaffer born in, which also contains Newington?","[['dbp:birthPlace'], ['dbo:isPartOf']]",['dbo:birthPlace'],factoid
+3729,0.0,0.0,0.0,6,1,2,How many employees does Google have?,[['dbo:numberOfEmployees']],"['dbp:employer', 'dbp:keyPeople']",count
+3735,0.0,0.0,0.0,7,1,1,what is the nationality of aatef jenyat,[['dbo:birthPlace']],['dbo:nationality'],factoid
+3736,0.0,0.0,0.0,13,1,1,who all have been a manager of english under twenty one football team?,[['dbp:managerclubs']],['dbo:managerClub'],factoid
+3740,0.0,0.0,0.0,6,1,2,who is an author from denmark?,[['dbo:occupation']],"['dbo:birthPlace', 'dbp:birthPlace']",factoid
+3748,0.0,0.0,0.0,11,1,1,What is a track composed by the the stanley brothers duo?,[['dbo:artist']],['dbo:writer'],factoid
+3757,0.0,0.0,0.0,14,2,1,Which branch of american military have both George Siebels jr and Leroy Collins served?,"[['dbp:branch'], ['dbp:branch']]",['dbo:militaryBranch'],factoid
+3776,0.0,0.0,0.0,4,1,1,"Who wrote i, robot?",[['dbo:writer']],['dbp:writer'],factoid
+3785,0.0,0.0,0.0,10,2,0,How many things belong to a division of plant kingdom?,"[['dbo:kingdom'], ['dbo:division']]",[],count
+3794,0.0,0.0,0.0,8,1,1,which genre is the punch and judy murders,[['dbo:literaryGenre']],['dbo:genre'],factoid
+3800,0.0,0.0,0.0,8,1,1,where in europe was robin griffith-jones born in?,[['dbo:nationality']],['dbo:birthPlace'],factoid
+3803,0.0,0.0,0.0,8,1,1,What is an album put out by Freeez?,[['dbo:type']],['dbo:artist'],factoid
+3826,0.0,0.0,0.0,10,1,1,Name an animated cartoon that played on Nickelodeon during 1998-2005,[['dbo:genre']],['dbp:genre'],list
+3828,0.0,0.0,0.0,6,1,1,what is a newspaper in china,[['dbp:publishingCountry']],['dbo:headquarter'],factoid
+3831,0.0,0.0,0.0,13,2,2,Which composer of Motorpsycho Nitemare has also composed The time are A-Changing ?,"[['dbp:composer'], ['dbo:musicBy']]","['dbo:writer', 'dbp:writer']",factoid
+3840,0.0,0.0,0.0,8,1,1,what kind of album is payment of existence,[['dbo:genre']],['dbo:type'],factoid
+3844,0.0,0.0,0.0,10,1,3,What is the location of Sam Sen Railway Station ?,[['dbp:other']],"['dbo:country', 'dbo:district', 'dbo:state']",factoid
+3845,0.0,0.0,0.0,5,1,2,what language is indochine in,[['dbo:language']],"['dbo:languageFamily', 'dbo:spokenIn']",factoid
+3853,0.0,0.0,0.0,5,1,2,what country is kumenan in?,[['dbo:region']],"['dbo:country', 'dbo:isPartOf']",factoid
+3864,0.0,0.0,0.0,9,1,1,what is the aircraft model of grumman f8f bearcat,[['dbo:manufacturer']],['dbo:class'],factoid
+3869,0.0,0.0,0.0,10,1,2,Do the White Plains Road lie in the Bronx county?,[['dbp:counties']],"['dbo:isPartOf', 'dbo:state']",boolean
+3874,0.0,0.0,0.0,5,1,0,which group released nuclear blast,[['dbo:recordLabel']],[],factoid
+3875,0.0,0.0,0.0,10,1,1,Which medium does the album up the downstair belong to?,[['dbo:genre']],['dbo:type'],factoid
+3899,0.0,0.0,0.0,9,1,2,How many people currently play for Stoke City F.C.?,[['dbp:currentclub']],"['dbo:formerTeam', 'dbo:team']",count
+3917,0.0,0.0,0.0,13,2,1,From how many different places have people gone to the Harward Medical School?,"[['dbo:institution'], ['dbo:birthPlace']]",['dbp:education'],count
+3939,0.0,0.0,0.0,11,1,1,What type of album is in the eye of the storm?,[['dbo:genre']],['dbo:type'],factoid
+3946,0.0,0.0,0.0,9,1,1,what type of country is b. j. thomas from,[['dbo:genre']],['dbo:nationality'],factoid
+3963,0.0,0.0,0.0,5,1,0,Who operates Liverpool Playhouse ?,[['dbo:operatedBy']],[],factoid
+3989,0.0,0.0,0.0,9,1,1,How many items belong to the Science Fiction genre?,[['dbp:genre']],['dbo:literaryGenre'],count
+3990,0.0,0.0,0.0,11,1,2,Who is the builder of Presidio Santa Cruz de Terrenate ?,[['dbo:builder']],"['dbo:architect', 'dbp:designer']",factoid
+3999,0.0,0.0,0.0,9,1,1,Was andy warhol a part of Pop Art movement?,[['dbp:movement']],['dbo:movement'],boolean
+4015,0.0,0.0,0.0,6,1,1,which country is andrea west from,[['dbo:nationality']],['dbo:birthPlace'],factoid
+4022,0.0,0.0,0.0,6,1,1,What would you call modern currencies,[['dbo:genre']],['dbo:currency'],factoid
+4040,0.0,0.0,0.0,13,1,4,Is Another Lonely Night in New York by the musical band Robin Gibb?,[['dbo:musicalBand']],"['dbo:associatedBand', 'dbo:bandMember', 'dbo:formerBandMember', 'dbp:currentMembers']",boolean
+4046,0.0,0.0,0.0,12,2,0,Radios on what topics can be tuned in to in Washington DC?,"[['dbo:broadcastArea'], ['dbo:programmeFormat']]",[],list
+4065,0.0,0.0,0.0,7,1,1,whats the nationality of  patrick merla,[['dbo:nationality']],['dbo:birthPlace'],factoid
+4072,0.0,0.0,0.0,17,2,2,Which is the common past team of the Charlie Justice (American football player) and Bobby Hoppe ?,"[['dbp:pastteams'], ['dbp:pastteams']]","['dbo:formerTeam', 'dbo:team']",factoid
+4082,0.0,0.0,0.0,16,2,1,What are the awards won by the person who is an authority of Latania verschaffeltii ?,"[['dbp:binomialAuthority'], ['dbp:awards']]",['dbo:award'],factoid
+4101,0.0,0.0,0.0,7,1,0,What is an Ukrainian video game developer?,[['dbo:industry']],[],factoid
+4110,0.0,0.0,0.0,12,2,2,Name the common current team of the Shaun Thong and Kaannder ?,"[['dbp:currentTeam'], ['dbp:currentTeam']]","['dbo:formerTeam', 'dbo:team']",list
+4117,0.0,0.0,0.0,6,1,2,What county is lake wingra in,[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+4118,0.0,0.0,0.0,7,1,2,Was Morrissey a member of the Smiths?,[['dbo:formerBandMember']],"['dbo:bandMember', 'dbp:currentMembers']",boolean
+4124,0.0,0.0,0.0,15,2,0,Which tenant of New Sanno Hotel is the military branch of the Gary Holder-Winfield ?,"[['dbo:militaryBranch'], ['dbo:tenant']]",[],factoid
+4130,0.0,0.0,0.0,10,1,1,which genre is getting rid of bradley a part of,[['dbo:literaryGenre']],['dbo:genre'],factoid
+4136,0.0,0.0,0.0,16,2,1,Daniel L D Granger and Job Durfee have based their political career in which US state?,"[['dbp:state'], ['dbp:state']]",['dbo:occupation'],list
+4141,0.0,0.0,0.0,16,2,2,Which river inflow of the Cahora Bassa is also Batoka Gorge Hydroelectric Power Station's river ?,"[['dbo:river'], ['dbp:inflow']]","['dbo:outflow', 'dbo:riverMouth']",factoid
+4145,0.0,0.0,0.0,7,1,2,where was charles w. chesnutt given brith,[['dbo:birthPlace']],"['dbo:country', 'dbo:deathPlace']",factoid
+4185,0.0,0.0,0.0,6,1,1,what city was louis-gabriel-charles vicaire born,[['dbo:deathPlace']],['dbo:birthPlace'],factoid
+4202,0.0,0.0,0.0,20,2,1,Name the licensee of the WRVU who has the affiliation of  Monroe Carell Jr. Children's Hospital at Vanderbilt ?,"[['dbp:affiliation'], ['dbp:licensee']]",['dbp:affiliations'],list
+4211,0.0,0.0,0.0,5,1,1,which agency protects ishi wilderness,[['dbp:governingBody']],['dbo:location'],factoid
+4213,0.0,0.0,0.0,7,1,1,What album was produced by big business,[['dbo:artist']],['dbo:type'],factoid
+4216,0.0,0.0,0.0,7,1,1,What form of government does Russia have?,[['dbo:governmentType']],['dbo:type'],factoid
+4219,0.0,0.0,0.0,6,1,1,Where was Special 26 recorded ?,[['dbp:recorded']],['dbo:country'],factoid
+4223,0.0,0.0,0.0,7,2,0,Where do current famous NatGeo photographers live?,"[['dbo:knownFor'], ['dbo:residence']]",[],factoid
+4228,0.0,0.0,0.0,7,1,2,What is the nationality of jade macrae,[['dbo:hometown']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+4235,0.0,0.0,0.0,6,1,1,which disease caused willem rooseboom's death,[['dbo:deathPlace']],['dbo:deathCause'],factoid
+4275,0.0,0.0,0.0,8,1,0,which ivy league university did ezra cornell create,[['dbo:foundedBy']],[],factoid
+4283,0.0,0.0,0.0,6,1,2,How many Thesaban towns are there?,[['dbp:settlementType']],"['dbo:location', 'dbp:cities']",count
+4284,0.0,0.0,0.0,5,1,1,where is john epps from,[['dbo:citizenship']],['dbo:hometown'],factoid
+4289,0.0,0.0,0.0,22,2,1,What is the official residence of the Christopher Daz Figuero which is also the  state of the Cruce a Nado Internacional,"[['dbp:residence'], ['dbo:country']]",['dbo:residence'],factoid
+4294,0.0,0.0,0.0,9,2,1,"Which river originates from Cape Vincent and Kingston, Ontario?","[['dbp:sourceLocation'], ['dbp:sourceLocation']]",['dbo:hometown'],factoid
+4314,0.0,0.0,0.0,9,1,1,Where in new mexico did r. r. brown die,[['dbp:deathPlace']],['dbo:deathPlace'],factoid
+4320,0.0,0.0,0.0,7,1,1,Who was the author of the punisher?,[['dbo:writer']],['dbo:author'],factoid
+4322,0.0,0.0,0.0,9,1,1,Who is the director of the short film boat?,[['dbo:editing']],['dbo:director'],factoid
+4330,0.0,0.0,0.0,6,1,1,what album is by Twilight singer,[['dbo:type']],['dbo:artist'],factoid
+4338,0.0,0.0,0.0,6,1,1,what religion does maria alexandrovna follow,[['dbp:religion']],['dbo:religion'],factoid
+4339,0.0,0.0,0.0,6,1,3,what country is garbally college in?,[['dbo:location']],"['dbo:city', 'dbo:country', 'dbo:state']",factoid
+4348,0.0,0.0,0.0,6,1,2,what is a hella album titled,[['dbo:artist']],"['dbo:genre', 'dbo:type']",factoid
+4350,0.0,0.0,0.0,7,1,1,What is the ethicity of Ted Falon?,[['dbo:ethnicity']],['dbo:type'],factoid
+4387,0.0,0.0,0.0,6,1,1,Where was David Scherman trained ?,[['dbo:training']],['dbp:training'],factoid
+4401,0.0,0.0,0.0,13,2,1,"What is the american football league whose champion is from Kansas City, Missouri?","[['dbp:champion'], ['dbp:city']]",['dbo:hometown'],factoid
+4431,0.0,0.0,0.0,6,1,0,Which school did Robbie Diack attend?,[['dbp:school']],[],factoid
+4444,0.0,0.0,0.0,6,1,2,GetTV is owned by which organisation?,[['dbo:parentOrganisation']],"['dbp:company', 'dbp:owner']",factoid
+4454,0.0,0.0,0.0,7,1,1,What is an album by george winston?,[['dbo:artist']],['dbo:type'],factoid
+4472,0.0,0.0,0.0,14,2,0,What is the county seat of the county which has an Evergreen High School?,"[['dbo:county'], ['dbo:countySeat']]",[],factoid
+4476,0.0,0.0,0.0,11,1,1,what kind of comdey is not the end of the world,[['dbo:literaryGenre']],['dbo:genre'],factoid
+4499,0.0,0.0,0.0,10,2,2,Where are the politicians buried who succeeded George Whitefield Davis?,"[['dbp:predecessor'], ['dbp:restingplace']]","['dbo:restingPlace', 'dbp:successor']",factoid
+4519,0.0,0.0,0.0,7,1,2,What units are garrisoned in the Pentagon?,[['dbp:garrison']],"['dbo:commander', 'dbo:militaryUnit']",factoid
+4521,0.0,0.0,0.0,5,1,2,what are works about existentialism,[['dbo:type']],"['dbo:author', 'dbo:literaryGenre']",factoid
+4524,0.0,0.0,0.0,8,1,1,What is the hometown of John Speraw ?,[['dbp:hometown']],['dbo:hometown'],factoid
+4540,0.0,0.0,0.0,8,1,1,Does MSX BASIC have a license of microsoft?,[['dbp:license']],['dbo:license'],boolean
+4554,0.0,0.0,0.0,10,1,0,Who all are known to play the Gibson Guitar Corporation?,[['dbp:notableInstruments']],[],factoid
+4560,0.0,0.0,0.0,5,1,1,Where was gordon lowe born,[['dbo:deathPlace']],['dbo:birthPlace'],factoid
+4570,0.0,0.0,0.0,10,1,1,Which universities are also known as the Tulane Green wave?,[['dbp:nickname']],['dbp:athletics'],factoid
+4587,0.0,0.0,0.0,13,2,2,Who won the silver medal when the bronze was won by Yang Yilin?,"[['dbo:bronzeMedalist'], ['dbo:silverMedalist']]","['dbo:award', 'dbp:awards']",factoid
+4588,0.0,0.0,0.0,5,1,1,Where is charles leclerc from,[['dbp:birthPlace']],['dbo:nationality'],factoid
+4590,0.0,0.0,0.0,16,2,1,"What is the state of the settlement, which is the sub assembly of Mohamedia, Tunisia ?","[['dbo:isPartOf'], ['dbo:country']]",['dbo:capital'],factoid
+4596,0.0,0.0,0.0,9,2,2,Who made the singles on the famous album Aida?,"[['dbo:album'], ['dbo:musicalArtist']]","['dbo:artist', 'dbo:subsequentWork']",factoid
+4598,0.0,0.0,0.0,14,2,1,Name the people who were in a youth club managed by Luis Enrique ?,"[['dbp:manager'], ['dbp:youthclubs']]",['dbo:managerClub'],list
+4619,0.0,0.0,0.0,10,1,2,Who is the writer of the adventures of tom sawyer,[['dbo:author']],"['dbo:writer', 'dbp:writer']",factoid
+4637,0.0,0.0,0.0,9,2,3,How many artists have collaborated with famous guitar players?,"[['dbo:associatedMusicalArtist'], ['dbp:notableInstruments']]","['dbo:bandMember', 'dbo:instrument', 'dbp:currentMembers']",count
+4644,0.0,0.0,0.0,10,2,2,Matthew kane and Park rankin are citizens of which country?,"[['dbo:citizenship'], ['dbo:citizenship']]","['dbo:nationality', 'dbp:nationality']",list
+4650,0.0,0.0,0.0,9,1,2,What people are known to work for Johnny Cash?,[['dbp:associatedActs']],"['dbo:knownFor', 'dbo:occupation']",factoid
+4681,0.0,0.0,0.0,10,2,0,Martin Ferguson and Mike Kelly served under which aussie PM?,"[['dbp:primeminister'], ['dbp:primeminister']]",[],list
+4693,0.0,0.0,0.0,7,1,1,plastic tree has an album titled what?,[['dbo:artist']],['dbo:type'],factoid
+4706,0.0,0.0,0.0,8,1,1,"what high school is located in easton, pennsylvania","[['dbo:locatedInArea', 'dbo:city', 'dbo:location']]",['dbo:type'],factoid
+4712,0.0,0.0,0.0,21,2,2,Who was the president at the time when both Carl Stokes and Joseph Stiglitz held a position in US political framework?,"[['dbp:president'], ['dbp:president']]","['dbo:leader', 'dbp:governingBody']",factoid
+4714,0.0,0.0,0.0,12,1,0,When will start the final match of the football world cup 2018?,[['dbp:date']],[],factoid
+4717,0.0,0.0,0.0,8,1,1,Who wrote 30 days of night: immortal remains,[['dbo:author']],['dbo:writer'],factoid
+4722,0.0,0.0,0.0,5,1,2,what genre is tam lin?,[['dbo:literaryGenre']],"['dbo:genre', 'dbp:genre']",factoid
+4753,0.0,0.0,0.0,9,1,1,how is anhui university of traditional chinese medicine categorized,[['dbo:type']],['dbo:literaryGenre'],factoid
+4775,0.0,0.0,0.0,10,2,2,Who founded the league which was won by Joe McKeehen?,"[['dbp:champion'], ['dbp:founded']]","['dbo:foundedBy', 'dbp:founder']",factoid
+4785,0.0,0.0,0.0,13,2,0,In which states does the river flow whose left tributary is Toms Creek?,"[['dbo:leftTributary'], ['dbo:state']]",[],factoid
+4797,0.0,0.0,0.0,9,1,1,what is the place of birth of tomasz markowski?,[['dbo:nationality']],['dbo:birthPlace'],factoid
+4803,0.0,0.0,0.0,5,1,1,where is aleksandr ivanchenkov from,[['dbo:nationality']],['dbo:birthPlace'],factoid
+4806,0.0,0.0,0.0,8,1,2,what is an work created by jack mcduff,[['dbo:artist']],"['dbo:creator', 'dbo:writer']",factoid
+4815,0.0,0.0,0.0,7,1,1,who adapted the the storm riders film,[['dbo:editing']],['dbo:writer'],factoid
+4817,0.0,0.0,0.0,9,1,3,Humes High School is alma mater to which person?,[['dbp:education']],"['dbo:almaMater', 'dbo:education', 'dbp:almaMater']",list
+4827,0.0,0.0,0.0,9,1,1,What is the largest state in the United States?,[['dbo:areaTotal']],['dbo:largestCity'],factoid
+4828,0.0,0.0,0.0,6,1,3,which state contains cleveland court school,[['dbo:location']],"['dbo:city', 'dbo:country', 'dbo:state']",factoid
+4834,0.0,0.0,0.0,15,2,1,For a position in which institution were both Jack Ryan and Robert sarvis both appointed?,"[['dbo:nominee'], ['dbo:nominee']]",['dbo:almaMater'],list
+4838,0.0,0.0,0.0,7,1,3,what is maria mccool's country if nationality?,[['dbo:birthPlace']],"['dbo:country', 'dbo:hometown', 'dbo:nationality']",factoid
+4840,0.0,0.0,0.0,13,1,0,Did Hank Williams Jr. make Early in the Morning and Late at Night?,[['dbo:musicalArtist']],[],boolean
+4842,0.0,0.0,0.0,7,1,1,what's a 2006 album by Bucky Pizzarelli?,[['dbo:type']],['dbo:artist'],list
+4851,0.0,0.0,0.0,8,1,1,what was the title of jewel's christmas album,[['dbo:artist']],['dbo:type'],factoid
+4853,0.0,0.0,0.0,10,2,2,Which awards are presented by the committee located in Stockholm?,"[['dbp:headquarters'], ['dbo:presenter']]","['dbo:award', 'dbo:location']",factoid
+4859,0.0,0.0,0.0,6,1,1,what is a work by mayhem,[['dbo:artist']],['dbo:writer'],factoid
+4872,0.0,0.0,0.0,3,1,1,Who owns Aldi?,[['dbp:founders']],['dbo:owner'],factoid
+4879,0.0,0.0,0.0,7,1,2,Which nation hosts the WTA Tour Championships?,[['dbp:country']],"['dbo:country', 'dbo:location']",factoid
+4891,0.0,0.0,0.0,12,2,1,Which genre of books does the writer of The Many Hands write?,"[['dbp:author'], ['dbo:genre']]",['dbo:literaryGenre'],factoid
+4917,0.0,0.0,0.0,8,1,1,what is an album released by Dusty Springfield,[['dbo:type']],['dbo:artist'],factoid
+4919,0.0,0.0,0.0,9,1,1,"Does the mississippi orignate in the clearwater county, minnesota?",[['dbo:sourceRegion']],['dbo:isPartOf'],boolean
+4922,0.0,0.0,0.0,9,1,0,Where did the 2015 MLS All-Star Game take place?,[['dbp:city']],[],factoid
+4942,0.0,0.0,0.0,8,1,1,what city in Italy is marlene kuntz from,[['dbo:hometown']],['dbo:birthPlace'],factoid
+4954,0.0,0.0,0.0,8,2,2,Who penned Emma and Jane Austen in Manhatten?,"[['dbp:author'], ['dbo:writer']]","['dbo:author', 'dbp:writer']",factoid
+4960,0.0,0.0,0.0,7,1,3,which author won the john newberry medal?,[['dbo:occupation']],"['dbo:author', 'dbo:award', 'dbp:awards']",factoid
+4964,0.0,0.0,0.0,18,2,0,Which local authority of Buckhurst Hill County High School is the palce of burial of Elizabeth Rhuddlan ?,"[['dbo:localAuthority'], ['dbp:placeOfBurial']]",[],factoid
+4975,0.0,0.0,0.0,7,1,1,Where does John A Danaher III work?,[['dbp:office']],['dbo:field'],factoid
+4978,0.0,0.0,0.0,5,1,1,Where did davie banda die,[['dbo:birthPlace']],['dbo:deathPlace'],factoid
+4979,0.0,0.0,0.0,8,1,2,What country is dada nabeel a citizen of,[['dbo:birthPlace']],"['dbo:country', 'dbo:nationality']",factoid
+4982,0.0,0.0,0.0,10,2,3,How many movies have a screenplay located in the States?,"[['dbp:screenplay'], ['dbo:birthPlace']]","['dbo:country', 'dbo:starring', 'dbp:birthPlace']",count
+5016,0.0,0.0,0.0,8,1,2,which meteorological phenomenon occurred in Australia on 2011,[['dbp:areas']],"['dbo:location', 'dbo:place']",factoid
+5025,0.0,0.0,0.0,5,1,1,where is lucybell originally from,[['dbo:hometown']],['dbo:birthPlace'],factoid
+5034,0.0,0.0,0.0,7,1,3,where is bangor theological seminary located at?,[['dbo:location']],"['dbo:city', 'dbo:country', 'dbo:state']",factoid
+5040,0.0,0.0,0.0,4,1,2,where is far horizons,[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+5047,0.0,0.0,0.0,16,2,0,How many people have played for the ones who own the stadium of Bankers Life Fieldhouse?,"[['dbp:arena'], ['dbp:team']]",[],count
+5058,0.0,0.0,0.0,12,2,4,What is the television show whose channel's parent organisation is Fox Sports?,"[['dbo:channel'], ['dbo:parentOrganisation']]","['dbo:network', 'dbp:company', 'dbp:distributor', 'dbp:network']",factoid
+5065,0.0,0.0,0.0,9,1,0,"Where was Ne daj se, Nina first aired ?",[['dbp:firstAired']],[],factoid
+5076,0.0,0.0,0.0,9,1,3,List all the former broadcast network of WMDN ?,[['dbo:formerBroadcastNetwork']],"['dbo:network', 'dbp:network', 'dbp:sisterStations']",list
+5088,0.0,0.0,0.0,8,1,4,Is the hyundai elantra related to hyundai lavita?,[['dbo:relatedMeanOfTransportation']],"['dbo:predecessor', 'dbo:successor', 'dbp:engine', 'dbp:related']",boolean
+5093,0.0,0.0,0.0,11,2,2,How many people have worked for teams chaired by Patricia Amorim?,"[['dbp:name'], ['dbo:chairman']]","['dbo:president', 'dbp:president']",count
+5094,0.0,0.0,0.0,8,1,0,What fictional character's species is American Pekin duck,[['dbo:species']],[],factoid
+5102,0.0,0.0,0.0,11,2,0,Where did the wrestler trained by Ring of Honour get billed?,"[['dbp:trainer'], ['dbp:billed']]",[],factoid
+5124,0.0,0.0,0.0,20,2,3,What is the alma mater of the Marshall Fletcher McCallie and has affiliation with  Vanderbilt University Medical Center ?,"[['dbp:almaMater'], ['dbp:affiliation']]","['dbo:almaMater', 'dbo:campus', 'dbp:affiliations']",factoid
+5146,0.0,0.0,0.0,9,1,2,Did Bob Suci play for the New England Patriots?,[['dbp:pastteams']],"['dbo:formerTeam', 'dbo:team']",boolean
+5149,0.0,0.0,0.0,11,2,5,Which appliance has cpu from Freescale Semiconductor and Marvell Technology Group?,"[['dbo:cpu'], ['dbo:cpu']]","['dbo:computingPlatform', 'dbo:operatingSystem', 'dbo:product', 'dbp:products', 'dbp:services']",factoid
+5155,0.0,0.0,0.0,9,1,1,What is one of the songs james hetfield wote?,[['dbo:writer']],['dbo:artist'],factoid
+5161,0.0,0.0,0.0,6,1,2,Name a the dead boys album.,[['dbo:artist']],"['dbo:genre', 'dbo:type']",list
+5165,0.0,0.0,0.0,5,1,0,what is located in utc±00:00?,[['dbo:timeZone']],[],factoid
+5199,0.0,0.0,0.0,11,1,1,what is the album released by reggaeton duo Wisin and Yandel?,[['dbo:genre']],['dbo:artist'],factoid
+5203,0.0,0.0,0.0,9,1,2,Give me all breeds of the German Shepherd dog.,[['dbp:breed']],"['dbo:family', 'dbo:species']",list
+5210,0.0,0.0,0.0,8,1,1,what city was the birthplace of denny sothern,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+5217,0.0,0.0,0.0,8,1,2,is biggest loser jeetega in english or chinese,[['dbo:language']],"['dbo:country', 'dbo:locatedInArea']",boolean
+5241,0.0,0.0,0.0,3,1,1,who wrote showdown?,[['dbo:author']],['dbo:writer'],factoid
+5269,0.0,0.0,0.0,7,1,1,what is nick rolovich role in football,[['dbp:playerPositions']],['dbo:position'],factoid
+5276,0.0,0.0,0.0,12,2,1,What are the common houses of US Congress and the Kansas Legislature?,"[['dbo:house'], ['dbp:houses']]",['dbp:constituency'],factoid
+5294,0.0,0.0,0.0,16,2,0,Which tenants of the Master Card center is also th draft team of Sam Carrrick ,"[['dbp:tenants'], ['dbp:draftTeam']]",[],factoid
+5298,0.0,0.0,0.0,10,1,4,Which companies have Kumho Asiana Group as their parent company?,[['dbo:parentCompany']],"['dbo:owningCompany', 'dbp:foundation', 'dbp:owner', 'dbp:parent']",factoid
+5299,0.0,0.0,0.0,11,1,0,Is Michael Schumacher the first driver of the 1994 grand prix?,[['dbp:firstDriver']],[],boolean
+5323,0.0,0.0,0.0,7,1,1,what is the nationality of thabo nthethe,[['dbo:birthPlace']],['dbo:nationality'],factoid
+5333,0.0,0.0,0.0,13,2,0,Which European Broadcasting Union's TV show has opening theme as Te Deum ?,"[['dbo:openingTheme'], ['dbp:company']]",[],factoid
+5339,0.0,0.0,0.0,6,1,1,Where was Al-Muzaffar Umar buried ?,[['dbp:placeOfBurial']],['dbo:restingPlace'],factoid
+5347,0.0,0.0,0.0,9,1,1,Which type of structural syle is st peters church?,[['dbo:architecturalStyle']],['dbo:type'],factoid
+5362,0.0,0.0,0.0,12,2,0,Who is the person opposed  by Tom McLaury and Ike Clanton?,"[['dbo:opponent'], ['dbo:opponent']]",[],factoid
+5364,0.0,0.0,0.0,11,2,1,Which source of broad creek is the Audenried tunnel located ?,"[['dbo:location'], ['dbo:source']]",['dbo:riverMouth'],factoid
+5379,0.0,0.0,0.0,9,1,1,Who was the composer for the power of love,[['dbo:musicalArtist']],['dbo:writer'],factoid
+5405,0.0,0.0,0.0,6,1,1,What genre is powder and patch,[['dbo:literaryGenre']],['dbo:genre'],factoid
+5421,0.0,0.0,0.0,6,1,1,alphonse aréola  plays what positon,[['dbo:position']],['dbo:instrument'],factoid
+5422,0.0,0.0,0.0,14,2,1,List the origin of the weapons which were used in the American Revolutionary War.,"[['dbo:usedInWar'], ['dbp:origin']]",['dbo:hometown'],list
+5423,0.0,0.0,0.0,7,1,0,what does the cahora bassa flow into?,[['dbp:inflow']],[],factoid
+5425,0.0,0.0,0.0,5,1,1,where was honinbo shuetsu born,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+5432,0.0,0.0,0.0,6,1,1,How many bands began in Birmingham?,[['dbp:origin']],['dbo:hometown'],count
+5446,0.0,0.0,0.0,6,1,1,what country is tomasz kulesza from,[['dbo:nationality']],['dbo:birthPlace'],factoid
+5448,0.0,0.0,0.0,9,1,2,what program is a sitcom produced by Winklemania Productions?,"[['dbo:genre', 'dbp:genre']]","['dbo:distributor', 'dbp:studio']",factoid
+5451,0.0,0.0,0.0,9,1,1,where city in minnesota was catharine mackinnon  born,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+5463,0.0,0.0,0.0,6,1,0,Who are the trainersof Candice Michelle?,[['dbo:trainer']],[],factoid
+5485,0.0,0.0,0.0,11,1,1,is hymn of the nations in the english language or french,[['dbo:language']],['dbo:spokenIn'],boolean
+5511,0.0,0.0,0.0,6,1,1,What kind of album is thumbsucker?,[['dbo:type']],['dbo:genre'],factoid
+5515,0.0,0.0,0.0,10,1,0,what are some units udner the US department of navy?,[['dbo:commandStructure']],[],factoid
+5527,0.0,0.0,0.0,7,1,3,what region is governed by Mario Olivero?,[['dbp:leader']],"['dbo:leader', 'dbo:location', 'dbp:governingBody']",factoid
+5540,0.0,0.0,0.0,13,2,1,Where is Tahual located which is also the country of Ren Romano ?,"[['dbp:citizenship'], ['dbp:location']]",['dbo:country'],factoid
+5547,0.0,0.0,0.0,15,2,1,"Under which common jurisdiction do Trinity School, Brentwood and Buckhurst Hill County High School fall?","[['dbo:localAuthority'], ['dbo:localAuthority']]",['dbo:type'],factoid
+5551,0.0,0.0,0.0,15,2,1,What are the veneration of the one for which there's a major shrine in Hebron?,"[['dbp:majorShrine'], ['dbp:veneratedIn']]",['dbo:location'],factoid
+5571,0.0,0.0,0.0,6,1,1,Where did st. clair drake die,[['dbp:deathPlace']],['dbo:deathPlace'],factoid
+5588,0.0,0.0,0.0,6,1,2,where is the schoonmaker reef located?,[['dbo:location']],"['dbo:country', 'dbo:district']",factoid
+5592,0.0,0.0,0.0,4,1,4,Where is caledonia county?,"[['dbo:country', 'dbo:state']]","['dbo:isPartOf', 'dbo:locatedInArea', 'dbo:location', 'dbo:region']",factoid
+5609,0.0,0.0,0.0,7,1,1,Which city was Scott Mayle born in?,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+5611,0.0,0.0,0.0,12,2,1,What is the home ground of the clubs managed by Ciao Zanardi?,"[['dbo:manager'], ['dbo:ground']]",['dbo:managerClub'],factoid
+5618,0.0,0.0,0.0,6,1,2,Give me all members of Prodigy.,[['dbo:bandMember']],"['dbo:birthPlace', 'dbo:hometown']",list
+5636,0.0,0.0,0.0,8,1,2,who is the ragtime artist born in denmark?,[['dbo:genre']],"['dbo:birthPlace', 'dbp:birthPlace']",factoid
+5659,0.0,0.0,0.0,11,1,1,whats the name of an album by sherine and tamer hosny,[['dbo:type']],['dbo:artist'],factoid
+5661,0.0,0.0,0.0,6,1,2,what country is ariel salinas form,[['dbo:birthPlace']],"['dbo:hometown', 'dbo:nationality']",factoid
+5693,0.0,0.0,0.0,7,1,2,What is the nationality of ty warner,[['dbo:birthPlace']],"['dbo:hometown', 'dbo:nationality']",factoid
+5716,0.0,0.0,0.0,6,1,1,what type of genre is ubik?,[['dbo:literaryGenre']],['dbo:genre'],factoid
+5719,0.0,0.0,0.0,8,1,2,what county is fort randall a part of,[['dbo:location']],"['dbo:country', 'dbo:isPartOf']",factoid
+5730,0.0,0.0,0.0,11,1,1,Who was the production company for the film house party 2?,[['dbo:distributor']],['dbp:studio'],factoid
+5733,0.0,0.0,0.0,16,2,2,Which school of jack mcGregor attend which was also the training center of William Anthony ?,"[['dbo:education'], ['dbo:training']]","['dbo:almaMater', 'dbp:almaMater']",factoid
+5745,0.0,0.0,0.0,12,2,4,What is the founding year of the brewery that produces Pilsner Urquell?,"[['dbp:brewery'], ['dbo:foundingYear']]","['dbo:foundationPlace', 'dbo:founder', 'dbp:foundation', 'dbp:founder']",factoid
+5748,0.0,0.0,0.0,7,1,1,What is the official language of Suriname?,[['dbo:officialLanguage']],['dbo:language'],factoid
+5755,0.0,0.0,0.0,5,1,1,Who developed the halcyon house,[['dbo:architect']],['dbo:developer'],factoid
+5756,0.0,0.0,0.0,14,2,1,Give me the name of the organization hqed at  Chaeng Watthana Govt Complex?,"[['dbo:headquarter'], ['dbp:agencyName']]",['dbp:headquarters'],list
+5782,0.0,0.0,0.0,14,2,1,Which county seats are in the district where I can find the Hylebos Creek?,"[['dbo:district'], ['dbo:countySeat']]",['dbo:capital'],factoid
+5808,0.0,0.0,0.0,6,1,1,What river originates in Kingston Ontario?,[['dbp:sourceLocation']],['dbo:hometown'],factoid
+5829,0.0,0.0,0.0,14,2,2,The pope whose shrine is in St Peter's Basilica was venerated in which sects?,"[['dbp:majorShrine'], ['dbp:veneratedIn']]","['dbo:religion', 'dbp:religion']",list
+5832,0.0,0.0,0.0,5,1,1,who produced school for scoundrels,[['dbp:studio']],['dbo:producer'],factoid
+5837,0.0,0.0,0.0,12,1,2,How many people won the Gold Medal of the Royal Astronomical Society?,[['dbp:prizes']],"['dbo:award', 'dbp:awards']",count
+5838,0.0,0.0,0.0,6,1,1,nikkyō niwano is of which nationality?,[['dbo:nationality']],['dbo:birthPlace'],factoid
+5863,0.0,0.0,0.0,12,2,2,List the significant building of the architect who also designed  Kiev?,"[['dbo:significantBuilding'], ['dbo:significantBuilding']]","['dbo:architect', 'dbp:designer']",list
+5868,0.0,0.0,0.0,6,1,5,How many shows does HBO have?,[['dbo:company']],"['dbo:network', 'dbp:company', 'dbp:distributor', 'dbp:network', 'dbp:voices']",count
+5879,0.0,0.0,0.0,4,1,3,Were is cerro located?,"[['dbo:country', 'dbo:isPartOf']]","['dbo:locatedInArea', 'dbo:location', 'dbo:region']",factoid
+5887,0.0,0.0,0.0,8,1,1,Was Gareth Southgate a manager of Middlesbrough F.C.?,[['dbp:managerclubs']],['dbo:managerClub'],boolean
+5905,0.0,0.0,0.0,13,2,1,"Where is Benjamin Franklin Terry buried, and US Route 59 has a junction?","[['dbp:placeofburial'], ['dbp:junction']]",['dbo:restingPlace'],factoid
+5909,0.0,0.0,0.0,5,1,1,Is Ombla originate in Croatia?,[['dbo:sourceMountain']],['dbo:hometown'],boolean
+5924,0.0,0.0,0.0,8,1,3,"which country locates xavier institute of management, bhubaneswar",[['dbo:location']],"['dbo:city', 'dbo:country', 'dbo:state']",factoid
+5928,0.0,0.0,0.0,7,1,1,what game is sony online entertainment make?,[['dbo:developer']],['dbo:publisher'],factoid
+5940,0.0,0.0,0.0,15,2,0,How many people have parterned with the person choroegraphed by Catarina Lindgren in the past?,"[['dbo:formerPartner'], ['dbo:formerChoreographer']]",[],count
+5948,0.0,0.0,0.0,8,2,0,Do Urdu and Persian have a common root?,"[['dbo:languageFamily'], ['dbo:languageFamily']]",[],factoid
+5949,0.0,0.0,0.0,7,1,1,Name a type of greatest hits album.,[['dbo:type']],['dbo:genre'],list
+5957,0.0,0.0,0.0,10,1,1,which city in the USA is lawrence joseph henderson from,[['dbo:deathPlace']],['dbo:birthPlace'],factoid
+5962,0.0,0.0,0.0,18,2,3,Who is the writer with notable works like Adventures of Huckleberry Finn and The Adventures of Tom Sawyer?,"[['dbo:notableWork'], ['dbo:notableWork']]","['dbo:author', 'dbp:author', 'dbp:writer']",factoid
+5970,0.0,0.0,0.0,5,1,1,what is pablo lemoine's nationality?,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+5971,0.0,0.0,0.0,9,1,1,what kind of music is on the film dogtown,[['dbo:musicComposer']],['dbo:genre'],factoid
+5981,0.0,0.0,0.0,5,1,1,where was syd bidwell born,[['dbo:deathPlace']],['dbo:birthPlace'],factoid
+5986,0.0,0.0,0.0,7,1,1,what is an album by Lou Barlow?,[['dbo:type']],['dbo:artist'],factoid
+6001,0.0,0.0,0.0,9,1,0,Who is the former partner of Chris Knierim ?,[['dbo:formerPartner']],[],factoid
+6013,0.0,0.0,0.0,8,1,2,What is the club of Perianne Jones ?,[['dbp:club']],"['dbo:formerTeam', 'dbo:team']",factoid
+6033,0.0,0.0,0.0,7,1,1,Who gives the license of WXXV-DT2 ?,[['dbp:licensee']],['dbo:license'],factoid
+6058,0.0,0.0,0.0,6,1,0,What municipalities are adjacent to Chne-Bougeries?,[['dbp:neighboringMunicipalities']],[],factoid
+6060,0.0,0.0,0.0,12,1,2,"What is the form of the Norman language spoken in Jersey, France?",[['dbo:languageFamily']],"['dbo:language', 'dbp:languages']",factoid
+6065,0.0,0.0,0.0,8,2,2,Where are jockeys in Dubai World Cup from?,"[['dbo:race'], ['dbp:birthPlace']]","['dbo:country', 'dbo:nationality']",factoid
+6088,0.0,0.0,0.0,10,1,3,In which city was the former Dutch queen Juliana buried?,[['dbp:burialPlace']],"['dbo:restingPlace', 'dbp:placeOfBurial', 'dbp:restingplace']",factoid
+6094,0.0,0.0,0.0,11,2,1,Who wrote the album coming right before Dead Man's Chest's OST?,"[['dbp:nextAlbum'], ['dbp:writer']]",['dbo:artist'],factoid
+6109,0.0,0.0,0.0,11,2,1,Which US state gave  us Brian Deegan and Harold Lyold?,"[['dbp:birthPlace'], ['dbp:birthPlace']]",['dbp:state'],factoid
+6120,0.0,0.0,0.0,8,1,2,Is william doyle the chairman of Georgetown university?,[['dbp:chairman']],"['dbo:president', 'dbp:president']",boolean
+6132,0.0,0.0,0.0,6,1,1,Which nation is sven authorsen from?,[['dbo:country']],['dbo:birthPlace'],factoid
+6154,0.0,0.0,0.0,8,2,0,Which country's people work in the Birdman enterprises?,"[['dbo:institution'], ['dbp:nationality']]",[],factoid
+6165,0.0,0.0,0.0,6,1,1,what country is tom shapiro from,[['dbo:hometown']],['dbo:birthPlace'],factoid
+6166,0.0,0.0,0.0,9,1,1,whats the name of an album by terri clark,[['dbo:type']],['dbo:artist'],factoid
+6178,0.0,0.0,0.0,12,1,0,Who was the First Driver of 1999 San Marino Grand Prix ?,[['dbp:firstDriver']],[],factoid
+6181,0.0,0.0,0.0,15,2,4,Which office holder's predecessor is  Lucius Cornelius and his associate is Marcus Calpurnius Bibulus?,"[['dbo:associate'], ['dbo:predecessor']]","['dbo:relation', 'dbo:successor', 'dbp:predecessor', 'dbp:successor']",factoid
+6195,0.0,0.0,0.0,10,1,1,Was andy worhol the director of the san diego surf?,[['dbo:cinematography']],['dbo:director'],boolean
+6197,0.0,0.0,0.0,9,1,1,What is the government type of Ancient Rome ?,[['dbo:governmentType']],['dbo:type'],factoid
+6210,0.0,0.0,0.0,6,1,1,Who is the mayor of Paris?,[['dbo:mayor']],['dbo:leaderName'],factoid
+6212,0.0,0.0,0.0,14,2,4,"What is the musical whose music is by Jose Luis Narom,  based upon?","[['dbo:musicBy'], ['dbo:basedOn']]","['dbo:musicComposer', 'dbp:artist', 'dbp:music', 'dbp:themeMusicComposer']",factoid
+6215,0.0,0.0,0.0,15,2,1,What is the largest city of the country which have an assembly of Plymouth Savoy?,"[['dbo:assembly'], ['dbo:largestCity']]",['dbo:capital'],factoid
+6217,0.0,0.0,0.0,5,1,2,Which company owns Evraz ?,[['dbo:owningCompany']],"['dbo:owner', 'dbp:owner']",factoid
+6220,0.0,0.0,0.0,7,1,3,When was the De Beers company founded?,[['dbo:foundingYear']],"['dbo:foundationPlace', 'dbo:founder', 'dbp:foundation']",factoid
+6223,0.0,0.0,0.0,12,2,1,What is the nationality of the David King-Wood and John Steed ?,"[['dbp:nationality'], ['dbp:nationality']]",['dbo:nationality'],factoid
+6225,0.0,0.0,0.0,10,2,0,List the people casted in Betsy's Wedding and 16 candles?,"[['dbo:starring'], ['dbp:starring']]",[],list
+6228,0.0,0.0,0.0,12,2,1,In how many different places do Starwood hotels and resorts worldwide operate?,"[['dbp:operator'], ['dbp:address']]",['dbo:location'],count
+6231,0.0,0.0,0.0,14,2,2,"Where is the fictional character from, whose last appearance was in the Avengers, 1998?","[['dbp:last'], ['dbp:nationality']]","['dbo:series', 'dbp:genre']",factoid
+6232,0.0,0.0,0.0,15,2,1,"Twin cities 400 is operated by what city, which is the birthplace of Leona Baumgarter?","[['dbo:birthPlace'], ['dbo:operatedBy']]",['dbp:placeOfBirth'],list
+6244,0.0,0.0,0.0,17,1,0,what left-handed pitcher was signed by the Boston Red Sox as an amateur free agent in 1936?,[['dbo:position']],[],factoid
+6255,0.0,0.0,0.0,7,1,1,What attraction does the espaillat province contain,[['dbo:isPartOf']],['dbo:location'],factoid
+6257,0.0,0.0,0.0,10,3,0,Which subsidiary of TUI Travel serves both Glasgow and Dublin?,"[['dbo:targetAirport'], ['dbo:targetAirport'], ['dbo:subsidiary']]",[],factoid
+6282,0.0,0.0,0.0,19,2,1,Who is the common manager of Aston Villa 2000-02 season and aldo the manager of Middlesbrough F.C. season 2009-10,"[['dbp:name'], ['dbo:manager']]",['dbo:managerClub'],factoid
+6283,0.0,0.0,0.0,11,2,0,Which teams participate in the football seasons headed by Patricia Amorim?,"[['dbo:chairman'], ['dbp:name']]",[],factoid
+6286,0.0,0.0,0.0,8,1,1,what is song by Australian musician andrew duffield,[['dbo:writer']],['dbo:artist'],factoid
+6293,0.0,0.0,0.0,6,1,1,List the ethnicity of Riley Reid?,[['dbp:ethnicity']],['dbo:ethnicity'],list
+6318,0.0,0.0,0.0,10,1,3,in what state would you find princeton university graduate college?,[['dbo:location']],"['dbo:city', 'dbo:country', 'dbo:state']",factoid
+6321,0.0,0.0,0.0,6,1,2,what country is asagiri located in,[['dbo:region']],"['dbo:country', 'dbo:isPartOf']",factoid
+6329,0.0,0.0,0.0,8,1,2,How many famous people are from the Filipinos?,[['dbo:stateOfOrigin']],"['dbo:birthPlace', 'dbo:nationality']",count
+6335,0.0,0.0,0.0,9,1,0,Was Duanne Allman famous for playing the Gibson SG?,[['dbp:notableInstruments']],[],boolean
+6344,0.0,0.0,0.0,8,1,1,what album did John Martyn release in 1971?,[['dbo:type']],['dbo:artist'],factoid
+6354,0.0,0.0,0.0,11,2,2,"Where do the politicians, Blanche Bruce and John Franklin Miller work?","[['dbp:office'], ['dbp:office']]","['dbo:almaMater', 'dbo:president']",factoid
+6369,0.0,0.0,0.0,9,1,1,What is the largest metropolitan area in Washington state?,[['dbp:largestmetro']],['dbo:largestCity'],factoid
+6375,0.0,0.0,0.0,6,1,1,where did plato meet his maker,[['dbo:deathPlace']],['dbo:hometown'],factoid
+6399,0.0,0.0,0.0,8,1,1,"Is US Navy garrisoned at Arlington County, Virginia?",[['dbp:garrison']],['dbo:garrison'],boolean
+6403,0.0,0.0,0.0,8,1,2,what sport is yanya caballista: city skater about?,[['dbo:genre']],"['dbo:occupation', 'dbp:modes']",factoid
+6405,0.0,0.0,0.0,7,1,0,What is the parent company of PrivateCore?,[['dbo:subsidiary']],[],factoid
+6408,0.0,0.0,0.0,9,1,0,Is David Cameron the prime minister of Nick Clegg?,[['dbo:primeMinister']],[],boolean
+6413,0.0,0.0,0.0,9,1,2,Which motion picture stories were edited by Ishir Honda?,[['dbo:writer']],"['dbo:editing', 'dbp:editing']",factoid
+6414,0.0,0.0,0.0,11,1,0,What is the location of Dad's Root Beer on Google maps?,[['dbp:locationCity']],[],factoid
+6433,0.0,0.0,0.0,9,1,1,What is dizzy mizz and lizzy's greatest hits album?,[['dbo:type']],['dbo:artist'],factoid
+6438,0.0,0.0,0.0,26,2,2,What is the place of birth of the badminton player who is the bronze medalist of Badminton at the 2012 Summer Olympics  Women's doubles ?,"[['dbo:bronzeMedalist'], ['dbp:placeOfBirth']]","['dbo:birthPlace', 'dbp:birthPlace']",factoid
+6444,0.0,0.0,0.0,8,1,1,which album is created by barnes & barnes,[['dbo:recordLabel']],['dbo:artist'],factoid
+6449,0.0,0.0,0.0,11,2,1,Which U.S. states are in the same time zone as Utah?,"[['dbp:timezone'], ['dbp:timezone']]",['dbo:timeZone'],factoid
+6450,0.0,0.0,0.0,5,2,2,Starwood operates in which places?,"[['dbp:operator'], ['dbp:address']]","['dbo:city', 'dbo:location']",list
+6452,0.0,0.0,0.0,11,1,0,Which city was susan g. komen for the cure founded in,[['dbo:foundationPlace']],[],factoid
+6464,0.0,0.0,0.0,21,2,0,Name a scientist whose official residence is Cape Town and also won a gold medal at the Royal Astronomical Society ?,"[['dbp:prizes'], ['dbp:residence']]",[],list
+6468,0.0,0.0,0.0,8,1,1,who is the author of the mysterious island,[['dbo:writer']],['dbo:author'],factoid
+6472,0.0,0.0,0.0,5,1,2,What nationality is k. rajagopal,[['dbo:birthPlace']],"['dbo:country', 'dbo:nationality']",factoid
+6483,0.0,0.0,0.0,5,1,0,Who are some US colonels?,[['dbp:rank']],[],factoid
+6488,0.0,0.0,0.0,9,1,0,What is the operator of SR class 3Sub ?,[['dbo:operator']],[],factoid
+6496,0.0,0.0,0.0,13,2,1,What is the parent company of the airline whose hub is in Detroit?,"[['dbp:hubs'], ['dbo:parentCompany']]",['dbo:hubAirport'],factoid
+6498,0.0,0.0,0.0,8,1,0,where can you find richard henry dana branch,[['dbo:location']],[],factoid
+6499,0.0,0.0,0.0,12,2,0,How many people have trained the wrestlers who were billed in Wisconsin?,"[['dbo:trainer'], ['dbo:billed']]",[],count
+6520,0.0,0.0,0.0,5,1,3,what country is lassie from,[['dbo:country']],"['dbo:birthPlace', 'dbo:hometown', 'dbo:nationality']",factoid
+6526,0.0,0.0,0.0,6,1,0,Was the altazor drawn by Picasso?,[['dbp:illustrator']],[],boolean
+6529,0.0,0.0,0.0,7,1,1,What is the nationality of irina shayk,[['dbo:nationality']],['dbo:birthPlace'],factoid
+6573,0.0,0.0,0.0,11,1,1,Give me the websites of companies with more than 500000 employees.,[['dbo:numberOfEmployees']],['dbp:services'],list
+6583,0.0,0.0,0.0,8,1,2,what films has kelly reichardt been credited in,[['dbo:writer']],"['dbo:director', 'dbo:musicComposer']",factoid
+6585,0.0,0.0,0.0,5,1,2,what is pato bantons nationality,[['dbo:hometown']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+6593,0.0,0.0,0.0,10,1,2,which latin country is nando reis e os infernais form,[['dbo:hometown']],"['dbo:country', 'dbo:nationality']",factoid
+6605,0.0,0.0,0.0,9,2,2,List the movies whose editors are born in London.,"[['dbo:editing'], ['dbp:placeOfBirth']]","['dbo:birthPlace', 'dbp:birthPlace']",list
+6610,0.0,0.0,0.0,10,1,1,"What is the genre of the tv program, buzzer beat?",[['dbp:genre']],['dbo:genre'],factoid
+6635,0.0,0.0,0.0,4,1,1,Where was harold theobald,[['dbo:birthPlace']],['dbo:deathPlace'],factoid
+6636,0.0,0.0,0.0,11,1,1,what is a piece of music has the philharmonia orchestra played?,[['dbo:artist']],['dbo:writer'],factoid
+6639,0.0,0.0,0.0,7,1,1,whats that nationality of  mariusz hermanowicz,[['dbo:nationality']],['dbo:birthPlace'],factoid
+6645,0.0,0.0,0.0,12,2,2,Which country are the players of the Atletico Petroleos de Luanda from?,"[['dbo:club'], ['dbo:nationality']]","['dbo:country', 'dbp:nationalteam']",factoid
+6647,0.0,0.0,0.0,8,1,1,what was eric wyndham white's place of birth,[['dbo:nationality']],['dbo:birthPlace'],factoid
+6665,0.0,0.0,0.0,6,1,1,who wrote not in the flesh,[['dbo:author']],['dbo:writer'],factoid
+6678,0.0,0.0,0.0,7,1,1,Does the platte river originate in Colorado?,[['dbo:sourceRegion']],['dbo:riverMouth'],boolean
+6682,0.0,0.0,0.0,7,1,2,what album is produced by holger hiller,[['dbo:recordLabel']],"['dbo:artist', 'dbo:type']",factoid
+6686,0.0,0.0,0.0,10,1,2,Name an architect famous for the sever hall in Massachusetts.,[['dbo:architect']],"['dbo:city', 'dbo:location']",list
+6688,0.0,0.0,0.0,13,1,0,Was the cover of The adventures of Tom Sawyer designed by Mark Twain?,[['dbo:coverArtist']],[],boolean
+6707,0.0,0.0,0.0,11,2,0,Who are some people whose relation is hqed in Gold Base?,"[['dbp:headquarters'], ['dbo:religion']]",[],factoid
+6711,0.0,0.0,0.0,7,1,1,what album was created by taro hakase,[['dbo:recordLabel']],['dbo:artist'],factoid
+6716,0.0,0.0,0.0,8,1,3,which central american country is elvis scott from,[['dbo:birthPlace']],"['dbo:country', 'dbo:hometown', 'dbo:nationality']",factoid
+6720,0.0,0.0,0.0,5,1,3,what is inka grings's nationality?,[['dbo:birthPlace']],"['dbo:country', 'dbo:hometown', 'dbo:nationality']",factoid
+6723,0.0,0.0,0.0,6,1,1,Where is Bogobiri House located ?,[['dbp:locationCity']],['dbo:location'],factoid
+6728,0.0,0.0,0.0,8,1,1,what type of album is hampton comes alive,[['dbo:type']],['dbo:genre'],factoid
+6732,0.0,0.0,0.0,7,1,1,Does the river shannon originate from Dowra?,[['dbo:sourceMountain']],['dbo:riverMouth'],boolean
+6741,0.0,0.0,0.0,8,1,1,Name the Artist of Madagascar: Operation Penguin ?,[['dbp:artist']],['dbo:artist'],list
+6750,0.0,0.0,0.0,5,1,1,What genre is twice-told tales,[['dbo:literaryGenre']],['dbo:genre'],factoid
+6751,0.0,0.0,0.0,6,1,1,which country is ettore puricelli from,[['dbo:birthPlace']],['dbo:nationality'],factoid
+6754,0.0,0.0,0.0,9,1,2,Name a film based on a nora roberts novel,[['dbo:writer']],"['dbo:language', 'dbo:literaryGenre']",list
+6759,0.0,0.0,0.0,9,1,1,what king of educational institution is feather river college,[['dbo:type']],['dbo:city'],factoid
+6765,0.0,0.0,0.0,7,1,1,Which caves have more than 3 entrances?,[['dbp:entranceCount']],['dbo:location'],factoid
+6769,0.0,0.0,0.0,7,1,2,what is a work by jonathan butler,[['dbo:artist']],"['dbo:author', 'dbo:writer']",factoid
+6771,0.0,0.0,0.0,7,1,1,whats the nationality of  kristýna plíšková,[['dbo:country']],['dbo:birthPlace'],factoid
+6783,0.0,0.0,0.0,7,1,1,what's the name of the jesu ep,[['dbo:type']],['dbo:artist'],list
+6786,0.0,0.0,0.0,12,2,2,What is the common citizenship between JSM Hopoer and Robert Valentine ?,"[['dbo:citizenship'], ['dbo:country']]","['dbo:nationality', 'dbp:nationality']",factoid
+6792,0.0,0.0,0.0,8,1,1,Waddy wachtel did the music for what movies?,[['dbp:music']],['dbo:musicComposer'],list
+6794,0.0,0.0,0.0,13,2,0,How many ships belong to states which has Unitary as government type ?,"[['dbo:country'], ['dbo:governmentType']]",[],count
+6795,0.0,0.0,0.0,13,1,4,Which political party got elected in First Legislative Assembly of Uttar Pradesh ?,[['dbp:children']],"['dbo:leaderName', 'dbo:party', 'dbp:constituency', 'dbp:party']",factoid
+6805,0.0,0.0,0.0,7,1,5,What is the title of Kakae ?,[['dbp:title']],"['dbo:country', 'dbo:isPartOf', 'dbo:locatedInArea', 'dbo:location', 'dbo:region']",factoid
+6811,0.0,0.0,0.0,6,1,1,which country is pacifico yokohama in,[['dbo:location']],['dbo:country'],factoid
+6816,0.0,0.0,0.0,8,2,1,List the colonel with branch as Militia ?,"[['dbp:branch'], ['dbp:rank']]",['dbo:militaryBranch'],list
+6823,0.0,0.0,0.0,15,2,1,What things canonized John of Damascus and and also venerated the Edwin of Northumbria ?,"[['dbp:veneratedIn'], ['dbo:canonizedBy']]",['dbp:canonizedBy'],factoid
+6839,0.0,0.0,0.0,14,2,0,List the cities which share the same water body as that of Florida ?,"[['dbp:cities'], ['dbp:cities']]",[],list
+6847,0.0,0.0,0.0,6,1,1,what is jack r. lousma's nationality,[['dbo:nationality']],['dbo:birthPlace'],factoid
+6861,0.0,0.0,0.0,6,2,0,Where has GARAGE recorded its singles?,"[['dbo:producer'], ['dbo:recordedIn']]",[],factoid
+6864,0.0,0.0,0.0,15,2,1,Which high school of jerry Tagge is also the nearest city of Tennie laura ?,"[['dbp:highSchool'], ['dbp:nearestCity']]",['dbo:nearestCity'],factoid
+6865,0.0,0.0,0.0,4,1,1,who released nhl hockey,[['dbo:publisher']],['dbo:type'],factoid
+6869,0.0,0.0,0.0,8,1,3,How many venues are located in the US?,[['dbp:address']],"['dbo:location', 'dbo:tenant', 'dbp:venue']",count
+6873,0.0,0.0,0.0,6,1,1,what city was hutch harris born,[['dbo:hometown']],['dbo:birthPlace'],factoid
+6879,0.0,0.0,0.0,5,1,1,Where did drew macias die,[['dbo:birthPlace']],['dbo:deathPlace'],factoid
+6880,0.0,0.0,0.0,4,1,1,who wrote victor victoria,[['dbo:writer']],['dbo:author'],factoid
+6889,0.0,0.0,0.0,5,1,1,What albums are by mest?,[['dbo:artist']],['dbo:type'],factoid
+6898,0.0,0.0,0.0,14,1,0,What is the name of the crater on the moon named for georg ohm?,[['dbp:namedafter']],[],factoid
+6919,0.0,0.0,0.0,9,1,2,"How many things are located in Ridgewood, New Jersey?",[['dbp:birthPlace']],"['dbo:city', 'dbo:location']",count
+6933,0.0,0.0,0.0,11,2,0,Which licensee of EXXV-TV is also the licensee of WXXV-DT2 ?,"[['dbp:licensee'], ['dbp:licensee']]",[],factoid
+6939,0.0,0.0,0.0,7,1,1,which places contains the winchester mountain lookout?,[['dbo:location']],['dbo:locatedInArea'],factoid
+6970,0.0,0.0,0.0,11,2,1,"What are some licensees of the stations playing in Nashville, Tennessee?","[['dbp:area'], ['dbp:licensee']]",['dbo:programmeFormat'],factoid
+6977,0.0,0.0,0.0,10,1,2,the matrix reloaded was produced by this specific production company.,[['dbo:producer']],"['dbo:distributor', 'dbp:studio']",factoid
+6990,0.0,0.0,0.0,9,1,0,when was the founding date of french fifth republic?,[['dbo:foundingDate']],[],factoid
+7014,0.0,0.0,0.0,6,1,1,what type of show is freakshow,[['dbp:genre']],['dbo:genre'],factoid
+7020,0.0,0.0,0.0,10,2,2,Name some people working at someplace owned by News Corp.,"[['dbp:owners'], ['dbo:employer']]","['dbo:owner', 'dbp:owner']",list
+7048,0.0,0.0,0.0,8,2,1,Who produces the trains operated by the MTR?,"[['dbo:operator'], ['dbo:manufacturer']]",['dbo:product'],factoid
+7049,0.0,0.0,0.0,8,1,1,How many guests have been there on broadway?,[['dbp:guests']],['dbo:location'],count
+7062,0.0,0.0,0.0,11,1,2,Who was the director for the movie a star is born?,[['dbo:director']],"['dbo:birthPlace', 'dbp:birthPlace']",factoid
+7074,0.0,0.0,0.0,7,1,2,Which tv program is wcw pro on?,[['dbo:creator']],"['dbo:genre', 'dbp:genre']",factoid
+7075,0.0,0.0,0.0,6,1,1,What position does jack reilly play,[['dbp:playerPositions']],['dbo:position'],factoid
+7077,0.0,0.0,0.0,7,1,2,Which awards are presented by Swedish Academy?,[['dbo:presenter']],"['dbo:award', 'dbp:awards']",factoid
+7080,0.0,0.0,0.0,8,2,1,In which monarch did Li Si succeed someone?,"[['dbo:successor'], ['dbo:monarch']]",['dbp:successor'],factoid
+7101,0.0,0.0,0.0,5,1,2,"what is banner, virginia within","[['dbo:country', 'dbo:isPartOf']]","['dbo:city', 'dbo:location']",factoid
+7113,0.0,0.0,0.0,10,1,2,what are some of the plays written by noel coward?,[['dbo:author']],"['dbo:writer', 'dbp:writer']",factoid
+7123,0.0,0.0,0.0,13,2,1,How many other important things has the painter of Sarah Jane Adventures done?,"[['dbp:creator'], ['dbo:notableWork']]",['dbo:author'],count
+7135,0.0,0.0,0.0,13,2,2,List the alma mater of the person who is wedded to Sissela Bok.,"[['dbo:spouse'], ['dbp:almaMater']]","['dbo:almaMater', 'dbp:children']",list
+7161,0.0,0.0,0.0,8,1,1,Which movies's screenplay is written by Akiva Goldsman,[['dbp:screenplay']],['dbo:writer'],factoid
+7172,0.0,0.0,0.0,14,2,0,List the leaders of all the cities through which the Ganga river flows ?,"[['dbp:city'], ['dbo:leaderName']]",[],list
+7173,0.0,0.0,0.0,11,1,1,Who is the fictional character whose family member is Padme Amidala?,[['dbp:family']],['dbp:relatives'],factoid
+7175,0.0,0.0,0.0,10,1,0,Who is the narrator of The Price of Beauty ?,[['dbo:narrator']],[],factoid
+7184,0.0,0.0,0.0,6,1,1,what is novaspace's country of origin?,[['dbo:hometown']],['dbo:country'],factoid
+7187,0.0,0.0,0.0,7,1,1,What company produced code name: the cleaner?,[['dbo:distributor']],['dbp:studio'],factoid
+7188,0.0,0.0,0.0,16,2,2,List the movie whose music was given by Geoffrey Burgon and distributed by Cinema International Corporation?,"[['dbo:distributor'], ['dbo:musicComposer']]","['dbp:distributor', 'dbp:label']",list
+7200,0.0,0.0,0.0,7,2,1,In what city is the Heineken brewery?,"[['dbo:manufacturer'], ['dbo:locationCity']]",['dbo:location'],factoid
+7203,0.0,0.0,0.0,7,1,2,Who was the narrator in the point?,[['dbp:narrated']],"['dbo:cinematography', 'dbo:editing']",factoid
+7213,0.0,0.0,0.0,6,1,0,Name some Texas based companies ?,[['dbo:locationCity']],[],list
+7214,0.0,0.0,0.0,8,1,1,What is the base currency of Benelux ?,[['dbp:currency']],['dbo:currency'],factoid
+7218,0.0,0.0,0.0,8,1,1,Name a song written by the stanley brothers.,[['dbo:artist']],['dbo:writer'],list
+7225,0.0,0.0,0.0,14,2,0,Which river's source mountain is Baikal Mountains and is located in Laptev Sea ?,"[['dbo:sourceMountain'], ['dbp:mouthLocation']]",[],factoid
+7233,0.0,0.0,0.0,6,1,1,what state is johnny ross from,[['dbo:hometown']],['dbo:birthPlace'],factoid
+7252,0.0,0.0,0.0,5,1,1,Where is mike morrell from,[['dbo:nationality']],['dbo:birthPlace'],factoid
+7253,0.0,0.0,0.0,10,1,0,How many members are there in the European Go Federation?,[['dbp:membership']],[],count
+7257,0.0,0.0,0.0,8,2,1,Which politicians son is buried in Metairie Cementery?,"[['dbo:child'], ['dbp:placeofburial']]",['dbo:restingPlace'],factoid
+7261,0.0,0.0,0.0,17,2,2,List all the writers of the comics which has Robert Bernstein as one of the writer ?,"[['dbp:writers'], ['dbp:writers']]","['dbo:writer', 'dbp:writer']",list
+7265,0.0,0.0,0.0,6,1,1,which city is homestead found is,"[['dbo:country', 'dbo:region', 'dbo:state']]",['dbo:location'],factoid
+7273,0.0,0.0,0.0,17,2,2,Which university has a sports team member called Micheal Powell and also owns Syracuse University Press ?,"[['dbo:team'], ['dbp:parent']]","['dbo:sport', 'dbp:owner']",factoid
+7283,0.0,0.0,0.0,9,2,3,Bridges over which rivers are made of Wrought Iron?,"[['dbp:material'], ['dbo:river']]","['dbo:crosses', 'dbp:crosses', 'dbp:designer']",list
+7300,0.0,0.0,0.0,6,1,1,which company produced kissing a fool,[['dbo:distributor']],['dbp:studio'],factoid
+7313,0.0,0.0,0.0,8,1,1,Who's an actress that worked at blandford cemetery,[['dbo:restingPlace']],['dbo:occupation'],factoid
+7329,0.0,0.0,0.0,7,1,3,Which military battles are associated with Israel?,[['dbo:place']],"['dbo:battle', 'dbp:battles', 'dbp:combatant']",factoid
+7330,0.0,0.0,0.0,6,1,3,Did Stan Lee write the Daredevils?,[['dbp:writers']],"['dbo:author', 'dbo:writer', 'dbp:writer']",boolean
+7332,0.0,0.0,0.0,6,1,1,where was yummy bingham born at?,[['dbo:hometown']],['dbo:birthPlace'],factoid
+7334,0.0,0.0,0.0,15,2,2,"Name the river whose mouth country is Mozambique and source region is North-Western Province, Zambia?","[['dbp:mouthCountry'], ['dbp:sourceRegion']]","['dbo:riverMouth', 'dbo:sourceCountry']",list
+7338,0.0,0.0,0.0,9,1,1,In what movies did Akira Ifukube compose the music?,[['dbp:music']],['dbo:musicComposer'],factoid
+7340,0.0,0.0,0.0,13,1,1,Who is the production company that created friday the 13th: the final chapter,[['dbo:distributor']],['dbp:studio'],factoid
+7382,0.0,0.0,0.0,11,2,2,What is the deathplace of people who have worked in Ethics?,"[['dbp:mainInterests'], ['dbp:placeOfDeath']]","['dbo:knownFor', 'dbp:fields']",factoid
+7383,0.0,0.0,0.0,4,1,2,Where is abu located?,[['dbo:region']],"['dbo:country', 'dbo:isPartOf']",factoid
+7389,0.0,0.0,0.0,5,1,1,where is woody shaw based,"[['dbo:hometown', 'dbo:birthPlace']]",['dbo:country'],factoid
+7395,0.0,0.0,0.0,7,1,2,Is Amharic the official language of Ethiopia?,[['dbo:officialLanguage']],"['dbo:language', 'dbo:languageFamily']",boolean
+7399,0.0,0.0,0.0,18,2,0,Which city amongst the one which belongs to Boundary Dam was the palce for Soccer Bowl '76 ?,"[['dbp:owner'], ['dbo:city']]",[],factoid
+7406,0.0,0.0,0.0,8,1,1,who was a coproducer of the trudell movie,[['dbo:cinematography']],['dbo:producer'],factoid
+7408,0.0,0.0,0.0,7,1,1,How much carbs does peanut butter have?,[['dbp:carbs']],['dbo:ingredient'],factoid
+7411,0.0,0.0,0.0,9,1,1,"Where is the county seat of King County, Washington?",[['dbo:countySeat']],['dbo:location'],factoid
+7416,0.0,0.0,0.0,7,1,1,What is the religion of louis leakey?,[['dbp:religion']],['dbo:religion'],factoid
+7422,0.0,0.0,0.0,9,2,1,Which genre of books are published by Random House?,"[['dbp:publisher'], ['dbp:subject']]",['dbo:literaryGenre'],factoid
+7431,0.0,0.0,0.0,7,1,0,Is Henry David Thoreau interested in Politics?,[['dbp:mainInterests']],[],boolean
+7432,0.0,0.0,0.0,12,2,1,Who is renowned for Ae Fond Kiss and poem of Halloween ?,"[['dbp:notableworks'], ['dbp:notableworks']]",['dbo:knownFor'],factoid
+7441,0.0,0.0,0.0,9,2,4,Grey gppse and eristoff is produced by which company?,"[['dbp:manufacturer'], ['dbp:manufacturer']]","['dbo:product', 'dbp:company', 'dbp:products', 'dbp:studio']",list
+7442,0.0,0.0,0.0,7,1,1,what album was made by katie melua,[['dbo:writer']],['dbo:artist'],factoid
+7470,0.0,0.0,0.0,5,1,1,How tall is Amazon Eve?,[['dbo:height']],['dbo:type'],factoid
+7488,0.0,0.0,0.0,7,1,1,List the institute of Robert hall ?,[['dbo:institution']],['dbo:almaMater'],list
+7493,0.0,0.0,0.0,8,1,6,Where is  Dofinivka Estuary  located ?,[['dbp:location']],"['dbo:city', 'dbo:country', 'dbo:district', 'dbo:riverMouth', 'dbo:sourceCountry', 'dbo:state']",factoid
+7495,0.0,0.0,0.0,5,1,1,Where was steve israel born?,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+7497,0.0,0.0,0.0,15,2,0,Name the partners of the models whose one of the partner is Thom Evans ?,"[['dbo:partner'], ['dbo:partner']]",[],list
+7503,0.0,0.0,0.0,9,1,1,To which branch Edwin F. Hunter  belong ?,[['dbp:branch']],['dbo:relative'],factoid
+7510,0.0,0.0,0.0,5,1,1,Where did opal hill die,[['dbp:deathPlace']],['dbo:deathPlace'],factoid
+7515,0.0,0.0,0.0,7,1,0,Who was david a. hargrave influemced by,"[['dbo:influencedBy', 'dbo:influenced']]",[],factoid
+7527,0.0,0.0,0.0,15,2,2,Which leader of United States House of Representatives was the appinter of ohn Drayton ?,"[['dbp:appointer'], ['dbp:leader']]","['dbo:leader', 'dbo:leaderName']",factoid
+7533,0.0,0.0,0.0,6,1,2,what country is carsten lakies from,[['dbo:birthPlace']],"['dbo:country', 'dbo:hometown']",factoid
+7547,0.0,0.0,0.0,3,1,2,where is storjuvtinden,[['dbo:locatedInArea']],"['dbo:country', 'dbo:isPartOf']",factoid
+7552,0.0,0.0,0.0,10,1,2,Louis Dunbar is the coach of which basketball team ?,[['dbp:coach']],"['dbo:coach', 'dbp:headcoach']",list
+7558,0.0,0.0,0.0,9,1,1,Which country does p. s. veerappa have nationality in,[['dbo:birthPlace']],['dbo:nationality'],factoid
+7566,0.0,0.0,0.0,7,1,1,who produced the escape in the silent,[['dbp:studio']],['dbo:producer'],factoid
+7568,0.0,0.0,0.0,8,1,1,Who wrote the tv episode the natural order?,[['dbp:writer']],['dbo:writer'],factoid
+7573,0.0,0.0,0.0,14,2,2,Name the common distributing label of the Chinga Chang Records and StandBy Records ?,"[['dbo:distributingLabel'], ['dbo:distributingLabel']]","['dbp:distributor', 'dbp:label']",list
+7581,0.0,0.0,0.0,10,1,1,is black label society from los angeles or san diego,[['dbo:hometown']],['dbo:recordLabel'],boolean
+7592,0.0,0.0,0.0,10,2,1,"In which state is the team, which has John Roeslein?","[['dbo:team'], ['dbp:state']]",['dbp:nationalteam'],factoid
+7598,0.0,0.0,0.0,12,2,0,How many different people hold authority over the members of Balanidae family?,"[['dbo:family'], ['dbo:binomialAuthority']]",[],count
+7602,0.0,0.0,0.0,6,2,2,Who owns a bridge in Boston?,"[['dbo:locatedInArea'], ['dbp:owner']]","['dbo:city', 'dbo:owner']",factoid
+7611,0.0,0.0,0.0,13,2,0,List the common prime minister of the Robert Ray and graham richardson ?,"[['dbo:primeMinister'], ['dbo:primeMinister']]",[],list
+7625,0.0,0.0,0.0,9,1,2,Is PIAS Recordings the distributing label of Wichita Recordings?,[['dbo:distributingLabel']],"['dbo:recordLabel', 'dbp:label']",boolean
+7635,0.0,0.0,0.0,12,1,1,What are some fictional characters whose voice is in the peanuts movie?,[['dbo:voice']],['dbp:characters'],factoid
+7649,0.0,0.0,0.0,18,2,1,"Who  has these major shrines  : Emmitsburg, Maryland and Shrine of St. Elizabeth Ann Bayley Seton?","[['dbo:majorShrine'], ['dbo:majorShrine']]",['dbo:location'],factoid
+7650,0.0,0.0,0.0,13,2,1,What is the life stance of the ethnic groups related to Micronesia ?,"[['dbo:related'], ['dbo:religion']]",['dbo:ethnicity'],factoid
+7655,0.0,0.0,0.0,10,1,2,Which companies were behind the renovation of McKechnie Field ?,[['dbp:architect']],"['dbo:architect', 'dbo:tenant']",factoid
+7659,0.0,0.0,0.0,9,1,0,Which football players have Newell's Old Boys as youthclub?,[['dbp:youthclubs']],[],factoid
+7715,0.0,0.0,0.0,12,1,0,What is the name of the homeground of football team Panionios G.S.S.?,[['dbo:ground']],[],factoid
+7729,0.0,0.0,0.0,18,2,2,Which offices were held by the politicians who held their allegiance to the union of american civil war?,"[['dbp:allegiance'], ['dbp:office']]","['dbo:battle', 'dbo:leader']",factoid
+7730,0.0,0.0,0.0,8,1,2,What are the airline hubs of Cascade Airways?,[['dbo:ideology']],"['dbo:hubAirport', 'dbp:hubs']",factoid
+7732,0.0,0.0,0.0,10,2,4,In which state can I find Burr Truss styled bridges?,"[['dbp:style'], ['dbo:state']]","['dbo:architect', 'dbo:locatedInArea', 'dbp:crosses', 'dbp:designer']",factoid
+7737,0.0,0.0,0.0,9,2,2,What did the people buried in Toronto die of?,"[['dbp:restingPlace'], ['dbo:deathCause']]","['dbo:restingPlace', 'dbp:placeOfBurial']",factoid
+7766,0.0,0.0,0.0,9,1,1,Was Marshall Arisman the cover artist in american psycho?,[['dbp:coverArtist']],['dbo:artist'],boolean
+7776,0.0,0.0,0.0,9,1,0,"Does the St lawrence river start in Kingston, Ontario?",[['dbo:sourceMountain']],[],boolean
+7781,0.0,0.0,0.0,6,1,0,Is Sloth in the Chordate phylum?,[['dbp:phylum']],[],boolean
+7782,0.0,0.0,0.0,9,1,1,which church is kjell magne bondevik a parishioner of,[['dbo:religion']],['dbo:location'],factoid
+7788,0.0,0.0,0.0,6,1,1,what country is andrew seow from,[['dbo:country']],['dbo:birthPlace'],factoid
+7789,0.0,0.0,0.0,8,1,1,What is the area of ITV (Thailand) ?,[['dbp:area']],['dbo:country'],factoid
+7790,0.0,0.0,0.0,3,1,0,What is bbmak?,[['dbo:genre']],[],factoid
+7801,0.0,0.0,0.0,9,1,2,who is a well known native son of crowborough,"[['dbp:birthPlace', 'dbo:birthPlace']]","['dbo:child', 'dbo:parent']",factoid
+7805,0.0,0.0,0.0,10,2,0,Who all have appointed governess born in Magnolia Plantation gardens?,"[['dbo:birthPlace'], ['dbp:appointer']]",[],factoid
+7813,0.0,0.0,0.0,6,1,1,what river flows into lake chehaw,[['dbo:outflow']],['dbo:riverMouth'],factoid
+7829,0.0,0.0,0.0,6,1,0,Did Arnold Schwarzenegger attend a university?,[['dbo:almaMater']],[],boolean
+7831,0.0,0.0,0.0,10,1,1,which body of water does tenkiller ferry lake outflow to?,[['dbo:outflow']],['dbo:crosses'],factoid
+7833,0.0,0.0,0.0,15,2,0,From how many different places did the weapons used in the American Indian wars originate?,"[['dbp:origin'], ['dbo:usedInWar']]",[],count
+7837,0.0,0.0,0.0,7,1,2,Was Queen Latifah in the U.N.I.T.Y. group?,[['dbo:musicalArtist']],"['dbo:associatedBand', 'dbp:artist']",boolean
+7845,0.0,0.0,0.0,5,1,1,who wrote city of joy?,[['dbo:author']],['dbo:writer'],factoid
+7849,0.0,0.0,0.0,6,1,3,where is el condor pasa from,[['dbo:country']],"['dbo:birthPlace', 'dbo:hometown', 'dbo:nationality']",factoid
+7853,0.0,0.0,0.0,7,1,2,Does Abdelhameed Amarri currently play for Khartoum?,[['dbp:currentclub']],"['dbo:formerTeam', 'dbo:team']",boolean
+7862,0.0,0.0,0.0,8,1,3,Did Alexander Magleby study at the Dartmouth College?,[['dbo:university']],"['dbo:almaMater', 'dbo:education', 'dbp:almaMater']",boolean
+7863,0.0,0.0,0.0,7,1,1,What was karl heinrich von boetticher's nationality?,[['dbo:nationality']],['dbo:birthPlace'],factoid
+7878,0.0,0.0,0.0,14,1,1,what's the first episode of the fifth season of deja vu (the outer limits),[['dbo:subsequentWork']],['dbo:series'],list
+7881,0.0,0.0,0.0,8,1,0,which city has northern pacific bridge number 9,[['dbo:locatedInArea']],[],factoid
+7890,0.0,0.0,0.0,8,1,1,which position does matt ware have in football,[['dbp:currentpositionplain']],['dbo:position'],factoid
+7895,0.0,0.0,0.0,16,2,0,Name the states which have been billed by the wrestlers who has also billed Georgia ?,"[['dbp:billed'], ['dbp:billed']]",[],list
+7897,0.0,0.0,0.0,18,1,1,Who was the silver medalist of Gymnastics at the 2008 Summer Olympics  Women's artistic individual all-around ?,[['dbo:silverMedalist']],['dbp:birthPlace'],factoid
+7921,0.0,0.0,0.0,12,1,2,How many gold medals did Michael Phelps win at the 2008 Olympics?,[['dbo:goldMedalist']],"['dbo:award', 'dbp:awards']",count
+7948,0.0,0.0,0.0,6,1,1,Name an album by Julian Priester,[['dbo:type']],['dbo:artist'],list
+7949,0.0,0.0,0.0,16,2,1,List the work institute of the medicians who has also worked at University of Miami ?,"[['dbp:workInstitutions'], ['dbp:workInstitutions']]",['dbo:almaMater'],list
+7957,0.0,0.0,0.0,18,2,1,How many party are there of the office holders whose one of the party is Janata Dal ?,"[['dbo:otherParty'], ['dbo:otherParty']]",['dbp:party'],count
+7977,0.0,0.0,0.0,9,1,1,What is the name of a notable ballet artist,[['dbo:genre']],['dbo:occupation'],factoid
+7996,0.0,0.0,0.0,5,1,1,Who wrote the painted veil,[['dbo:writer']],['dbo:author'],factoid
+8024,0.0,0.0,0.0,17,2,0,What is the fictional character whose voice over is done by the animator of Dick Lundy ?,"[['dbo:voice'], ['dbp:animator']]",[],factoid
+8026,0.0,0.0,0.0,8,1,2,Does Walson Augustin play for the Brothers Union?,[['dbp:currentclub']],"['dbo:formerTeam', 'dbo:team']",boolean
+8029,0.0,0.0,0.0,7,1,1,Name an album released by wilson pickett,[['dbo:artist']],['dbo:type'],list
+8033,0.0,0.0,0.0,3,1,1,who plublished frogs,[['dbo:publisher']],['dbo:genre'],factoid
+8069,0.0,0.0,0.0,7,1,2,"what is located in san nicolas, batangas?",[['dbo:locatedInArea']],"['dbo:city', 'dbo:location']",factoid
+8077,0.0,0.0,0.0,9,1,2,which asian city showcasts the gloomy salad days program,[['dbo:country']],"['dbo:location', 'dbp:genre']",factoid
+8082,0.0,0.0,0.0,7,1,1,Who is the manager of Real Madrid?,[['dbo:manager']],['dbo:managerClub'],factoid
+8098,0.0,0.0,0.0,8,1,1,what was paul h. dunn's place of death,[['dbp:deathPlace']],['dbo:deathPlace'],factoid
+8101,0.0,0.0,0.0,11,1,0,Was Michael Schumacher the Pole driver of 1994 Spanish Grand Prix?,[['dbp:poleDriver']],[],boolean
+8111,0.0,0.0,0.0,6,1,2,"Which river goes through cohoes, NY",[['dbo:river']],"['dbo:city', 'dbo:location']",factoid
+8116,0.0,0.0,0.0,6,1,1,what types of album is khaled,[['dbo:type']],['dbo:genre'],factoid
+8118,0.0,0.0,0.0,9,1,0,Where is the  assembly of Caterpillar 797 ?,[['dbo:assembly']],[],factoid
+8121,0.0,0.0,0.0,10,1,2,Is my truly truly fair the band of mitch miller?,[['dbo:musicalBand']],"['dbo:associatedBand', 'dbp:pastMembers']",boolean
+8129,0.0,0.0,0.0,5,1,1,where did shahram originate from,[['dbo:birthPlace']],['dbo:hometown'],factoid
+8131,0.0,0.0,0.0,9,2,0,How many people hold important positions alongwith Donna Shalala?,"[['dbo:keyPerson'], ['dbp:keyPeople']]",[],count
+8132,0.0,0.0,0.0,10,1,1,What type of achitecture is the old vanderburgh county courthouse?,[['dbo:architecturalStyle']],['dbo:type'],factoid
+8139,0.0,0.0,0.0,4,1,1,who inspired catwoman (film),[['dbo:writer']],['dbo:influencedBy'],factoid
+8164,0.0,0.0,0.0,9,1,1,what film is the brave one (2007 film) by?,[['dbo:writer']],['dbo:director'],factoid
+8170,0.0,0.0,0.0,8,2,1,Over what do Concor holdings have a bridge?,"[['dbo:builder'], ['dbp:crosses']]",['dbp:owner'],factoid
+8179,0.0,0.0,0.0,11,1,1,What is the division of Serbia national American football team ?,[['dbo:division']],['dbo:country'],factoid
+8188,0.0,0.0,0.0,16,1,0,Which countries came together to serve a greater purpose and founded South Asia Subregional Economic Cooperation?,[['dbp:membership']],[],factoid
+8235,0.0,0.0,0.0,15,2,2,What is the person known for who is the movie director of Sleepy-Time Squirrel ?,"[['dbp:director'], ['dbo:knownFor']]","['dbo:director', 'dbo:occupation']",factoid
+8246,0.0,0.0,0.0,10,2,1,Who has produced movies that have a James Horner score?,"[['dbp:music'], ['dbp:producer']]",['dbo:producer'],factoid
+8248,0.0,0.0,0.0,14,1,3,What cities are near to Nihoa which is also known as Bird Island ?,[['dbp:nearestCity']],"['dbo:largestCity', 'dbo:location', 'dbp:cities']",factoid
+8264,0.0,0.0,0.0,9,1,2,what is the name of the monster magnet album,[['dbo:artist']],"['dbo:genre', 'dbo:type']",factoid
+8288,0.0,0.0,0.0,10,2,1,In which states are there bridges over the Pequea Creek?,"[['dbp:river'], ['dbo:state']]",['dbo:locatedInArea'],factoid
+8294,0.0,0.0,0.0,6,1,1,which country is timo salonen from,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+8319,0.0,0.0,0.0,5,1,1,What band wrote steve jablonsky,[['dbo:artist']],['dbo:writer'],factoid
+8344,0.0,0.0,0.0,8,2,1,Which settlement's neighboring municipalities are Cologny and Pregny-Chambsy?,"[['dbo:neighboringMunicipality'], ['dbp:neighboringMunicipalities']]",['dbp:cities'],factoid
+8367,0.0,0.0,0.0,5,1,0,When was the Titanic completed?,[['dbo:completionDate']],[],factoid
+8370,0.0,0.0,0.0,9,1,2,What genre of software is ibm rational software architect?,[['dbo:genre']],"['dbo:computingPlatform', 'dbo:license']",factoid
+8374,0.0,0.0,0.0,7,1,1,Where was bryn lewis when he died,[['dbp:deathPlace']],['dbo:deathPlace'],factoid
+8378,0.0,0.0,0.0,15,2,2,Who are the people whose alumna is a part of the National Collegiate Athletic Association?,"[['dbo:athletics'], ['dbp:education']]","['dbo:sport', 'dbp:athletics']",factoid
+8382,0.0,0.0,0.0,6,1,1,What created kate spade new york,[['dbo:foundedBy']],['dbo:creator'],factoid
+8396,0.0,0.0,0.0,7,1,1,What country is 400 george street in?,[['dbo:location']],['dbo:country'],factoid
+8416,0.0,0.0,0.0,10,1,1,Does the little colorado river flow in the Grand Canyon?,[['dbo:mouthMountain']],['dbo:riverMouth'],boolean
+8420,0.0,0.0,0.0,5,1,1,Which rivers originate from Dowra?,[['dbo:sourceMountain']],['dbo:riverMouth'],factoid
+8442,0.0,0.0,0.0,7,1,1,which film did bertolt brecht contribute to?,[['dbo:writer']],['dbo:musicComposer'],factoid
+8453,0.0,0.0,0.0,14,2,1,What teams did the ex teamplayers of lighthouse boy club start their career with?,"[['dbp:youthclubs'], ['dbp:debutteam']]",['dbo:hometown'],factoid
+8456,0.0,0.0,0.0,15,2,1,What is the citizenship of the Sarah Kazemy and land of the Cervelle de canut,"[['dbo:country'], ['dbo:citizenship']]",['dbo:nationality'],factoid
+8457,0.0,0.0,0.0,8,1,0,Where did Jerry Tagge do his elementary schooling?,[['dbp:highSchool']],[],factoid
+8468,0.0,0.0,0.0,11,1,1,What type of album is the very best of bonnie tyler?,[['dbo:type']],['dbo:genre'],factoid
+8469,0.0,0.0,0.0,6,1,1,what genre is the cutting room?,[['dbo:literaryGenre']],['dbo:genre'],factoid
+8472,0.0,0.0,0.0,8,1,2,What's a sports game made by midway games,[['dbo:genre']],"['dbo:developer', 'dbo:publisher']",factoid
+8481,0.0,0.0,0.0,6,1,1,who was burried in st martin-in-the-fields,[['dbo:restingPlace']],['dbo:location'],factoid
+8493,0.0,0.0,0.0,6,1,1,what is may lo mei-mei's nationality,[['dbo:country']],['dbo:birthPlace'],factoid
+8496,0.0,0.0,0.0,7,1,1,which album is created by rod stewart,[['dbo:type']],['dbo:artist'],factoid
+8509,0.0,0.0,0.0,6,1,1,what city did alphonse girandy die,[['dbo:restingPlace']],['dbo:deathPlace'],factoid
+8534,0.0,0.0,0.0,10,1,1,What are the television shows whose Composer is Stewart Copeland?,[['dbp:composer']],['dbp:writer'],factoid
+8536,0.0,0.0,0.0,3,1,1,who practices catholicism,[['dbp:religion']],['dbo:religion'],factoid
+8537,0.0,0.0,0.0,7,1,0,Name the university of Alexandre Tichonov ?,[['dbp:university']],[],list
+8545,0.0,0.0,0.0,4,1,1,who srote quo vadis,[['dbo:author']],['dbo:type'],factoid
+8550,0.0,0.0,0.0,21,2,0,Where did the ultimate fighter: a champion will be crowned tonight and ultimate fighter: team rousey vs team tate take place?,"[['dbp:city'], ['dbp:city']]",[],factoid
+8564,0.0,0.0,0.0,13,2,1,How many movies were directed by the graduate of Burbank High School ?,"[['dbp:director'], ['dbp:education']]",['dbo:director'],count
+8584,0.0,0.0,0.0,6,1,1,WHo wrote the science of sleep,[['dbo:writer']],['dbo:author'],factoid
+8591,0.0,0.0,0.0,8,1,1,Is Robin Gibb the singer of Oh! Darling?,[['dbo:musicalArtist']],['dbp:artist'],boolean
+8592,0.0,0.0,0.0,9,2,2,Which newspaper is owned by people living in Oslo?,"[['dbo:location'], ['dbp:owners']]","['dbo:owner', 'dbp:owner']",factoid
+8604,0.0,0.0,0.0,8,1,1,How many places were ruled by Elizabeth II?,[['dbp:leaderName']],['dbo:location'],count
+8607,0.0,0.0,0.0,6,1,0,Give me all female German chancellors.,[['dbp:incumbent']],[],list
+8611,0.0,0.0,0.0,4,1,1,Which actor played Chewbacca?,[['dbo:portrayer']],['dbo:occupation'],factoid
+8614,0.0,0.0,0.0,8,2,1,List some musicians associated with famous guitar players?,"[['dbp:notableInstruments'], ['dbo:associatedMusicalArtist']]",['dbo:instrument'],list
+8618,0.0,0.0,0.0,9,1,1,Who is the editor of Hearth and Home ?,[['dbo:editor']],['dbo:editing'],factoid
+8625,0.0,0.0,0.0,6,1,2,Is Fluidinfo written in PostgreSQL language?,[['dbp:programmingLanguage']],"['dbo:language', 'dbo:programmingLanguage']",boolean
+8640,0.0,0.0,0.0,7,1,1,which album was released by kenny burrell?,[['dbo:type']],['dbo:artist'],factoid
+8650,0.0,0.0,0.0,6,1,2,what country is high willhays in,[['dbo:locatedInArea']],"['dbo:country', 'dbo:isPartOf']",factoid
+8651,0.0,0.0,0.0,7,1,2,Name the source Island of Bayou ?,[['dbo:source']],"['dbo:riverMouth', 'dbo:sourceCountry']",list
+8673,0.0,0.0,0.0,6,1,3,which country is sequatchie river in?,[['dbo:state']],"['dbo:city', 'dbo:country', 'dbo:district']",factoid
+8678,0.0,0.0,0.0,7,1,1,What is the nationality of rade veljović,[['dbo:birthPlace']],['dbo:nationality'],factoid
+8690,0.0,0.0,0.0,6,1,1,whats the nationality of irena bernášková,[['dbo:nationality']],['dbo:birthPlace'],factoid
+8691,0.0,0.0,0.0,7,1,1,what was composed in newfoundland and labrador,"[['dbo:province', 'dbo:locatedInArea', 'dbo:city', 'dbo:country', 'dbo:isPartOf', 'dbo:location', 'dbo:region', 'dbo:state']]",['dbo:writer'],factoid
+8694,0.0,0.0,0.0,13,1,0,What is the local authority of Liverpool Institute High School for Boys ?,[['dbo:localAuthority']],[],factoid
+8695,0.0,0.0,0.0,10,1,1,what's the name of an actor who's from los angeles,"[['dbp:birthPlace', 'dbo:birthPlace']]",['dbo:occupation'],list
+8708,0.0,0.0,0.0,13,1,0,To which county of New York city does the Tremount Avenue street belong?,[['dbp:counties']],[],factoid
+8712,0.0,0.0,0.0,11,2,2,Where does the network cofounded by Seewoosagur Ramgoolam air its shows?,"[['dbp:founder'], ['dbp:broadcastArea']]","['dbo:network', 'dbp:company']",factoid
+8721,0.0,0.0,0.0,10,1,0,"which texas city does volcano, i'm still excited!! come from?",[['dbo:hometown']],[],factoid
+8736,0.0,0.0,0.0,5,1,1,Is facebook a public company?,[['dbp:companyType']],['dbo:industry'],boolean
+8749,0.0,0.0,0.0,9,1,2,What are the movies with Daniel Waters as screenwriter?,[['dbp:screenplay']],"['dbo:occupation', 'dbo:writer']",factoid
+8762,0.0,0.0,0.0,7,1,1,How many politicians are in the militia?,[['dbp:branch']],['dbo:militaryBranch'],count
+8767,0.0,0.0,0.0,7,1,1,Who is the founder of Pittsburgh ?,[['dbo:founder']],['dbo:foundedBy'],factoid
+8785,0.0,0.0,0.0,8,1,1,what genre is the tv show little women,[['dbp:genre']],['dbo:genre'],factoid
+8788,0.0,0.0,0.0,6,1,2,who produced the movie rooster cogburn,[['dbo:producer']],"['dbo:distributor', 'dbp:studio']",factoid
+8804,0.0,0.0,0.0,12,2,3,What is the country of origin of the president of Skai group?,"[['dbo:keyPerson'], ['dbo:stateOfOrigin']]","['dbo:country', 'dbo:leader', 'dbp:allegiance']",factoid
+8808,0.0,0.0,0.0,6,1,0,what's the capital city of namchi,"[['dbo:country', 'dbo:isPartOf']]",[],list
+8810,0.0,0.0,0.0,9,1,1,Where in the US was joseph e. durik born?,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+8815,0.0,0.0,0.0,9,1,0,Give me a count on associates of Johnny Cash?,[['dbp:associatedActs']],[],list
+8825,0.0,0.0,0.0,13,2,2,What is the city nearest to the islands in the Northwestern Hawaiian Islands?,"[['dbp:archipelago'], ['dbp:nearestCity']]","['dbo:location', 'dbo:nearestCity']",factoid
+8832,0.0,0.0,0.0,11,2,2,Martin AN/GSG-5 is a part of the building in which city?,"[['dbo:part'], ['dbp:district']]","['dbo:city', 'dbo:location']",list
+8840,0.0,0.0,0.0,12,1,0,where is the location of district council of clare and gilbert valleys?,[['dbo:country']],[],factoid
+8843,0.0,0.0,0.0,4,1,1,what music is stand?,[['dbo:genre']],['dbo:musicComposer'],factoid
+8845,0.0,0.0,0.0,10,1,2,in which country is the coastal city of oda located,[['dbo:region']],"['dbo:country', 'dbo:isPartOf']",factoid
+8863,0.0,0.0,0.0,12,1,0,Name the home ground of  2015 Fort Lauderdale Strikers season ?,[['dbo:ground']],[],list
+8870,0.0,0.0,0.0,15,1,2,"After the death of which political figure, did the Coalition Provisional Authority came into power?",[['dbp:successor']],"['dbo:deathPlace', 'dbo:leader']",list
+8872,0.0,0.0,0.0,6,1,3,which country is margaret whitton from,[['dbo:birthPlace']],"['dbo:country', 'dbo:hometown', 'dbo:nationality']",factoid
+8881,0.0,0.0,0.0,7,1,2,Where is carolina herrera (fashion designer) from?,[['dbo:nationality']],"['dbo:birthPlace', 'dbo:hometown']",factoid
+8910,0.0,0.0,0.0,10,1,1,What is a cartoon that jeff smith (cartoonist) had written,[['dbo:author']],['dbo:writer'],factoid
+8935,0.0,0.0,0.0,7,1,1,What is the nationality of eli schwartz?,[['dbo:nationality']],['dbo:birthPlace'],factoid
+8940,0.0,0.0,0.0,15,2,1,list  the producer of the movies in which Rosemarie DeWitt in the star cast?,"[['dbp:starring'], ['dbp:producer']]",['dbo:producer'],list
+8941,0.0,0.0,0.0,6,1,0,When was Alberta admitted as province?,[['dbp:admittancedate']],[],factoid
+8959,0.0,0.0,0.0,6,1,2,which actor was born in israel?,[['dbo:occupation']],"['dbo:birthPlace', 'dbp:birthPlace']",factoid
+8962,0.0,0.0,0.0,7,1,1,where from asia is misa uehara from,[['dbo:country']],['dbo:birthPlace'],factoid
+8984,0.0,0.0,0.0,9,1,1,what's a song that sonata arctica wrote and perfroms,[['dbo:artist']],['dbo:writer'],list
+8986,0.0,0.0,0.0,8,1,1,what films have been produced by walden media?,[['dbp:studio']],['dbo:distributor'],factoid
+8987,0.0,0.0,0.0,9,2,1,List the shows whose company's successor is Amblin Television.,"[['dbo:company'], ['dbo:successor']]",['dbp:company'],list
+8989,0.0,0.0,0.0,11,2,1,What are the books written by authors who died in Madrid?,"[['dbp:author'], ['dbo:restingPlace']]",['dbo:author'],factoid
+8991,0.0,0.0,0.0,10,1,1,What is the album recorded by the romanian artist Inna?,[['dbo:type']],['dbo:artist'],factoid
+9000,0.0,0.0,0.0,10,1,1,What kind of album is take this to your grave?,[['dbo:genre']],['dbo:type'],factoid
+9011,0.0,0.0,0.0,6,1,1,which genre is book of lightning,[['dbo:genre']],['dbo:literaryGenre'],factoid
+9021,0.0,0.0,0.0,7,1,1, Count the participants of the NBA.,[['dbo:league']],['dbo:team'],count
+9026,0.0,0.0,0.0,3,1,4,where is grenzgipfel,[['dbo:locatedInArea']],"['dbo:country', 'dbo:district', 'dbo:isPartOf', 'dbo:region']",factoid
+9029,0.0,0.0,0.0,8,1,0,Which comic characters are painted by Bill Finger?,[['dbo:creator']],[],factoid
+9036,0.0,0.0,0.0,9,1,1,who was the composer of u know whats up,[['dbo:musicalArtist']],['dbo:writer'],factoid
+9054,0.0,0.0,0.0,15,2,1,Rashid Behbudov State Song Theatre and Baku Puppet Theatre can be found in which country?,"[['dbo:locationCountry'], ['dbo:locationCountry']]",['dbo:country'],list
+9066,0.0,0.0,0.0,18,2,0,Who were the first drivers in the grand prix which took place at Autodromo Enzo e Dino Ferrari?,"[['dbo:location'], ['dbo:firstDriver']]",[],factoid
+9089,0.0,0.0,0.0,7,1,2,which city in texas does kxan-tv services?,[['dbo:location']],"['dbo:broadcastArea', 'dbo:city']",factoid
+9103,0.0,0.0,0.0,7,1,1,What is the genre of hunters moon,[['dbo:literaryGenre']],['dbo:genre'],factoid
+9104,0.0,0.0,0.0,10,2,0,How many inhabitants does the largest city in Canada have?,"[['dbo:largestCity'], ['dbo:populationTotal']]",[],count
+9110,0.0,0.0,0.0,8,1,0,Which models were featured in Playboy Playmates 1954?,[['dbp:succeeded']],[],factoid
+9118,0.0,0.0,0.0,10,2,2,Which team did Wilfred McDonalds and Cam Plante play for?,"[['dbp:playedFor'], ['dbp:playedFor']]","['dbo:formerTeam', 'dbo:team']",factoid
+9131,0.0,0.0,0.0,9,2,1,List the Swedish newspaper headquarted in Stockholm ? ,"[['dbp:headquarters'], ['dbp:language']]",['dbo:headquarter'],list
+9133,0.0,0.0,0.0,12,2,0,List the name of the soccer clubs whose chairman is Joan Laporta.,"[['dbo:chairman'], ['dbp:name']]",[],list
+9134,0.0,0.0,0.0,10,2,1,"Where do the people, famous for the Panathinaikos FC reside?","[['dbo:knownFor'], ['dbp:residence']]",['dbo:residence'],factoid
+9156,0.0,0.0,0.0,9,1,1,name the races where bobby beasley took part ?,[['dbo:race']],['dbp:race'],list
+9162,0.0,0.0,0.0,8,1,1,what type of film is season of love?,[['dbo:genre']],['dbo:language'],factoid
+9164,0.0,0.0,0.0,5,1,1,Name an elvis presley album,[['dbo:artist']],['dbo:genre'],list
+9179,0.0,0.0,0.0,6,1,0,Who is the tallest basketball player?,[['dbo:height']],[],factoid
+9188,0.0,0.0,0.0,18,2,1,"List the significant buildings of the arch. whose one of the important work is Government Building, Kiev ?","[['dbo:significantBuilding'], ['dbo:significantBuilding']]",['dbo:architect'],list
+9198,0.0,0.0,0.0,7,1,1,clodagh rodgers was born in what town,[['dbo:hometown']],['dbo:birthPlace'],factoid
+9209,0.0,0.0,0.0,11,1,1,which albums were released by captain beefheart and the magic band?,[['dbo:type']],['dbo:artist'],factoid
+9226,0.0,0.0,0.0,7,1,1,what is the music on crush called,[['dbo:genre']],['dbo:musicComposer'],factoid
+9246,0.0,0.0,0.0,11,1,4,What is the name of a plateau located in menard county,"[['dbo:country', 'dbo:state']]","['dbo:isPartOf', 'dbo:locatedInArea', 'dbo:location', 'dbo:region']",factoid
+9258,0.0,0.0,0.0,8,1,1,what type of video game is marathon infinity,[['dbo:genre']],['dbp:modes'],factoid
+9261,0.0,0.0,0.0,7,2,1,Name some books by Spanish speaking authors.,"[['dbp:language'], ['dbp:author']]",['dbo:author'],list
+9267,0.0,0.0,0.0,6,1,1,Where is Lao Plaza Hotel located?,[['dbp:developer']],['dbo:location'],factoid
+9278,0.0,0.0,0.0,5,1,1,what is an electronic album,[['dbo:type']],['dbo:genre'],factoid
+9304,0.0,0.0,0.0,6,1,2,what did beatrice winde die from,[['dbo:deathCause']],"['dbo:birthPlace', 'dbo:deathPlace']",factoid
+9305,0.0,0.0,0.0,6,1,1,What is bill cleary's birth place,[['dbp:birthPlace']],['dbo:birthPlace'],factoid
+9329,0.0,0.0,0.0,6,1,1,What's a song from josey scott,[['dbo:writer']],['dbo:artist'],factoid
+9331,0.0,0.0,0.0,9,2,1,Which country does the creator of Miffy come from?,"[['dbo:creator'], ['dbo:nationality']]",['dbo:country'],factoid
+9349,0.0,0.0,0.0,8,1,1,What musicians are signed up with colpix records?,[['dbp:label']],['dbo:recordLabel'],factoid
+9353,0.0,0.0,0.0,5,1,1,where was antonis papadakis born,[['dbo:hometown']],['dbo:birthPlace'],factoid
+9372,0.0,0.0,0.0,8,2,1,How many labels sign up progressive rock artists?,"[['dbp:genre'], ['dbo:recordLabel']]",['dbo:genre'],count
+9373,0.0,0.0,0.0,13,2,0,"Where is the assembly of Plymouth Savoy, and where Special 26 was recorded?","[['dbo:assembly'], ['dbp:recorded']]",[],factoid
+9377,0.0,0.0,0.0,8,1,2,Name the mouth country of Upper Neretva ?,[['dbo:mouthCountry']],"['dbo:riverMouth', 'dbo:sourceCountry']",list
+9379,0.0,0.0,0.0,7,1,2,Who was John F. Kennedy's vice president?,[['dbo:vicePresident']],"['dbo:president', 'dbp:president']",factoid
+9385,0.0,0.0,0.0,6,1,1,what are the names of artists,[['dbo:occupation']],['dbo:genre'],factoid
+9399,0.0,0.0,0.0,10,2,1,What are the movies whose director's daughter is Luke Scott?,"[['dbp:director'], ['dbo:child']]",['dbo:director'],factoid
+9403,0.0,0.0,0.0,11,2,2,Which river's mouth location is Laptev Sea and also Arctic Ocean?,"[['dbp:mouthLocation'], ['dbp:mouthLocation']]","['dbo:mouthMountain', 'dbo:riverMouth']",factoid
+9449,0.0,0.0,0.0,7,1,1,What is an example of american craftsman?,[['dbo:architecturalStyle']],['dbo:occupation'],factoid
+9453,0.0,0.0,0.0,9,2,1,What are some cities which have a Ferris wheel?,"[['dbp:buildingType'], ['dbp:locationTown']]",['dbo:location'],factoid
+9456,0.0,0.0,0.0,8,1,2,Which country is the city of mizuho located,[['dbo:region']],"['dbo:country', 'dbo:isPartOf']",factoid
+9458,0.0,0.0,0.0,8,1,1,what type of game is quest: brian's journey,[['dbp:modes']],['dbo:genre'],factoid
+9468,0.0,0.0,0.0,8,1,2,By which companies is RENFE Class 333 designed?,[['dbo:designer']],"['dbo:manufacturer', 'dbp:designer']",factoid
+9494,0.0,0.0,0.0,4,1,0,who wrote brazilian adventure,[['dbo:author']],[],factoid
+9509,0.0,0.0,0.0,8,1,1,List the houses of Parliament of India ?,[['dbp:houses']],['dbp:constituency'],list
+9514,0.0,0.0,0.0,6,1,1,which song was played by booba92i,[['dbo:recordLabel']],['dbo:artist'],factoid
+9526,0.0,0.0,0.0,4,1,1,where is Änglagård from?,[['dbo:country']],['dbo:hometown'],factoid
+9546,0.0,0.0,0.0,8,1,1,What water bodies have primary inflows sa Kemijoki?,[['dbo:inflow']],['dbo:outflow'],factoid
+9547,0.0,0.0,0.0,17,2,3,Name the office holder with predecessor as Samuel W. McCall and office in Massachusetts House of Representatives?,"[['dbp:office'], ['dbp:predecessor']]","['dbp:appointer', 'dbp:deputy', 'dbp:successor']",list
+9549,0.0,0.0,0.0,7,1,1,what is a work by memphis minnie,[['dbo:artist']],['dbo:writer'],factoid
+9559,0.0,0.0,0.0,7,1,1,what company does brian wilson work for,[['dbo:recordLabel']],['dbo:foundedBy'],factoid
+9579,0.0,0.0,0.0,8,1,1,Name the artist of Brad Paisley discography ?,[['dbp:artist']],['dbo:genre'],list
+9604,0.0,0.0,0.0,6,1,1,what organization produced 9 to 5,[['dbo:distributor']],['dbp:studio'],factoid
+9643,0.0,0.0,0.0,10,1,1,what kind of music release was every given moment released,[['dbo:type']],['dbo:genre'],factoid
+9664,0.0,0.0,0.0,8,1,2,England is the origin of how many things?,[['dbp:origin']],"['dbo:hometown', 'dbo:origin']",count
+9670,0.0,0.0,0.0,8,1,0,Who gave the voice for Allen Walker ?,[['dbo:voice']],[],factoid
+9672,0.0,0.0,0.0,6,1,1,where was sandy stevens tickodri-togboa born,[['dbo:nationality']],['dbo:birthPlace'],factoid
+9699,0.0,0.0,0.0,10,1,1,is blue lagoon island a part of the bahamas achipelago?,[['dbo:archipelago']],['dbp:cities'],boolean
+9703,0.0,0.0,0.0,4,1,0,Count all the Colonels?,[['dbp:rank']],[],count
+9704,0.0,0.0,0.0,6,1,1,what was created by fred appleyard,[['dbo:field']],['dbo:creator'],factoid
+9716,0.0,0.0,0.0,5,1,2,When was Jack Wolfskin founded?,[['dbo:foundingYear']],"['dbo:foundationPlace', 'dbp:founder']",factoid
+9720,0.0,0.0,0.0,14,2,3,What is the largest city in the country where the San Marcos River originates?,"[['dbo:sourceMountain'], ['dbo:largestCity']]","['dbo:capital', 'dbo:country', 'dbo:sourceCountry']",factoid
+9737,0.0,0.0,0.0,9,1,0,Did Jim Kiick do his highschool in New Jersey?,[['dbp:highSchool']],[],boolean
+9743,0.0,0.0,0.0,13,2,2,Which is the common prospect team of Mikhail Pashnin and Robin kovacs ?,"[['dbp:prospectTeam'], ['dbo:prospectTeam']]","['dbo:team', 'dbp:draftTeam']",factoid
+9757,0.0,0.0,0.0,12,1,2,Is the Mount St Peter Church made in the international architectural style?,[['dbp:architecture']],"['dbo:architect', 'dbo:architecturalStyle']",boolean
+9761,0.0,0.0,0.0,8,1,1,which type of film is emma released in?,[['dbo:genre']],['dbo:language'],factoid
+9767,0.0,0.0,0.0,11,2,2,What have been made in the state whose capital is Boston?,"[['dbp:capital'], ['dbo:location']]","['dbo:capital', 'dbo:largestCity']",factoid
+9783,0.0,0.0,0.0,8,1,0,Is Essex the Ceremonial County of West Tilbury?,[['dbo:ceremonialCounty']],[],boolean
+9800,0.0,0.0,0.0,8,1,2,what country is paganini: the devil's violinist from,[['dbo:country']],"['dbo:birthPlace', 'dbo:hometown']",factoid
+9805,0.0,0.0,0.0,10,1,1,What is a basin country that jur river flows through,[['dbo:sourceCountry']],['dbo:country'],factoid
+9823,0.0,0.0,0.0,13,2,1,Under which US president was a politician in opposition of John G Schmitz?,"[['dbp:opponent'], ['dbo:incumbent']]",['dbo:leaderName'],factoid
+9829,0.0,0.0,0.0,7,1,1,Did Chant Mas originate in West Africa?,[['dbo:stylisticOrigin']],['dbo:hometown'],boolean
+9860,0.0,0.0,0.0,11,1,1,Name the language of I Love How You Love Me ?,[['dbp:language']],['dbo:language'],list
+9869,0.0,0.0,0.0,11,2,2,Who owns the schools which have a penguin as its mascot?,"[['dbp:mascot'], ['dbo:authority']]","['dbo:owner', 'dbp:owner']",factoid
+9871,0.0,0.0,0.0,7,1,2,yoo in-young has citizenship in what country?,[['dbo:birthPlace']],"['dbo:nationality', 'dbp:nationality']",list
+9880,0.0,0.0,0.0,16,2,1,What are some video games whose music is composed by an employ of the company Creatures?,"[['dbp:composer'], ['dbo:occupation']]",['dbo:industry'],factoid
+9888,0.0,0.0,0.0,7,1,1,what football position does wayne capers play?,[['dbp:position']],['dbo:position'],factoid
+9889,0.0,0.0,0.0,9,1,1,Murray Gold has composed music for how many things?,[['dbo:composer']],['dbo:musicComposer'],count
+9904,0.0,0.0,0.0,6,2,1,What do typically NGOs work for?,"[['dbp:type'], ['dbp:purpose']]",['dbo:industry'],factoid
+9908,0.0,0.0,0.0,7,1,0,Is Anne Hidalgo the mayor of Paris?,[['dbo:mayor']],[],boolean
+9917,0.0,0.0,0.0,10,2,0,Name the fictional character whose voice's animator is Hardie Gramatky?,"[['dbo:voice'], ['dbp:animator']]",[],list
+9920,0.0,0.0,0.0,7,1,3,what bigger area is krzyż wielkopolski in,"[['dbo:country', 'dbo:isPartOf']]","['dbo:broadcastArea', 'dbo:city', 'dbo:location']",factoid
+9943,0.0,0.0,0.0,10,1,1,who is the writer of the tv series black tie,[['dbp:writer']],['dbo:writer'],factoid
+9969,0.0,0.0,0.0,16,2,2,Name the president who has relations with Clinton family and had a lieutenant named Winston Bryant?,"[['dbo:lieutenant'], ['dbo:relation']]","['dbo:president', 'dbp:president']",list
+9971,0.0,0.0,0.0,10,1,1,what is the show a step into the past about,[['dbo:genre']],['dbo:country'],factoid
+9977,0.0,0.0,0.0,11,1,1,Name a classical music piece written by the new york philharmonic,[['dbo:artist']],['dbo:genre'],list
+9979,0.0,0.0,0.0,6,1,1,where is cross hill based in,"[['dbo:country', 'dbo:isPartOf']]",['dbo:locatedInArea'],factoid
+9983,0.0,0.0,0.0,6,1,1,What kind of fiction is primeval,[['dbp:genre']],['dbo:literaryGenre'],factoid
+9990,0.0,0.0,0.0,7,1,0,how much is the population  Iraq?,[['dbo:populationTotal']],[],factoid
+9994,0.0,0.0,0.0,10,1,1,Name an irish blues rock bass guitarist born in belfast,"[['dbp:birthPlace', 'dbo:birthPlace']]",['dbo:genre'],list
+10008,0.0,0.0,0.0,13,2,1,Where do the railroads owned by the Chicago and Northwestern Transportation company begin?,"[['dbp:system'], ['dbo:routeStart']]",['dbo:routeEnd'],factoid
+10015,0.0,0.0,0.0,9,1,2,What was the result of Operation Autumn Clouds ?,[['dbp:result']],"['dbo:place', 'dbp:areas']",factoid
+10023,0.0,0.0,0.0,5,1,1,what genre is modesty blaise,[['dbo:literaryGenre']],['dbo:genre'],factoid
+10030,0.0,0.0,0.0,7,1,0,what is a work by mercedes lackey,[['dbo:author']],[],factoid
+10034,0.0,0.0,0.0,18,2,1,List the driver of SA MArino Grand Prix is also the Pole driver of Canadian Grand Proix ?,"[['dbp:poleDriver'], ['dbp:firstDriver']]",['dbo:poleDriver'],list
+10044,0.0,0.0,0.0,11,1,1,what is an album released by a dominican singer in 1998,[['dbo:type']],['dbo:artist'],factoid
+10057,0.0,0.0,0.0,11,1,1,Who is the composer of Girl from the North Country ?,[['dbo:composer']],['dbo:writer'],factoid
+10060,0.0,0.0,0.0,9,1,1,what style of art is henri matisse known for,[['dbo:field']],['dbo:movement'],factoid
+10075,0.0,0.0,0.0,6,1,2,Which presidents were born in 1945?,[['dbo:birthDate']],"['dbo:birthPlace', 'dbp:birthPlace']",factoid
+10078,0.0,0.0,0.0,7,1,1,what kind of album is dexter blows,[['dbo:type']],['dbo:genre'],factoid
+10081,0.0,0.0,0.0,6,1,2,what is charles a. gunn's nationality,[['dbo:country']],"['dbo:birthPlace', 'dbo:nationality']",factoid
+10107,0.0,0.0,0.0,10,1,0,how big is the total area of North Rhine- Westphalia?,[['dbo:areaTotal']],[],factoid
+10114,0.0,0.0,0.0,5,1,1,Where was Liliya Lobanova born?,[['dbp:birthplace']],['dbo:birthPlace'],factoid
+10126,0.0,0.0,0.0,7,1,1,Who does Cam PLante plays for ?,[['dbp:playedFor']],['dbo:team'],factoid
+10132,0.0,0.0,0.0,6,1,1,which position does brian tyms play,[['dbp:currentpositionplain']],['dbo:position'],factoid
+10136,0.0,0.0,0.0,6,1,1,What position does joel klatt play?,[['dbp:position']],['dbo:position'],factoid
+10140,0.0,0.0,0.0,9,1,1,"What type of album is like blood, like honey",[['dbo:type']],['dbo:genre'],factoid
+10158,0.0,0.0,0.0,5,1,5,Where is motagua river located?,[['dbo:locatedInArea']],"['dbo:city', 'dbo:country', 'dbo:district', 'dbo:region', 'dbo:state']",factoid
+10161,0.0,0.0,0.0,8,1,1,What is the nationality of Sune Agerschou ?,[['dbo:nationality']],['dbo:birthPlace'],factoid
+10170,0.0,0.0,0.0,6,1,1,List the companies operating in Australia?,[['dbo:regionServed']],['dbo:location'],list
+10220,0.0,0.0,0.0,6,1,1,Was Reza Amrollahi born in Iran?,[['dbp:birthplace']],['dbo:birthPlace'],boolean
+10228,0.0,0.0,0.0,7,1,1,what type of program is twin spica,[['dbp:genre']],['dbo:genre'],factoid
+10230,0.0,0.0,0.0,6,1,1,which religion does anaukpetlun primarily practice,[['dbp:religion']],['dbo:religion'],factoid
+10231,0.0,0.0,0.0,4,1,1,who wrote cover up?,[['dbo:author']],['dbo:writer'],factoid
+10234,0.0,0.0,0.0,15,2,2,Which person naratted The Incredible Hulk and also the writer of Tales of Suspense ?,"[['dbp:writers'], ['dbp:narrated']]","['dbp:author', 'dbp:writer']",factoid
+10249,0.0,0.0,0.0,9,1,0,What is the location of the Houses of Parliament?,[['dbo:location']],[],factoid
+10252,0.0,0.0,0.0,7,1,1,which genre is when the people fell,[['dbo:literaryGenre']],['dbo:genre'],factoid
+10254,0.0,0.0,0.0,5,1,1,What does ICRO stand for?,[['dbo:abbreviation']],['dbo:location'],factoid
+10257,0.0,0.0,0.0,9,1,1,This album by Chimaira is an example of deathcore.,[['dbo:genre']],['dbo:artist'],factoid
+10259,0.0,0.0,0.0,5,1,4,Where is titisee located within,[['dbo:location']],"['dbo:country', 'dbo:district', 'dbo:region', 'dbo:state']",factoid
+10260,0.0,0.0,0.0,4,1,1,Who wrote echo park,[['dbo:author']],['dbo:writer'],factoid

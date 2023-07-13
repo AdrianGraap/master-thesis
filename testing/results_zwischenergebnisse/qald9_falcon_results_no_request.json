@@ -1,0 +1,1815 @@
+[
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?o1 WHERE { <http://www.wikidata.org/entity/Q23337>  <http://www.wikidata.org/prop/direct/P421>  ?o1 .  }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT ?uri WHERE { res:Salt_Lake_City <http://dbpedia.org/ontology/timeZone> ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q23337>"
+        ],
+        "true_predicates_wikidata": [
+            "P421"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?o1 WHERE { <http://www.wikidata.org/entity/Q1048>  <http://www.wikidata.org/prop/direct/P157>  ?o1 .  }",
+        "sparql_query_dbpedia": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> SELECT DISTINCT ?uri WHERE { ?uri dct:subject dbc:Assassins_of_Julius_Caesar }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q1048>"
+        ],
+        "true_predicates_wikidata": [
+            "P157"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { ?uri wdt:P31 wd:Q8502 ; wdt:P2044 ?elevation ; wdt:P17 wd:Q183 . } ORDER BY DESC(?elevation) LIMIT 1",
+        "sparql_query_dbpedia": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX onto: <http://dbpedia.org/ontology/> SELECT ?uri WHERE { ?uri rdf:type onto:Mountain ; onto:elevation ?elevation ; onto:locatedInArea <http://dbpedia.org/resource/Germany> } ORDER BY DESC(?elevation) LIMIT 1",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P2044",
+            "P17"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?o WHERE { <http://www.wikidata.org/entity/Q8740>  <http://www.wikidata.org/prop/direct/P580>  ?startWar . <http://www.wikidata.org/entity/Q8740>  <http://www.wikidata.org/prop/direct/P582>  ?endWar . <http://www.wikidata.org/entity/Q30>  <http://www.wikidata.org/prop/P6> ?blank . ?blank <http://www.wikidata.org/prop/statement/P6> ?o . ?blank <http://www.wikidata.org/prop/qualifier/P580> ?start . ?blank <http://www.wikidata.org/prop/qualifier/P582> ?end . FILTER (?startWar < ?start && ?endWar > ?end)} ",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> SELECT ?uri WHERE { ?uri dct:subject dbc:Presidents_of_the_United_States . res:Vietnam_War dbo:commander ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q8740>",
+            "<http://www.wikidata.org/entity/Q8740>",
+            "<http://www.wikidata.org/entity/Q30>"
+        ],
+        "true_predicates_wikidata": [
+            "P580",
+            "P582",
+            "P6",
+            "P6",
+            "P580",
+            "P582"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT ?res WHERE { ?res wdt:P6 wd:Q39593 . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/class/yago/WikicatStatesOfTheUnitedStates> ; <http://dbpedia.org/property/governor> <http://dbpedia.org/resource/Butch_Otter> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P6"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT ?s WHERE { <http://www.wikidata.org/entity/Q241665>  <http://www.wikidata.org/prop/direct/P569>  ?date . ?s <http://www.wikidata.org/prop/direct/P106> / <http://www.wikidata.org/prop/direct/P279>*   <http://www.wikidata.org/entity/Q483501> . ?s  <http://www.wikidata.org/prop/direct/P569>  ?date . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT Count(?sub) as ?c WHERE { ?sub dbo:goldMedalist dbr:Michael_Phelps . filter (contains (str(?sub), \"2008\") && contains (str(?sub), \"Olympics\")) }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q241665>",
+            "<http://www.wikidata.org/entity/Q483501>"
+        ],
+        "true_predicates_wikidata": [
+            "P569",
+            "P106",
+            "P279",
+            "P569"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q7934>  <http://www.wikidata.org/prop/direct/P106>  ?o1 .  }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { ?uri a dbo:Artist . dbr:Rachel_Stevens dbo:birthDate ?birthdate . ?uri dbo:birthDate ?birthdate }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q7934>"
+        ],
+        "true_predicates_wikidata": [
+            "P106"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?num WHERE { <http://www.wikidata.org/entity/Q128446> <http://www.wikidata.org/prop/direct/P115>/<http://www.wikidata.org/prop/direct/P1083> ?num }",
+        "sparql_query_dbpedia": "PREFIX dbpedia2: <http://dbpedia.org/property/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT ?string WHERE { res:Frank_Herbert dbpedia2:occupation ?string }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q128446>"
+        ],
+        "true_predicates_wikidata": [
+            "P115",
+            "P1083"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> PREFIX p: <http://www.wikidata.org/prop/> PREFIX ps: <http://www.wikidata.org/prop/statement/> SELECT ?frequentflyer WHERE { ?airlines wdt:P31 wd:Q46970 . ?airlines p:P4446/ps:P4446 ?frequentflyer . }  GROUP BY ?frequentflyer ORDER BY DESC(COUNT(?airlines)) LIMIT 1",
+        "sparql_query_dbpedia": "ASK WHERE { <http://dbpedia.org/resource/Taiko> a <http://dbpedia.org/class/yago/WikicatJapaneseMusicalInstruments> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P4446",
+            "P4446"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q458>  <http://www.wikidata.org/prop/direct/P150>  ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P122>   <http://www.wikidata.org/entity/Q41614> }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbp: <http://dbpedia.org/property/> PREFIX dbr: <http://dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX db: <http://dbpedia.org/> SELECT ?capacity WHERE { { dbr:FC_Porto dbo:ground ?ground . ?ground dbo:capacity ?capacity } UNION { dbr:FC_Porto dbo:ground ?ground . ?ground dbp:capacity ?capacity } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q458>",
+            "<http://www.wikidata.org/entity/Q41614>"
+        ],
+        "true_predicates_wikidata": [
+            "P150",
+            "P122"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?cave wdt:P31 wd:Q35509 ; wdt:P17 ?uri . } GROUP BY ?uri HAVING (COUNT(?cave) > 2)",
+        "sparql_query_dbpedia": "SELECT ?uri WHERE { ?airline <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Airline> . ?airline <http://dbpedia.org/property/frequentFlyer> ?uri. } GROUP BY ?uri ORDER BY DESC(COUNT(DISTINCT ?airline)) OFFSET 0 LIMIT 1",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P17"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?s1 WHERE { ?s1  ?p1  <http://www.wikidata.org/entity/Q1248784> . ?s1  <http://www.wikidata.org/prop/direct/P276>  <http://www.wikidata.org/entity/Q99> .  }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX dbr: <http://dbpedia.org/resource/> SELECT ?uri WHERE { ?uri dct:subject dbc:Countries_in_Europe ; dbo:governmentType dbr:Constitutional_monarchy }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q1248784>",
+            "<http://www.wikidata.org/entity/Q99>"
+        ],
+        "true_predicates_wikidata": [
+            "P276"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q567> <http://www.wikidata.org/prop/direct/P1477>  ?o1 .  }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?uri WHERE { ?cave rdf:type dbo:Cave ; dbo:location ?uri . ?uri rdf:type dbo:Country } GROUP BY ?uri HAVING ( COUNT(?cave) > 2 )",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q567>"
+        ],
+        "true_predicates_wikidata": [
+            "P1477"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q64>  <http://www.wikidata.org/prop/direct/P6>  ?o1 .  }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/Airport> { ?uri <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/California> } UNION { ?uri <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/California> } UNION { ?uri <http://dbpedia.org/ontology/city> ?city . ?city <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/California> } UNION { ?uri <http://dbpedia.org/ontology/operator> <http://dbpedia.org/resource/California> } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q64>"
+        ],
+        "true_predicates_wikidata": [
+            "P6"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT DISTINCT ?s1 WHERE { <http://www.wikidata.org/entity/Q458>  <http://www.wikidata.org/prop/direct/P150>  ?s1 .  ?s1  <http://www.wikidata.org/prop/direct/P38>  <http://www.wikidata.org/entity/Q4916> . }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> PREFIX foaf:<http://xmlns.com/foaf/0.1/> SELECT DISTINCT ?string WHERE { res:San_Francisco foaf:nick ?string }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q458>",
+            "<http://www.wikidata.org/entity/Q4916>"
+        ],
+        "true_predicates_wikidata": [
+            "P150",
+            "P38"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q5284> <http://www.wikidata.org/prop/direct/P19>/<http://www.wikidata.org/prop/direct/P17> ?uri }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT ?string WHERE { res:Angela_Merkel dbp:birthName ?string }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q5284>"
+        ],
+        "true_predicates_wikidata": [
+            "P19",
+            "P17"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT (COUNT(DISTINCT ?uri) as ?count) WHERE { <http://www.wikidata.org/entity/Q83233> <http://www.wikidata.org/prop/direct/P40>/<http://www.wikidata.org/prop/direct/P40> ?uri }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { res:Berlin dbp:leader ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q83233>"
+        ],
+        "true_predicates_wikidata": [
+            "P40",
+            "P40"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT ?s1 WHERE { ?s1  <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q842284> . ?s1  <http://www.wikidata.org/prop/direct/P19> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P131>* <http://www.wikidata.org/entity/Q34> . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/Country> { ?uri <http://dbpedia.org/ontology/currency> <http://dbpedia.org/resource/Euro> } UNION { ?uri <http://dbpedia.org/property/currencyCode> \"EUR\"@en } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q842284>",
+            "<http://www.wikidata.org/entity/Q34>"
+        ],
+        "true_predicates_wikidata": [
+            "P641",
+            "P19",
+            "P131"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX p: <http://www.wikidata.org/prop/> PREFIX ps: <https://w3id.org/payswarm#> PREFIX pq: <http://www.wikidata.org/prop/qualifier/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> PREFIX bd: <http://www.bigdata.com/rdf#> PREFIX wikibase: <http://wikiba.se/ontology#> SELECT DISTINCT ?uri WHERE { { ?uri ?allowed wd:Q9134365 . VALUES ?allowed { wdt:P39 wdt:P97 } } UNION { ?uri wdt:P39 ?position . VALUES ?position { wd:Q116 wd:Q12097  } ?uri p:P39/pq:P642 ?kingdom . } VALUES ?kingdom { wd:Q161885 wd:Q174193 } . ?uri wdt:P26 ?spouse . ?spouse wdt:P19/wdt:P17 wd:Q183 . }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX onto: <http://dbpedia.org/ontology/> PREFIX prop: <http://dbpedia.org/property/> SELECT DISTINCT ?uri WHERE { ?uri rdf:type onto:Software { ?uri prop:publisher \"Mean Hamster Software\"@en } UNION { ?uri onto:publisher res:Mean_Hamster_Software } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P39",
+            "P97",
+            "P39",
+            "P39",
+            "P642",
+            "P26",
+            "P19",
+            "P17"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri { ?uri wdt:P31 wd:Q11424 . ?uri wdt:P495 wd:Q414 }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX dbr: <http://dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?country WHERE { { dbr:Bill_Gates dbo:birthPlace ?birthPlace . ?birthPlace dbo:country ?country } UNION { dbr:Bill_Gates dbo:birthPlace ?birthPlace . ?birthPlace dbo:isPartOf ?place . ?place dbo:country ?country } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P495"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q2831> <http://www.wikidata.org/prop/direct/P509> ?uri . }",
+        "sparql_query_dbpedia": "SELECT COUNT(DISTINCT ?y AS ?y) WHERE { <http://dbpedia.org/resource/Jacques_Cousteau> <http://dbpedia.org/ontology/child> ?x . ?x <http://dbpedia.org/ontology/child> ?y . }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q2831>"
+        ],
+        "true_predicates_wikidata": [
+            "P509"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { ?uri wdt:P31 wd:Q35657 . ?uri wdt:P571 ?date } ORDER BY DESC(?date) LIMIT 1",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbp: <http://dbpedia.org/property/> PREFIX dbr: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { ?uri dbo:occupation dbr:Skateboarder { ?uri dbo:birthPlace dbr:Sweden } UNION { ?uri dbo:birthPlace ?place . ?place dbo:country dbr:Sweden } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P571"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { wd:Q11185669 wdt:P279 ?uri . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX yago: <http://dbpedia.org/class/yago/> PREFIX res: <http://dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?uri WHERE { ?uri rdf:type yago:WikicatMonarchsOfTheUnitedKingdom ; dbo:spouse ?spouse . ?spouse dbo:birthPlace res:Germany }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P279"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { wd:Q25161472 wdt:P856 ?uri } ",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX yago: <http://dbpedia.org/class/yago/> PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?uri WHERE { { ?uri rdf:type yago:ArgentineFilms } UNION { ?uri rdf:type dbo:Film { ?uri dbo:country res:Argentina } UNION { ?uri dbp:country \"Argentina\"@en } } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P856"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { ?uri wdt:P26 wd:Q240377 } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?s WHERE { <http://dbpedia.org/resource/Michael_Jackson> <http://dbpedia.org/property/deathCause> ?s }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P26"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { wd:Q2246489 wdt:P170 ?uri } ",
+        "sparql_query_dbpedia": "PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX dct: <http://purl.org/dc/terms/> SELECT DISTINCT ?uri WHERE { ?uri dct:subject dbc:States_of_the_United_States ; <http://dbpedia.org/property/admittancedate> ?x } ORDER BY DESC(?x) LIMIT 1",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P170"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { wd:Q5469 wdt:P610 ?uri }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT ?String WHERE { res:Millipede dbp:taxon ?String }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P610"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX pq: <http://www.wikidata.org/prop/qualifier/> PREFIX p: <http://www.wikidata.org/prop/> PREFIX ps: <http://www.wikidata.org/prop/statement/> SELECT ?date WHERE { wd:Q33 p:P463 ?membership . ?membership pq:P580 ?date . ?membership ps:P463 wd:Q458 . } ",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX foaf: <http://xmlns.com/foaf/0.1/> SELECT DISTINCT ?string WHERE { res:Forbes foaf:homepage ?string }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P463",
+            "P580",
+            "P463"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q8539> <http://www.wikidata.org/prop/direct/P161> ?uri}",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/spouse> <http://dbpedia.org/resource/Amanda_Palmer> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q8539>"
+        ],
+        "true_predicates_wikidata": [
+            "P161"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P106> <http://www.wikidata.org/entity/Q82594> . ?uri <http://www.wikidata.org/prop/direct/P166> ?award . ?award <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q19020> . }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT ?uri WHERE { res:The_Storm_on_the_Sea_of_Galilee dbo:author ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q82594>",
+            "<http://www.wikidata.org/entity/Q19020>"
+        ],
+        "true_predicates_wikidata": [
+            "P106",
+            "P166",
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q8337> <http://www.wikidata.org/prop/direct/P50> ?uri}",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { res:Karakoram dbp:highest ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q8337>"
+        ],
+        "true_predicates_wikidata": [
+            "P50"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P106 wd:Q36180 ; wdt:P166 wd:Q37922 . }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT ?date WHERE { res:Finland dbp:accessioneudate ?date }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P106",
+            "P166"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { wd:Q12125895 wdt:P161 ?uri. ?uri wdt:P19 ?birthplace . ?birthplace wdt:P17 wd:Q145 . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/The_Big_Bang_Theory> <http://dbpedia.org/ontology/starring> ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P161",
+            "P19",
+            "P17"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q236> <http://www.wikidata.org/prop/direct/P35>/<http://www.wikidata.org/prop/direct/P19> ?uri . ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q515> . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/field> <http://dbpedia.org/resource/Computer_science> ; <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Academy_Award> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q236>",
+            "<http://www.wikidata.org/entity/Q515>"
+        ],
+        "true_predicates_wikidata": [
+            "P35",
+            "P19",
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT ?uri { ?uri wdt:P31 wd:Q35657 . ?uri wdt:P1082 ?population . ?uri wdt:P2046 ?area . BIND((?population/?area) AS ?density ) } ORDER BY DESC(?density) LIMIT 1",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Harry_Potter> <http://dbpedia.org/property/author> ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P1082",
+            "P2046"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4022> . ?uri <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q148> . ?uri <http://www.wikidata.org/prop/direct/P2043> ?length } ORDER BY DESC(?length) LIMIT 1",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/Writer> ; <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Nobel_Prize_in_Literature> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q4022>",
+            "<http://www.wikidata.org/entity/Q148>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P17",
+            "P2043"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?string WHERE { <http://www.wikidata.org/entity/Q64> <http://www.wikidata.org/prop/direct/P473> ?string . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Lovesick_(1983_film)> dbo:starring ?uri . ?uri dbo:birthPlace ?city . ?city dbo:country <http://dbpedia.org/resource/United_Kingdom> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q64>"
+        ],
+        "true_predicates_wikidata": [
+            "P473"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT (COUNT(DISTINCT ?uri) AS ?c) WHERE { ?uri wdt:P106 wd:Q901 . ?uri wdt:P69 ?university. wd:Q49113  wdt:P527 ?university . }",
+        "sparql_query_dbpedia": "PREFIX dbr: <http://dbpedia.org/resource/> PREFIX foaf: <http://xmlns.com/foaf/0.1/> SELECT ?nm WHERE { dbr:Baghdad foaf:nick ?nm }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P106",
+            "P69",
+            "P527"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT (COUNT(DISTINCT ?uri) AS ?c) WHERE { ?uri wdt:P19 ?birtplace . ?birtplace wdt:P17 wd:Q408 . ?uri wdt:P106 wd:Q13561328 . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/title> dbr:President_of_Montenegro ; dbo:birthPlace ?uri . ?uri dbo:type dbr:Capital_city }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P19",
+            "P17",
+            "P106"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT ?s1 WHERE { ?s1  <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q55> . ?s1  <http://www.wikidata.org/prop/direct/P31>  <http://www.wikidata.org/entity/Q7278> .  } ",
+        "sparql_query_dbpedia": "SELECT ?uri WHERE { ?uri <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> . ?uri <http://dbpedia.org/ontology/capital> ?capital . ?uri <http://dbpedia.org/property/densityrank> ?density . OPTIONAL {?uri <http://www.w3.org/2000/01/rdf-schema#label> ?string. FILTER (lang(?string) = 'en') } } ORDER BY ASC(?density) LIMIT 1",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q55>",
+            "<http://www.wikidata.org/entity/Q7278>"
+        ],
+        "true_predicates_wikidata": [
+            "P17",
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q111> <http://www.wikidata.org/prop/direct/P398> ?uri  . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/River> ; <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/China> ; <http://dbpedia.org/property/length> ?l } ORDER BY DESC(?l) OFFSET 0 LIMIT 1",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q111>"
+        ],
+        "true_predicates_wikidata": [
+            "P398"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q2695156> <http://www.wikidata.org/prop/direct/P460> ?uri . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT ?string WHERE { res:Berlin dbo:areaCode ?string }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q2695156>"
+        ],
+        "true_predicates_wikidata": [
+            "P460"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q317521> <http://www.wikidata.org/prop/direct/P61> ?uri . }",
+        "sparql_query_dbpedia": "SELECT (COUNT(DISTINCT ?uri) AS ?c) WHERE { ?uri a <http://dbpedia.org/ontology/Scientist> ; <http://dbpedia.org/ontology/almaMater> ?university . ?university <http://dbpedia.org/ontology/affiliation> <http://dbpedia.org/resource/Ivy_League> ; a <http://dbpedia.org/ontology/University> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q317521>"
+        ],
+        "true_predicates_wikidata": [
+            "P61"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q359>  <http://www.wikidata.org/prop/direct/P50>  ?o1 .  }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> PREFIX dbr: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { { ?uri dbo:occupation res:Surfer ; dbo:birthPlace res:Australia } UNION { ?uri dbo:occupation res:Surfer ; dbo:birthPlace ?place . ?place dbo:country res:Australia } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q359>"
+        ],
+        "true_predicates_wikidata": [
+            "P50"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q164791>  <http://www.wikidata.org/prop/direct/P570>  ?o1 .  }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/PoliticalParty> ; <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Netherlands> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q164791>"
+        ],
+        "true_predicates_wikidata": [
+            "P570"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q91>  <http://www.wikidata.org/prop/direct/P26>  ?o1 .  }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?n WHERE { <http://dbpedia.org/resource/Mars> <http://dbpedia.org/property/satellites> ?n }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q91>"
+        ],
+        "true_predicates_wikidata": [
+            "P26"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT  (COUNT(DISTINCT ?o1) as ?count)  WHERE { <http://www.wikidata.org/entity/Q33760>  <http://www.wikidata.org/prop/direct/P166>  ?o1 . } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?label WHERE { <http://dbpedia.org/resource/Batman> <http://xmlns.com/foaf/0.1/name> ?label FILTER ( str(?label) != \"Batman\" ) }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q33760>"
+        ],
+        "true_predicates_wikidata": [
+            "P166"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "ASK where { <http://www.wikidata.org/entity/Q83325> <http://www.wikidata.org/prop/direct/P1576> <http://www.wikidata.org/entity/Q83364>}",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Elon_Musk> <http://dbpedia.org/ontology/knownFor> ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q83325>",
+            "<http://www.wikidata.org/entity/Q83364>"
+        ],
+        "true_predicates_wikidata": [
+            "P1576"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE {  ?uri <http://www.wikidata.org/prop/direct/P522> <http://www.wikidata.org/entity/Q737809> . }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX onto: <http://dbpedia.org/ontology/> SELECT ?uri WHERE { res:WikiLeaks onto:author ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q737809>"
+        ],
+        "true_predicates_wikidata": [
+            "P522"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT ?s1 WHERE { ?s1  <http://www.wikidata.org/prop/direct/P17>  <http://www.wikidata.org/entity/Q183> .  ?s1 <http://www.wikidata.org/prop/direct/P31>  <http://www.wikidata.org/entity/Q515> .  ?s1  <http://www.wikidata.org/prop/direct/P1082>  ?o1 . FILTER ( ?o1 > \"250000\"^^<http://www.w3.org/2001/XMLSchema#integer>)}",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { res:Sean_Parnell dbo:region ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q183>",
+            "<http://www.wikidata.org/entity/Q515>"
+        ],
+        "true_predicates_wikidata": [
+            "P17",
+            "P31",
+            "P1082"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q25310> <http://www.wikidata.org/prop/direct/P40> ?daughter . ?daughter  <http://www.wikidata.org/prop/direct/P21> <http://www.wikidata.org/entity/Q6581072> . ?daughter  <http://www.wikidata.org/prop/direct/P26> ?uri .}",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> PREFIX res: <http://dbpedia.org/resource/> SELECT ?years WHERE { res:Ford_Model_T dbo:productionEndYear ?end ; dbo:productionStartYear ?start. BIND ( ( year(xsd:date(?end)) - year(xsd:date(?start)) ) AS ?years) }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q25310>",
+            "<http://www.wikidata.org/entity/Q6581072>"
+        ],
+        "true_predicates_wikidata": [
+            "P40",
+            "P21",
+            "P26"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q214341>  <http://www.wikidata.org/prop/direct/P2196>  ?o1 .  }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT xsd:date(?date) WHERE { res:Death_of_Carlo_Giuliani dbo:deathDate ?date }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q214341>"
+        ],
+        "true_predicates_wikidata": [
+            "P2196"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q37156>  <http://www.wikidata.org/prop/direct/P2139>  ?o1 .  }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/Animal> ; <http://dbpedia.org/ontology/conservationStatus> \"EX\" }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q37156>"
+        ],
+        "true_predicates_wikidata": [
+            "P2139"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT (COUNT(?s1) as ?c) WHERE { ?s1  <http://www.wikidata.org/prop/direct/P31>  <http://www.wikidata.org/entity/Q11424> . ?s1  ?p  <http://www.wikidata.org/entity/Q2009573> .  FILTER (?p = <http://www.wikidata.org/prop/direct/P144> || ?p = <http://www.wikidata.org/prop/direct/P674>) }",
+        "sparql_query_dbpedia": "PREFIX dbr: <http://dbpedia.org/resource/> PREFIX onto: <http://dbpedia.org/ontology/> SELECT ?uri ?string WHERE { dbr:Abraham_Lincoln onto:spouse ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q11424>",
+            "<http://www.wikidata.org/entity/Q2009573>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P144",
+            "P674"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE {  <http://www.wikidata.org/entity/Q5480> <http://www.wikidata.org/prop/direct/P725> ?uri }",
+        "sparql_query_dbpedia": "PREFIX dbr: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT (COUNT(?Awards) AS ?Counter) WHERE { dbr:Bertrand_Russell dbp:awards ?Awards }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q5480>"
+        ],
+        "true_predicates_wikidata": [
+            "P725"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q2263>  <http://www.wikidata.org/prop/direct/P26>  ?o1 .  }",
+        "sparql_query_dbpedia": "PREFIX dbr: <http://dbpedia.org/resource/> ASK WHERE { dbr:Pamela_Anderson a <http://dbpedia.org/class/yago/WikicatAmericanVegans> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q2263>"
+        ],
+        "true_predicates_wikidata": [
+            "P26"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q78707> <http://www.wikidata.org/prop/direct/P17> ?uri . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX dct: <http://purl.org/dc/terms/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?s WHERE { ?s dct:subject dbc:Missions_to_the_Sun ; rdf:type ?type FILTER ( ?type IN (dbo:Satellite, dbo:ArtificialSatellite) ) }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q78707>"
+        ],
+        "true_predicates_wikidata": [
+            "P17"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT * WHERE { ?s1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q59773381> .  ?s1 <http://www.wikidata.org/prop/direct/P176> ?o1 . ?o1  <http://www.wikidata.org/prop/direct/P17>  <http://www.wikidata.org/entity/Q183> . ?o1  <http://www.wikidata.org/prop/direct/P31>  <http://www.wikidata.org/entity/Q786820> . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { { ?uri a <http://dbpedia.org/ontology/City> } UNION { ?uri a <http://dbpedia.org/ontology/Town> } ?uri <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany> ; <http://dbpedia.org/ontology/populationTotal> ?population FILTER ( ?population > 250000 ) }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q59773381>",
+            "<http://www.wikidata.org/entity/Q183>",
+            "<http://www.wikidata.org/entity/Q786820>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P176",
+            "P17",
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q2831>  <http://www.wikidata.org/prop/direct/P570>  ?o1 .  } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Robert_F._Kennedy> <http://dbpedia.org/ontology/child> ?child . ?child <http://dbpedia.org/ontology/spouse> ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q2831>"
+        ],
+        "true_predicates_wikidata": [
+            "P570"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": " SELECT DISTINCT ?s1 WHERE { ?s1  <http://www.wikidata.org/prop/direct/P30>  <http://www.wikidata.org/entity/Q15> . ?s1  <http://www.wikidata.org/prop/direct/P31>/<http://www.wikidata.org/prop/direct/P279>*  <http://www.wikidata.org/entity/Q8072> . ?s1 <http://www.wikidata.org/prop/direct/P2044> ?o1 . } ORDER BY DESC(?o1) LIMIT 1",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?num WHERE { dbr:Vrije_Universiteit_Amsterdam <http://dbpedia.org/ontology/numberOfStudents> ?num }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q15>",
+            "<http://www.wikidata.org/entity/Q8072>"
+        ],
+        "true_predicates_wikidata": [
+            "P30",
+            "P31",
+            "P279",
+            "P2044"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P106 wd:Q49757 . ?x wdt:P50 ?uri ; wdt:P31 wd:Q571 . } GROUP BY ?uri ORDER BY DESC(COUNT(?x)) LIMIT 1",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX onto: <http://dbpedia.org/ontology/> SELECT ?number WHERE { res:IBM onto:revenue ?number }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P106",
+            "P50",
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT ?s1 where  { ?s1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q389459> } ",
+        "sparql_query_dbpedia": "SELECT (COUNT(DISTINCT ?uri) AS ?c) WHERE { ?uri dct:subject <http://dbpedia.org/resource/Category:James_Bond_films> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q389459>"
+        ],
+        "true_predicates_wikidata": [
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE {  ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> . { ?uri <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q213> . } UNION { ?uri <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q33946> . } }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Bart_Simpson> <http://dbpedia.org/property/voiceactor> ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q11424>",
+            "<http://www.wikidata.org/entity/Q213>",
+            "<http://www.wikidata.org/entity/Q33946>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P495",
+            "P495"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P106 wd:Q11631 . ?uri wdt:P27 wd:Q148 . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT DISTINCT ?uri WHERE { dbr:Tom_Hanks dbo:spouse ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P106",
+            "P27"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE {  { ?volcano <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q8072> . } UNION { ?volcano <http://www.wikidata.org/prop/direct/P31> ?type . ?type <http://www.wikidata.org/prop/direct/P279>* <http://www.wikidata.org/entity/Q8072> . } ?volcano <http://www.wikidata.org/prop/direct/P17> ?uri . } GROUP BY ?uri HAVING(COUNT(?volcano)>10)",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT ?uri WHERE { res:Yenisei_River <http://dbpedia.org/ontology/country> ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q8072>",
+            "<http://www.wikidata.org/entity/Q8072>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P31",
+            "P279",
+            "P17"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P161 wd:Q37079. }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/Automobile> { ?uri <http://dbpedia.org/ontology/assembly> <http://dbpedia.org/resource/Germany> } UNION { ?uri <http://dbpedia.org/property/assembly> <http://dbpedia.org/resource/Germany> } UNION { { ?uri <http://dbpedia.org/ontology/manufacturer> ?x } UNION { ?uri <http://dbpedia.org/property/manufacturer> ?x } { ?x <http://dbpedia.org/ontology/locationCountry> <http://dbpedia.org/resource/Germany> } UNION { ?x <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/Germany> } } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P161"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT ?date WHERE { wd:Q3266236 wdt:P170 ?author . ?author wdt:P570 ?date }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?date WHERE { <http://dbpedia.org/resource/Michael_Jackson> <http://dbpedia.org/ontology/deathDate> ?date }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P170",
+            "P570"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { wd:Q52 wdt:P170 ?uri . ?uri wdt:P31 wd:Q5 . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/Volcano> ; <http://dbpedia.org/ontology/locatedInArea> ?area . ?area dct:subject dbc:Countries_in_Africa . ?uri <http://dbpedia.org/ontology/elevation> ?elevation } ORDER BY DESC(?elevation) LIMIT 1",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P170",
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { ?uri wdt:P21 wd:Q6581072 . ?uri wdt:P39 wd:Q4970706 . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/occupation> <http://dbpedia.org/resource/Poet> . ?x <http://dbpedia.org/ontology/author> ?uri . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Book> . } ORDER BY DESC(COUNT(?x)) OFFSET 0 LIMIT 1",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P21",
+            "P39"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { wd:Q125054 wdt:P355 ?uri }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX dbr: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { ?uri dbo:occupation dbr:Gangster ; dct:subject dbc:Prohibition-era_gangsters }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P355"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P50 wd:Q72653 . ?uri wdt:P136 ?genre . ?genre wdt:P279* wd:Q571 . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX dct: <http://purl.org/dc/terms/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?s WHERE { ?s dct:subject dbc:Mars_rovers ; rdf:type ?type FILTER ( ?type IN (dbo:Satellite, dbo:ArtificialSatellite) ) }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P50",
+            "P136",
+            "P279"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT * WHERE { ?uri wdt:P31 wd:Q5 . ?uri wdt:P737 wd:Q913 . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/Film> ; <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Czech_Republic> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P737"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?n WHERE { wd:Q4138  wdt:P4511 ?n }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { { ?uri a <http://dbpedia.org/ontology/Astronaut> ; <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/People's_Republic_of_China> } UNION { ?uri a <http://dbpedia.org/ontology/Astronaut> ; <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/China> } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P4511"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE {  ?type wdt:P279* wd:Q4830453 . ?aerospace wdt:P279* wd:Q3477363 . ?healthcare wdt:P279* wd:Q15067276 . ?pharma wdt:P279* wd:Q507443 . ?uri wdt:P452 ?aerospace ; wdt:P452 ?healthcare . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?x a <http://dbpedia.org/ontology/Volcano> ; <http://dbpedia.org/ontology/locatedInArea> ?uri . ?uri a <http://dbpedia.org/ontology/Country> } GROUP BY ?uri HAVING ( COUNT(?x) > 10 )",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P279",
+            "P279",
+            "P279",
+            "P279",
+            "P452",
+            "P452"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT * WHERE { ?uri wdt:P19 ?birtplace . ?birtplace wdt:P17 wd:Q928 . ?uri wdt:P106  wd:Q13561328 . }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX onto: <http://dbpedia.org/ontology/> PREFIX prop: <http://dbpedia.org/property/> SELECT DISTINCT ?uri WHERE { ?uri rdf:type onto:Film { ?uri prop:starring res:Tom_Cruise } UNION { ?uri onto:starring res:Tom_Cruise } OPTIONAL { ?uri rdfs:label ?string FILTER ( lang(?string) = \"en\" ) } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P19",
+            "P17",
+            "P106"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT ?uri WHERE { wd:Q9439 ?childof ?uri . VALUES ?childof { wdt:P22 wdt:P25 }}",
+        "sparql_query_dbpedia": "SELECT DISTINCT xsd:date(?date) WHERE { <http://dbpedia.org/resource/Count_Dracula> <http://dbpedia.org/ontology/creator> ?x . ?x <http://dbpedia.org/ontology/deathDate> ?date. }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P22",
+            "P25"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> ASK WHERE { { ?uri wdt:P31 wd:Q23413. } UNION { ?uri wdt:P31 ?castlesubtype . ?castlesubtype wdt:P279* wd:Q23413 } ?uri wdt:P17 wd:Q30 }",
+        "sparql_query_dbpedia": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX onto: <http://dbpedia.org/ontology/> SELECT ?uri WHERE { <http://dbpedia.org/resource/Wikipedia> onto:author ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P31",
+            "P279",
+            "P17"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT * WHERE { wd:Q191 wdt:P2936 ?lang . }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT ?uri WHERE { res:Chancellor_of_Germany dbp:incumbent ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P2936"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE {  ?uri <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q5113> . ?uri <http://www.wikidata.org/prop/direct/P141> <http://www.wikidata.org/entity/Q219127> . }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT ?uri WHERE { res:Aldi dbp:founders ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q5113>",
+            "<http://www.wikidata.org/entity/Q219127>"
+        ],
+        "true_predicates_wikidata": [
+            "P171",
+            "P141"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri ?x ?y  WHERE { wd:Q584  wdt:P17 ?uri . ?uri wdt:P31 wd:Q6256 . } ",
+        "sparql_query_dbpedia": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX foaf: <http://xmlns.com/foaf/0.1/> PREFIX onto: <http://dbpedia.org/ontology/> SELECT ?uri WHERE { ?uri rdf:type onto:Book ; onto:author <http://dbpedia.org/resource/Danielle_Steel> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P17",
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT ?uri WHERE { wd:Q9682 wdt:P22  ?uri . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/influencedBy> <http://dbpedia.org/resource/Socrates> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P22"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P31 wd:Q11344 . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?n WHERE { <http://dbpedia.org/resource/Chiemsee> <http://dbpedia.org/ontology/maximumDepth> ?n }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX ps: <http://www.wikidata.org/prop/statement/> PREFIX pq: <http://www.wikidata.org/prop/qualifier/> PREFIX wd: <http://www.wikidata.org/entity/> PREFIX p: <http://www.wikidata.org/prop/> SELECT DISTINCT ?uri WHERE { ?uri p:P39 ?position . ?position ps:P39 wd:Q11696 . ?position pq:P582 ?termEnd. FILTER((YEAR(NOW()) - YEAR(?termEnd)) <= 20) }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { ?uri a dbo:Company ; dbo:industry dbr:Aerospace ; dbo:industry dbr:Medical }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P39",
+            "P39",
+            "P582"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?date WHERE { wd:Q6667101 wdt:P577 ?date }",
+        "sparql_query_dbpedia": "PREFIX dbr: <http://dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { ?uri dbo:occupation dbr:Surfer ; dbo:birthPlace res:Philippines }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P577"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q443120> <http://www.wikidata.org/prop/direct/P26> ?uri . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { res:Queen_Victoria dbo:parent ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q443120>"
+        ],
+        "true_predicates_wikidata": [
+            "P26"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT * { wd:Q843 wdt:P2936 ?uri . }",
+        "sparql_query_dbpedia": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> ASK WHERE { ?uri dct:subject dbc:Castles_in_the_United_States }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P2936"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT * { wd:Q1124 wdt:P40 ?child . ?child wdt:P26 ?uri }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/spokenIn> <http://dbpedia.org/resource/Estonia> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P40",
+            "P26"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q43653> <http://www.wikidata.org/prop/direct/P1029> ?uri}",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?uri ?p WHERE { ?uri rdf:type dbo:Bird { ?uri dbo:conservationStatus \"CR\" } UNION { ?uri dct:subject dbc:Critically_endangered_animals } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q43653>"
+        ],
+        "true_predicates_wikidata": [
+            "P1029"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX pq: <http://www.wikidata.org/prop/qualifier/> PREFIX ps: <http://www.wikidata.org/prop/statement/> PREFIX p: <http://www.wikidata.org/prop/> SELECT ?res WHERE { ?res wdt:P175 wd:Q483407 . ?res p:P1433 _:a ._:a pq:P2868 wd:Q13432985 . }",
+        "sparql_query_dbpedia": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX dbp: <http://dbpedia.org/property/> PREFIX dbo: <http://dbpedia.org/ontology/> SELECT DISTINCT ?uri WHERE { {<http://dbpedia.org/resource/Rhine> dbo:country ?uri } UNION {dbr:Rhine dbp:country ?uri} }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P175",
+            "P1433",
+            "P2868"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri { ?uri wdt:P1449 ?nickname . FILTER REGEX(STR(?nickname), \"^Scarface$\") }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT * WHERE { res:Elizabeth_II dbo:parent ?uri . ?uri <http://xmlns.com/foaf/0.1/gender> \"male\"@en }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P1449"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE {  ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4022> . ?uri <http://www.wikidata.org/prop/direct/P403> <http://www.wikidata.org/entity/Q1693> . }",
+        "sparql_query_dbpedia": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX owl: <http://www.w3.org/2002/07/owl#> SELECT DISTINCT ?uri WHERE { ?uri rdf:type owl:Thing ; dct:subject dbc:Chemical_elements }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q4022>",
+            "<http://www.wikidata.org/entity/Q1693>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P403"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri { wd:Q8962067 wdt:P131+ ?uri . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbp: <http://dbpedia.org/property/> PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?uri WHERE { ?uri rdf:type dbo:Person ; dct:subject dbc:Presidents_of_the_United_States ; dbo:activeYearsEndDate ?termEnd FILTER ( ( year(now()) - year(?termEnd) ) <= 20 ) }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P131"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri { ?uri wdt:P19 ?birthplace . ?uri wdt:P20 ?deathplace . FILTER(?birthplace = ?deathplace) ?uri wdt:P21 wd:Q6581072 . ?uri wdt:P22 ?father . ?father wdt:P97/wdt:P460 wd:Q1128240. ?father wdt:P27*/wdt:P1366*/wdt:P706* wd:Q38272 . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX dbr: <http://dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX foaf: <http://xmlns.com/foaf/0.1/> SELECT DISTINCT ?rel WHERE { <http://dbpedia.org/resource/Worst_Case_Scenario_(film)> ?p ?o ; dbo:releaseDate ?rel FILTER contains(lcase(str(?o)), \"netherlands\") }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P19",
+            "P20",
+            "P21",
+            "P22",
+            "P97",
+            "P460",
+            "P27",
+            "P1366",
+            "P706"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT (COUNT(DISTINCT ?uri) as ?count) WHERE {  ?uri <http://www.wikidata.org/prop/direct/P39> <http://www.wikidata.org/entity/Q268218>}",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { {<http://dbpedia.org/resource/Lance_Bass> dbo:spouse ?uri} UNION {?uri dbo:spouse <http://dbpedia.org/resource/Lance_Bass>} }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q268218>"
+        ],
+        "true_predicates_wikidata": [
+            "P39"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE {  ?uri <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q1381762> . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/TUI_Travel> <http://dbpedia.org/ontology/subsidiary> ?uri . ?uri <http://dbpedia.org/ontology/targetAirport> <http://dbpedia.org/resource/Glasgow_International_Airport> ; <http://dbpedia.org/ontology/targetAirport> <http://dbpedia.org/resource/Dublin_Airport> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q1381762>"
+        ],
+        "true_predicates_wikidata": [
+            "P361"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q1124023> <http://www.wikidata.org/prop/direct/P559> ?uri}",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Pakistan> <http://dbpedia.org/ontology/language> ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q1124023>"
+        ],
+        "true_predicates_wikidata": [
+            "P559"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri ?institute WHERE { wd:Q76 wdt:P26/wdt:P69/wdt:P361* ?uri . ?uri wdt:P31*/wdt:P279* wd:Q3918 . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX dbp: <http://dbpedia.org/property/> PREFIX dbr: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { dbr:Bill_Clinton dbo:child ?child . ?child dbo:spouse ?uri . ?uri rdfs:label ?string }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P26",
+            "P69",
+            "P361",
+            "P31",
+            "P279"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT ?o1 WHERE { <http://www.wikidata.org/entity/Q733>  <http://www.wikidata.org/prop/direct/P571>  ?o1 .  }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Apollo_11> <http://dbpedia.org/property/crewMembers> ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q733>"
+        ],
+        "true_predicates_wikidata": [
+            "P571"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?height WHERE { ?uri <http://www.wikidata.org/prop/direct/P106>  <http://www.wikidata.org/entity/Q3665646> . ?uri <http://www.wikidata.org/prop/direct/P54>/<http://www.wikidata.org/prop/direct/P118> <http://www.wikidata.org/entity/Q155223> .  ?uri <http://www.wikidata.org/prop/P54> ?teamMembership . FILTER NOT EXISTS { ?teamMembership <http://www.wikidata.org/prop/qualifier/P582> ?endDate } ?uri  <http://www.wikidata.org/prop/direct/P2048> ?height } ORDER BY ?height LIMIT 1",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://dbpedia.org/resource/> SELECT ?n WHERE { dbr:Indigo dbo:wavelength ?n }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q3665646>",
+            "<http://www.wikidata.org/entity/Q155223>"
+        ],
+        "true_predicates_wikidata": [
+            "P106",
+            "P54",
+            "P118",
+            "P54",
+            "P582",
+            "P2048"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { wd:Q91 wdt:P20 ?uri . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT ?string WHERE { ?x dbo:musicalArtist res:Ramones ; dbo:bSide ?string }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P20"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT ?date WHERE { wd:Q536133 wdt:P571 ?date . } ",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> SELECT ?uri WHERE { ?uri dbo:alias ?alias FILTER contains(lcase(?alias), \"scarface\") }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P571"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { wd:Q51747 wdt:P159 ?uri } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/River> ; <http://dbpedia.org/ontology/riverMouth> <http://dbpedia.org/resource/North_Sea> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P159"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT ?date WHERE { wd:Q948831 wdt:P571 ?date . } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Fort_Knox> <http://dbpedia.org/ontology/location> ?uri. ?uri a <http://dbpedia.org/ontology/Place>. }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P571"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q19024> <http://www.wikidata.org/prop/direct/P585> ?uri}",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX yago: <http://dbpedia.org/class/yago/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?uri WHERE { ?uri rdf:type yago:WikicatDaughtersOfBritishEarls ; dbo:birthPlace ?x ; dbo:deathPlace ?y FILTER ( ?x = ?y ) }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q19024>"
+        ],
+        "true_predicates_wikidata": [
+            "P585"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P141 wd:Q219127 }",
+        "sparql_query_dbpedia": "SELECT COUNT(DISTINCT ?uri AS ?uri) WHERE { ?uri <http://dbpedia.org/property/title> <http://dbpedia.org/resource/Emperor_of_China> . }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P141"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P106> <http://www.wikidata.org/entity/Q82955> . ?uri <http://www.wikidata.org/prop/direct/P26> ?spouse . { ?spouse <http://www.wikidata.org/prop/direct/P27> <http://www.wikidata.org/entity/Q183> . } UNION { ?spouse <http://www.wikidata.org/prop/direct/P19>/<http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> } } ",
+        "sparql_query_dbpedia": "PREFIX foaf:<http://xmlns.com/foaf/0.1/> SELECT DISTINCT ?s WHERE { <http://dbpedia.org/resource/Teenage_Mutant_Ninja_Turtles> <http://dbpedia.org/property/members> ?x . ?x foaf:givenName ?s }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q82955>",
+            "<http://www.wikidata.org/entity/Q183>",
+            "<http://www.wikidata.org/entity/Q183>"
+        ],
+        "true_predicates_wikidata": [
+            "P106",
+            "P26",
+            "P27",
+            "P19",
+            "P17"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?c WHERE { wd:Q2 wdt:P2386 ?c. }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/routeStart> <http://dbpedia.org/resource/Piccadilly> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P2386"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> ASK WHERE { wd:Q76 wdt:P26 ?obj . ?obj rdfs:label ?label FILTER( REGEX( ?label, \"Michelle\" ) ) }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?s WHERE { <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/spouse> ?x . ?x <http://dbpedia.org/ontology/almaMater> ?s }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P26"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P31 wd:Q35657 . ?uri wdt:P1813 ?name . FILTER( REGEX( ?name, \"^MN$\")) } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?date WHERE { <http://dbpedia.org/resource/Paraguay> <http://dbpedia.org/ontology/foundingDate> ?date }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P1813"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?date WHERE { wd:Q9458 wdt:P570 ?date . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?n WHERE { ?x a <http://dbpedia.org/ontology/BasketballPlayer> ; <http://dbpedia.org/ontology/league> <http://dbpedia.org/resource/National_Basketball_Association> ; <http://dbpedia.org/ontology/height> ?n FILTER NOT EXISTS { ?x <http://dbpedia.org/ontology/activeYearsEndYear> ?d } } ORDER BY ASC(?n) OFFSET 0 LIMIT 1",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P570"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { wd:Q1439 wdt:P1313 wd:Q5589725 . wd:Q5589725 wdt:P1308 ?uri . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT DISTINCT ?uri WHERE { res:Abraham_Lincoln dbo:deathPlace ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P1313",
+            "P1308"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT DISTINCT * WHERE { ?uri wdt:P57 wd:Q8006 . } ",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT xsd:date(?year) WHERE { res:Jack_Wolfskin dbo:foundingYear ?year }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P57"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { ?uri wdt:P276 wd:Q975 . ?uri wdt:P31 wd:Q178561 . ?uri wdt:P585 ?time . FILTER( YEAR(?time) = 1836 ) } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Air_China> <http://dbpedia.org/ontology/headquarter> ?uri . ?uri a <http://dbpedia.org/class/yago/City108524735> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P276",
+            "P31",
+            "P585"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX p: <http://www.wikidata.org/prop/> PREFIX ps: <http://www.wikidata.org/prop/statement/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { wd:Q162371 p:P161/ps:P161/wdt:P856 ?uri . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> SELECT DISTINCT xsd:date(?num) WHERE { <http://dbpedia.org/resource/Pilsner_Urquell> <http://dbpedia.org/property/brewery> ?uri . ?uri dbo:foundingYear ?num }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P161",
+            "P161",
+            "P856"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT * WHERE { ?uri wdt:P31/wdt:P279* wd:Q7075 . ?uri wdt:P571 ?date . FILTER( YEAR(?date) < 1400 ) } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?d WHERE { <http://dbpedia.org/resource/Boston_Tea_Party> <http://dbpedia.org/property/date> ?d }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P279",
+            "P571"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ?uri WHERE { { wd:Q76936 wdt:P527+ ?uri . } UNION { wd:Q76936 wdt:P527* ?islandgroup . ?uri wdt:P361+ ?islandgroup . } ?uri wdt:P17 wd:Q55 . ?uri wdt:P31 wd:Q23442 . } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/Animal> ; <http://dbpedia.org/ontology/conservationStatus> \"CR\" }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P527",
+            "P527",
+            "P361",
+            "P17",
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q471379> <http://www.wikidata.org/prop/direct/P527>/<http://www.wikidata.org/prop/direct/P276> ?uri . ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q207694>}",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/Politician> ; <http://dbpedia.org/ontology/spouse> ?spouse { ?spouse <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Germany> } UNION { ?spouse <http://dbpedia.org/ontology/birthPlace> ?p . ?p <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany> } }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q471379>",
+            "<http://www.wikidata.org/entity/Q207694>"
+        ],
+        "true_predicates_wikidata": [
+            "P527",
+            "P276",
+            "P31"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT ?date WHERE { wd:Q471891 wdt:P571 ?date . } ",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT (( xsd:double(?radius) * 2 ) AS ?diameter) WHERE { res:Earth dbo:meanRadius ?radius }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P571"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q9696> <http://www.wikidata.org/prop/P39> ?position . ?position  <http://www.wikidata.org/prop/statement/P39> <http://www.wikidata.org/entity/Q11696> . ?position <http://www.wikidata.org/prop/qualifier/P1366> ?uri . }",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX onto: <http://dbpedia.org/ontology/> ASK WHERE { res:Barack_Obama onto:spouse ?spouse . ?spouse rdfs:label ?name FILTER regex(?name, \"Michelle\") }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q9696>",
+            "<http://www.wikidata.org/entity/Q11696>"
+        ],
+        "true_predicates_wikidata": [
+            "P39",
+            "P39",
+            "P1366"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { wd:Q19943 wdt:P26 ?spouse . ?uri wdt:P40 ?spouse . } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a yago:WikicatStatesOfTheUnitedStates ; <http://dbpedia.org/property/postalabbreviation> \"MN\"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P26",
+            "P40"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { wd:Q45875 ?p ?uri . ?uri wdt:P106 wd:Q6625963 . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT xsd:date(?date) WHERE { res:Muhammad dbo:deathDate ?date }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P106"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?album wdt:P31 wd:Q482994 ; wdt:P175 wd:Q1299 ; wdt:P577 ?date ; wdt:P483 ?uri . } ORDER BY ?date LIMIT 1",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Moon> <http://dbpedia.org/property/atmosphereComposition> ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P175",
+            "P577",
+            "P483"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P31 wd:Q131734 . ?uri wdt:P159*/wdt:P31*/wdt:P131 wd:Q1198 . } ",
+        "sparql_query_dbpedia": "PREFIX res: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT DISTINCT ?string WHERE { res:Texas dbp:governor ?string }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P159",
+            "P31",
+            "P131"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?date WHERE { <http://www.wikidata.org/entity/Q9685> <http://www.wikidata.org/prop/direct/P570> ?date  . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?uri WHERE { ?uri rdf:type dbo:Film ; dbo:director res:Akira_Kurosawa }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q9685>"
+        ],
+        "true_predicates_wikidata": [
+            "P570"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { wd:Q248 wdt:P112 ?uri . }  ",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://dbpedia.org/resource/> SELECT ?uri WHERE { ?uri a dbo:MilitaryConflict ; dbo:place dbr:San_Antonio ; dbo:date ?date FILTER ( ?date > \"1835-12-31T00:00:00Z\"^^xsd:dateTime ) FILTER ( ?date <= \"1836-12-31T00:00:00Z\"^^xsd:dateTime ) }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P112"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?team wdt:P118 wd:Q9448 . ?uri wdt:P54 ?team ; wdt:P569 ?dateOfBirth . } ORDER BY DESC(?dateOfBirth) LIMIT 1",
+        "sparql_query_dbpedia": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX foaf: <http://xmlns.com/foaf/0.1/> PREFIX onto: <http://dbpedia.org/ontology/> SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Charmed> onto:starring ?actors . ?actors foaf:homepage ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P118",
+            "P54",
+            "P569"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q154216> <http://www.wikidata.org/prop/direct/P1303> ?uri . } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?n WHERE { <http://dbpedia.org/resource/Baguette> <http://dbpedia.org/property/calories> ?n }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q154216>"
+        ],
+        "true_predicates_wikidata": [
+            "P1303"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT (COUNT(?uri) AS ?c) WHERE { ?uri wdt:P131 wd:Q1456 . ?uri wdt:P31/wdt:P279* wd:Q23397 . }",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/Library> ; <http://dbpedia.org/property/established> ?year FILTER ( ?year < 1400 ) }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P131",
+            "P31",
+            "P279"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX skos: <http://www.w3.org/2004/02/skos/core#> SELECT * WHERE { ?uri skos:altLabel \"Rodzilla\"@en . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX yago: <http://dbpedia.org/class/yago/> PREFIX res: <http://dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?uri WHERE { ?uri rdf:type yago:WikicatFrisianIslands ; dbo:country res:Netherlands }",
+        "true_entities_wikidata": [],
+        "true_predicates_wikidata": [],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?uri WHERE { ?country <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> . ?country  <http://www.wikidata.org/prop/direct/P30> <http://www.wikidata.org/entity/Q15> . ?country <http://www.wikidata.org/prop/direct/P36> ?uri . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { res:The_Scream dbo:museum ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q6256>",
+            "<http://www.wikidata.org/entity/Q15>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P30",
+            "P36"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri { wd:Q125050 wdt:P31 ?type . ?uri wdt:P31 ?type . ?uri wdt:P31/wdt:P279* wd:Q12280 . FILTER( ?type != wd:Q12280 ) }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT xsd:date(?date) WHERE { res:De_Beers dbo:foundingYear ?date }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P31",
+            "P31",
+            "P279"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT ( COUNT( DISTINCT ?uri ) AS ?c ) WHERE { ?uri wdt:P112 wd:Q36215 . ?uri wdt:P31/wdt:P279* wd:Q783794 . } ",
+        "sparql_query_dbpedia": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/John_F._Kennedy> <http://dbpedia.org/property/presidentEnd> ?x . ?uri <http://dbpedia.org/property/presidentStart> ?x; a <http://dbpedia.org/ontology/Person>. }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P112",
+            "P31",
+            "P279"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P31/wdt:P279* wd:Q571 . ?uri wdt:P1104 ?number . } ORDER BY DESC(?number) LIMIT 1",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { res:Juan_Carlos_I_of_Spain dbo:spouse ?x . ?x dbo:parent ?uri }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P279",
+            "P1104"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P31 wd:Q35657 . ?uri wdt:P2046 ?area . } ORDER BY DESC(?area) LIMIT 1",
+        "sparql_query_dbpedia": "PREFIX dbr: <http://dbpedia.org/resource/> PREFIX dbp: <http://dbpedia.org/property/> SELECT ?Novelist WHERE { dbr:A_Song_of_Ice_and_Fire dbp:author ?Novelist }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P2046"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "SELECT DISTINCT ?string WHERE { ?uri <http://www.wikidata.org/prop/direct/P31>/(<http://www.wikidata.org/prop/direct/P279>*) <http://www.wikidata.org/entity/Q4830453> . ?uri <http://www.wikidata.org/prop/direct/P1128> ?number . FILTER(?number > 500000) . ?uri <http://www.wikidata.org/prop/direct/P856> ?string . }",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbp: <http://dbpedia.org/property/> PREFIX dbr: <http://dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX db: <http://dbpedia.org/> SELECT ?studio WHERE { ?album dbo:artist dbr:The_Beatles ; rdf:type dbo:Album ; dbo:releaseDate ?date ; dbp:studio ?studio } ORDER BY ASC(?date) LIMIT 1",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q4830453>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P279",
+            "P1128",
+            "P856"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    },
+    {
+        "sparql_query_wikidata": "PREFIX wdt: <http://www.wikidata.org/prop/direct/> PREFIX wd: <http://www.wikidata.org/entity/> SELECT DISTINCT ?uri WHERE { ?uri wdt:P31/wdt:P279* wd:Q11446 . ?uri wdt:P1344/wdt:P710 wd:Q7322 . } ",
+        "sparql_query_dbpedia": "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?company WHERE { ?company dct:subject dbc:Companies_based_in_North_Rhine-Westphalia ; rdf:type dbo:Brewery }",
+        "true_entities_wikidata": [
+            "<http://www.wikidata.org/entity/>"
+        ],
+        "true_predicates_wikidata": [
+            "P31",
+            "P279",
+            "P1344",
+            "P710"
+        ],
+        "true_entities_dbpedia": [],
+        "true_predicates_dbpedia": []
+    }
+]

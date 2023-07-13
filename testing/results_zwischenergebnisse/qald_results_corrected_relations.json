@@ -1,0 +1,1207 @@
+[
+    {
+        "question": "Give me all cosmonauts.",
+        "relations_wikidata": [
+            "P450"
+        ],
+        "relations_dbpedia": [],
+        "entities_wikidata": [],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Cosmonauts_Alley"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri  <http://www.wikidata.org/prop/direct/P106> <http://www.wikidata.org/entity/Q11631> . { ?uri <http://www.wikidata.org/prop/direct/P27> <http://www.wikidata.org/entity/Q15180> } UNION { ?uri <http://www.wikidata.org/prop/direct/P27> <http://www.wikidata.org/entity/Q159> } }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q11631>",
+            "<http://www.wikidata.org/entity/Q15180>",
+            "<http://www.wikidata.org/entity/Q159>"
+        ],
+        "true_predicates": [
+            "P106",
+            "P27",
+            "P27"
+        ]
+    },
+    {
+        "question": "Give me the birthdays of all actors of the television show Charmed.",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/birthDate",
+            "http://dbpedia.org/ontology/background"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q79875237>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Charmed"
+        ],
+        "sparql_query": "SELECT DISTINCT ?date WHERE { <http://www.wikidata.org/entity/Q162371> <http://www.wikidata.org/prop/direct/P161>/<http://www.wikidata.org/prop/direct/P569> ?date . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q162371>"
+        ],
+        "true_predicates": [
+            "P161",
+            "P569"
+        ]
+    },
+    {
+        "question": "Who is the daughter of Robert Kennedy married to?",
+        "relations_wikidata": [
+            "P26",
+            "P22"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/child",
+            "http://dbpedia.org/property/spouse"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q75557052>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Robert_F._Kennedy"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q25310> <http://www.wikidata.org/prop/direct/P40> ?daughter . ?daughter  <http://www.wikidata.org/prop/direct/P21> <http://www.wikidata.org/entity/Q6581072> . ?daughter  <http://www.wikidata.org/prop/direct/P26> ?uri .}",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q25310>",
+            "<http://www.wikidata.org/entity/Q6581072>"
+        ],
+        "true_predicates": [
+            "P40",
+            "P21",
+            "P26"
+        ]
+    },
+    {
+        "question": "Which river does the Brooklyn Bridge cross?",
+        "relations_wikidata": [
+            "P1093"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/river",
+            "http://dbpedia.org/ontology/crosses"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q35472190>",
+            "<http://www.wikidata.org/entity/Q105768182>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Brooklyn_Bridge"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q125006> <http://www.wikidata.org/prop/direct/P177> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q125006>"
+        ],
+        "true_predicates": [
+            "P177"
+        ]
+    },
+    {
+        "question": "How many countries are there in Europe?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q6256>",
+            "<http://www.wikidata.org/entity/Q165170>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Countries_of_the_United_Kingdom",
+            "http://dbpedia.org/resource/Europe"
+        ],
+        "sparql_query": "SELECT (COUNT(DISTINCT ?uri) as ?c) WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> . ?uri <http://www.wikidata.org/prop/direct/P30> <http://www.wikidata.org/entity/Q46> . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q6256>",
+            "<http://www.wikidata.org/entity/Q46>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P30"
+        ]
+    },
+    {
+        "question": "In which city did John F. Kennedy die?",
+        "relations_wikidata": [
+            "P19",
+            "P20"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/deathPlace"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q14623580>",
+            "<http://www.wikidata.org/entity/Q939538>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/John_F._Kennedy"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE {  <http://www.wikidata.org/entity/Q9696> <http://www.wikidata.org/prop/direct/P20>/<http://www.wikidata.org/prop/direct/P131> ?uri . ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q515>  .  } ",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q9696>",
+            "<http://www.wikidata.org/entity/Q515>"
+        ],
+        "true_predicates": [
+            "P20",
+            "P131",
+            "P31"
+        ]
+    },
+    {
+        "question": "Does the Isar flow into a lake?",
+        "relations_wikidata": [
+            "P361"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/property/float",
+            "http://dbpedia.org/ontology/lake"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q2001258>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Isar"
+        ],
+        "sparql_query": "ASK WHERE { <http://www.wikidata.org/entity/Q106588> <http://www.wikidata.org/prop/direct/P403> ?uri . ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q23397>  . } ",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q106588>",
+            "<http://www.wikidata.org/entity/Q23397>"
+        ],
+        "true_predicates": [
+            "P403",
+            "P31"
+        ]
+    },
+    {
+        "question": "Which countries have more than ten caves?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q6256>",
+            "<http://www.wikidata.org/entity/Q37044153>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Countries_of_the_United_Kingdom",
+            "http://dbpedia.org/resource/Caves_of_Aggtelek_Karst_and_Slovak_Karst"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256>  . ?cave <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q35509> . { ?cave <http://www.wikidata.org/prop/direct/P17> ?uri . }  UNION { ?cave <http://www.wikidata.org/prop/direct/P131>/<http://www.wikidata.org/prop/direct/P17> ?uri . } } GROUP BY ?uri HAVING (COUNT(DISTINCT ?cave) > 10)",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q6256>",
+            "<http://www.wikidata.org/entity/Q35509>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P31",
+            "P17",
+            "P131",
+            "P17"
+        ]
+    },
+    {
+        "question": "Are tree frogs a type of amphibian?",
+        "relations_wikidata": [
+            "P31"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/family",
+            "http://dbpedia.org/property/gross",
+            "http://dbpedia.org/ontology/type"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q80082645>",
+            "<http://www.wikidata.org/entity/Q4748176>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Amphibian"
+        ],
+        "sparql_query": "ASK WHERE { <http://www.wikidata.org/entity/Q53696> <http://www.wikidata.org/prop/direct/P171>* <http://www.wikidata.org/entity/Q10908> . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q53696>",
+            "<http://www.wikidata.org/entity/Q10908>"
+        ],
+        "true_predicates": [
+            "P171"
+        ]
+    },
+    {
+        "question": "Who created Goofy?",
+        "relations_wikidata": [
+            "P571"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/creator"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q111135>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Goofy"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q111135> <http://www.wikidata.org/prop/direct/P170> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q111135>"
+        ],
+        "true_predicates": [
+            "P170"
+        ]
+    },
+    {
+        "question": "Give me the capitals of all countries in Africa.",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/principal"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q2600199>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Countries_of_the_United_Kingdom",
+            "http://dbpedia.org/resource/Africa"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?country <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> . ?country  <http://www.wikidata.org/prop/direct/P30> <http://www.wikidata.org/entity/Q15> . ?country <http://www.wikidata.org/prop/direct/P36> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q6256>",
+            "<http://www.wikidata.org/entity/Q15>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P30",
+            "P36"
+        ]
+    },
+    {
+        "question": "Give me all cities in New Jersey with more than 100000 inhabitants.",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/country"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q8467058>",
+            "<http://www.wikidata.org/entity/Q720751>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/New_Jersey",
+            "http://dbpedia.org/resource/100000_(disambiguation)"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q515> . ?uri <http://www.wikidata.org/prop/direct/P131>+ <http://www.wikidata.org/entity/Q1408> . ?uri <http://www.wikidata.org/prop/direct/P1082> ?population . FILTER(?population > 100000) }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q515>",
+            "<http://www.wikidata.org/entity/Q1408>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P131",
+            "P1082"
+        ]
+    },
+    {
+        "question": "Which museum exhibits The Scream by Munch?",
+        "relations_wikidata": [
+            "P608"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/museum",
+            "http://dbpedia.org/ontology/sport"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q464980>",
+            "<http://www.wikidata.org/entity/Q87282890>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/The_Scream"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q471379> <http://www.wikidata.org/prop/direct/P527>/<http://www.wikidata.org/prop/direct/P276> ?uri . ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q207694>}",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q471379>",
+            "<http://www.wikidata.org/entity/Q207694>"
+        ],
+        "true_predicates": [
+            "P527",
+            "P276",
+            "P31"
+        ]
+    },
+    {
+        "question": "Is Egypts largest city also its capital?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/capital"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q51929311>",
+            "<http://www.wikidata.org/entity/Q40936488>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Largest_octopus"
+        ],
+        "sparql_query": "ASK WHERE { { SELECT ?largest WHERE { ?largest <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q515> . ?largest <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q79> . ?largest <http://www.wikidata.org/prop/direct/P1082> ?population . } ORDER BY DESC(?population) LIMIT 1 } <http://www.wikidata.org/entity/Q79> <http://www.wikidata.org/prop/direct/P36> ?largest . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q515>",
+            "<http://www.wikidata.org/entity/Q79>",
+            "<http://www.wikidata.org/entity/Q79>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P17",
+            "P1082",
+            "P36"
+        ]
+    },
+    {
+        "question": "How many people live in the capital of Australia?",
+        "relations_wikidata": [
+            "P551",
+            "P1263",
+            "P36"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/populationTotal",
+            "http://dbpedia.org/ontology/capital"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q781244>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Australia"
+        ],
+        "sparql_query": "SELECT DISTINCT ?number WHERE { <http://www.wikidata.org/entity/Q408> <http://www.wikidata.org/prop/direct/P36> ?uri . ?uri <http://www.wikidata.org/prop/direct/P1082> ?number . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q408>"
+        ],
+        "true_predicates": [
+            "P36",
+            "P1082"
+        ]
+    },
+    {
+        "question": "In which country is the Limerick Lake?",
+        "relations_wikidata": [
+            "P495"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/country"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q6386177>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Limerick_Lake"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q6386177> <http://www.wikidata.org/prop/direct/P17> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q6386177>"
+        ],
+        "true_predicates": [
+            "P17"
+        ]
+    },
+    {
+        "question": "Which television shows were created by John Cleese?",
+        "relations_wikidata": [
+            "P571"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/televisionSeries",
+            "http://dbpedia.org/ontology/author"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q256484>",
+            "<http://www.wikidata.org/entity/Q25014>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/John_Cleese"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5398426>  . { ?uri <http://www.wikidata.org/prop/direct/P170> <http://www.wikidata.org/entity/Q25014> . } UNION { ?uri <http://www.wikidata.org/prop/direct/P170>/<http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q25014> . }  }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q5398426>",
+            "<http://www.wikidata.org/entity/Q25014>",
+            "<http://www.wikidata.org/entity/Q25014>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P170",
+            "P170",
+            "P527"
+        ]
+    },
+    {
+        "question": "Which mountain is the highest after the Annapurna?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/mountainRange",
+            "http://dbpedia.org/ontology/elevation"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q104604772>",
+            "<http://www.wikidata.org/entity/Q48783971>",
+            "<http://www.wikidata.org/entity/Q4768000>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Annapurna_I_Middle_Peak"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q8502> . ?uri <http://www.wikidata.org/prop/direct/P2044> ?elevation . <http://www.wikidata.org/entity/Q16466024> <http://www.wikidata.org/prop/direct/P2044> ?elevation2 . FILTER (?elevation < ?elevation2) . } ORDER BY DESC(?elevation) LIMIT 1",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q8502>",
+            "<http://www.wikidata.org/entity/Q16466024>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P2044",
+            "P2044"
+        ]
+    },
+    {
+        "question": "In which films directed by Garry Marshall was Julia Roberts starring?",
+        "relations_wikidata": [
+            "P57",
+            "P161"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/numberOfFilms",
+            "http://dbpedia.org/ontology/president",
+            "http://dbpedia.org/ontology/starring"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q2701539>",
+            "<http://www.wikidata.org/entity/Q315087>",
+            "<http://www.wikidata.org/entity/Q6306692>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Garry_Marshall"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> . ?uri <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q315087> . ?uri <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q40523> . } ",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q11424>",
+            "<http://www.wikidata.org/entity/Q315087>",
+            "<http://www.wikidata.org/entity/Q40523>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P57",
+            "P161"
+        ]
+    },
+    {
+        "question": "Was U.S. president Jackson involved in a war?",
+        "relations_wikidata": [
+            "P31"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/address",
+            "http://dbpedia.org/ontology/profession"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q63801504>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Andrew_Jackson"
+        ],
+        "sparql_query": "ASK WHERE { <http://www.wikidata.org/entity/Q11817> <http://www.wikidata.org/prop/direct/P607> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q11817>"
+        ],
+        "true_predicates": [
+            "P607"
+        ]
+    },
+    {
+        "question": "Give me all communist countries.",
+        "relations_wikidata": [],
+        "relations_dbpedia": [],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q16258752>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Post-communist_countries"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q849866> . } ",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q849866>"
+        ],
+        "true_predicates": [
+            "P31"
+        ]
+    },
+    {
+        "question": "Which awards did Douglas Hofstadter win?",
+        "relations_wikidata": [
+            "P166",
+            "P166"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/award",
+            "http://dbpedia.org/ontology/award"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q319308>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Douglas_Hofstadter"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q319308> <http://www.wikidata.org/prop/direct/P166> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q319308>"
+        ],
+        "true_predicates": [
+            "P166"
+        ]
+    },
+    {
+        "question": "What is the currency of the Czech Republic?",
+        "relations_wikidata": [
+            "P38"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/currency",
+            "http://dbpedia.org/ontology/country"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q213>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Czech_Republic",
+            "http://dbpedia.org/resource/Czech_Republic"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q213> <http://www.wikidata.org/prop/direct/P38> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q213>"
+        ],
+        "true_predicates": [
+            "P38"
+        ]
+    },
+    {
+        "question": "Which countries adopted the Euro?",
+        "relations_wikidata": [
+            "P144"
+        ],
+        "relations_dbpedia": [],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q6256>",
+            "<http://www.wikidata.org/entity/Q59902736>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Countries_of_the_United_Kingdom",
+            "http://dbpedia.org/resource/Euro"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> . ?uri <http://www.wikidata.org/prop/direct/P38> <http://www.wikidata.org/entity/Q4916>   . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q6256>",
+            "<http://www.wikidata.org/entity/Q4916>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P38"
+        ]
+    },
+    {
+        "question": "What is the area code of Berlin?",
+        "relations_wikidata": [
+            "P473"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/areaCode"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q821208>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Berlin"
+        ],
+        "sparql_query": "SELECT DISTINCT ?string WHERE { <http://www.wikidata.org/entity/Q64> <http://www.wikidata.org/prop/direct/P473> ?string . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q64>"
+        ],
+        "true_predicates": [
+            "P473"
+        ]
+    },
+    {
+        "question": "Which countries have more than two official languages?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/property/languages"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q6256>",
+            "<http://www.wikidata.org/entity/Q19082699>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Countries_of_the_United_Kingdom"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> . ?uri <http://www.wikidata.org/prop/direct/P37> ?language . } GROUP BY ?uri HAVING(COUNT(?language)>2)",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q6256>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P37"
+        ]
+    },
+    {
+        "question": "Who is the owner of Rolls-Royce?",
+        "relations_wikidata": [
+            "P127"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/owner"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q85623218>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Rolls-Royce"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q243278> <http://www.wikidata.org/prop/direct/P127> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q243278>"
+        ],
+        "true_predicates": [
+            "P127"
+        ]
+    },
+    {
+        "question": "Through which countries does the Yenisei river flow?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q6256>",
+            "<http://www.wikidata.org/entity/Q78707>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Countries_of_the_United_Kingdom",
+            "http://dbpedia.org/resource/Yenisei_River"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q78707> <http://www.wikidata.org/prop/direct/P17> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q78707>"
+        ],
+        "true_predicates": [
+            "P17"
+        ]
+    },
+    {
+        "question": "When did Latvia join the EU?",
+        "relations_wikidata": [
+            "P580"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/property/date"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q211>",
+            "<http://www.wikidata.org/entity/Q458>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Basque_language",
+            "http://dbpedia.org/resource/Join"
+        ],
+        "sparql_query": "SELECT DISTINCT ?date WHERE { <http://www.wikidata.org/entity/Q211> <http://www.wikidata.org/prop/P463> ?membership . ?membership <http://www.wikidata.org/prop/statement/P463> <http://www.wikidata.org/entity/Q458> . ?membership <http://www.wikidata.org/prop/qualifier/P580> ?date . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q211>",
+            "<http://www.wikidata.org/entity/Q458>"
+        ],
+        "true_predicates": []
+    },
+    {
+        "question": "Which politicians were married to a German?",
+        "relations_wikidata": [
+            "P26"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/spouse",
+            "http://dbpedia.org/ontology/country",
+            "http://dbpedia.org/ontology/country"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q50758014>",
+            "<http://www.wikidata.org/entity/Q3548991>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Politicians_of_The_Wire",
+            "http://dbpedia.org/resource/Germany",
+            "http://dbpedia.org/resource/German"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P106> <http://www.wikidata.org/entity/Q82955> . ?uri <http://www.wikidata.org/prop/direct/P26> ?spouse . { ?spouse <http://www.wikidata.org/prop/direct/P27> <http://www.wikidata.org/entity/Q183> . } UNION { ?spouse <http://www.wikidata.org/prop/direct/P19>/<http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> } } ",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q82955>",
+            "<http://www.wikidata.org/entity/Q183>",
+            "<http://www.wikidata.org/entity/Q183>"
+        ],
+        "true_predicates": [
+            "P106",
+            "P26",
+            "P27",
+            "P19",
+            "P17"
+        ]
+    },
+    {
+        "question": "When was the Battle of Gettysburg?",
+        "relations_wikidata": [
+            "P607"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/property/date"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q5554735>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Battle_of_Gettysburg"
+        ],
+        "sparql_query": "SELECT DISTINCT ?date WHERE { <http://www.wikidata.org/entity/Q33132> <http://www.wikidata.org/prop/direct/P580> ?date . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q33132>"
+        ],
+        "true_predicates": [
+            "P580"
+        ]
+    },
+    {
+        "question": "What is the highest mountain in Australia?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/property/elevation"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q35691748>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Australia"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q8502> . ?uri <http://www.wikidata.org/prop/direct/P30> <http://www.wikidata.org/entity/Q3960> . ?uri <http://www.wikidata.org/prop/direct/P2044> ?height. } ORDER BY DESC(?height) LIMIT 1",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q8502>",
+            "<http://www.wikidata.org/entity/Q3960>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P30",
+            "P2044"
+        ]
+    },
+    {
+        "question": "Give me all soccer clubs in Spain.",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/clubsRecordGoalscorer"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q9275747>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Spain"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q476028> . ?uri <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q476028>",
+            "<http://www.wikidata.org/entity/Q29>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P17"
+        ]
+    },
+    {
+        "question": "What is the official language of Suriname?",
+        "relations_wikidata": [
+            "P37"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/officialLanguage"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q730>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Suriname"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q730> <http://www.wikidata.org/prop/direct/P37> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q730>"
+        ],
+        "true_predicates": [
+            "P37"
+        ]
+    },
+    {
+        "question": "Who is the mayor of Tel Aviv?",
+        "relations_wikidata": [
+            "P6"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/mayor"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q33935>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Tel_Aviv"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q33935> <http://www.wikidata.org/prop/direct/P6> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q33935>"
+        ],
+        "true_predicates": [
+            "P6"
+        ]
+    },
+    {
+        "question": "Which telecommunications organizations are located in Belgium?",
+        "relations_wikidata": [
+            "P131"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/place"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q19879852>",
+            "<http://www.wikidata.org/entity/Q2025327>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Complex_organizations",
+            "http://dbpedia.org/resource/Belgium"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q43229> } UNION { ?uri <http://www.wikidata.org/prop/direct/P31>/(<http://www.wikidata.org/prop/direct/P279>*) <http://www.wikidata.org/entity/Q43229> } . ?uri <http://www.wikidata.org/prop/direct/P452> <http://www.wikidata.org/entity/Q418> .  ?uri <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q31> . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q43229>",
+            "<http://www.wikidata.org/entity/Q43229>",
+            "<http://www.wikidata.org/entity/Q418>",
+            "<http://www.wikidata.org/entity/Q31>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P31",
+            "P279",
+            "P452",
+            "P17"
+        ]
+    },
+    {
+        "question": "Is Frank Herbert still alive?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/deathDate"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q3973557>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Frank_Herbert"
+        ],
+        "sparql_query": "ASK WHERE { <http://www.wikidata.org/entity/Q7934> <http://www.wikidata.org/prop/direct/P570> ?date . FILTER(!BOUND(?date)) }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q7934>"
+        ],
+        "true_predicates": [
+            "P570"
+        ]
+    },
+    {
+        "question": "What is the highest place of the Urals?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/highestPlace"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q96738408>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Urals_Mussorgsky_State_Conservatoire"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q35600> <http://www.wikidata.org/prop/direct/P610> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q35600>"
+        ],
+        "true_predicates": [
+            "P610"
+        ]
+    },
+    {
+        "question": "Who wrote the lyrics for the Polish national anthem?",
+        "relations_wikidata": [
+            "P800"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/property/author",
+            "http://dbpedia.org/ontology/lyrics",
+            "http://dbpedia.org/ontology/country"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q48370942>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Poland",
+            "http://dbpedia.org/resource/Afghan_National_Anthem"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q36> <http://www.wikidata.org/prop/direct/P85>/<http://www.wikidata.org/prop/direct/P676> ?uri . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q36>"
+        ],
+        "true_predicates": [
+            "P85",
+            "P676"
+        ]
+    },
+    {
+        "question": "Give me all federal chancellors of Germany.",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/federalState"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q19765839>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Germany"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P39> <http://www.wikidata.org/entity/Q4970706> . } ",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q4970706>"
+        ],
+        "true_predicates": [
+            "P39"
+        ]
+    },
+    {
+        "question": "What is the official website of Tom Cruise?",
+        "relations_wikidata": [
+            "P856"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/incumbent"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q37079>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Tom_Cruise"
+        ],
+        "sparql_query": "SELECT DISTINCT ?string WHERE { <http://www.wikidata.org/entity/Q37079> <http://www.wikidata.org/prop/direct/P856> ?string . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q37079>"
+        ],
+        "true_predicates": [
+            "P856"
+        ]
+    },
+    {
+        "question": "List all episodes of the first season of the HBO television series The Sopranos.",
+        "relations_wikidata": [
+            "P1113",
+            "P2437"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/episodeNumber",
+            "http://dbpedia.org/ontology/seasonNumber"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q27645647>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/HBO",
+            "http://dbpedia.org/resource/The_Sopranos_(episode)"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q21191270> . ?uri <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q5274359> } ",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q21191270>",
+            "<http://www.wikidata.org/entity/Q5274359>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P361"
+        ]
+    },
+    {
+        "question": "Is there a video game called Battle Chess?",
+        "relations_wikidata": [
+            "P20"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/property/release",
+            "http://dbpedia.org/ontology/alias"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q7889>",
+            "<http://www.wikidata.org/entity/Q810986>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Battle_Chess"
+        ],
+        "sparql_query": "prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>  ASK WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7889> . ?uri rdfs:label \"Battle Chess\"@en }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q7889>"
+        ],
+        "true_predicates": [
+            "P31"
+        ]
+    },
+    {
+        "question": "Give me the websites of companies with more than 500000 employees.",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/numberOfEmployees"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q49943587>",
+            "<http://www.wikidata.org/entity/Q67184520>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Websites_blocked_in_Pakistan",
+            "http://dbpedia.org/resource/Companies_listed_on_the_New_York_Stock_Exchange_(J)"
+        ],
+        "sparql_query": "SELECT DISTINCT ?string WHERE { ?uri <http://www.wikidata.org/prop/direct/P31>/(<http://www.wikidata.org/prop/direct/P279>*) <http://www.wikidata.org/entity/Q4830453> . ?uri <http://www.wikidata.org/prop/direct/P1128> ?number . FILTER(?number > 500000) . ?uri <http://www.wikidata.org/prop/direct/P856> ?string . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q4830453>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P279",
+            "P1128",
+            "P856"
+        ]
+    },
+    {
+        "question": "Which actors were born in Germany?",
+        "relations_wikidata": [
+            "P19"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/award",
+            "http://dbpedia.org/ontology/birthPlace"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q616385>",
+            "<http://www.wikidata.org/entity/Q7318>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Germany"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P106> <http://www.wikidata.org/entity/Q10800557> . { ?uri <http://www.wikidata.org/prop/direct/P19> <http://www.wikidata.org/entity/Q183> . } UNION { ?uri <http://www.wikidata.org/prop/direct/P19>/<http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> . } }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q10800557>",
+            "<http://www.wikidata.org/entity/Q183>",
+            "<http://www.wikidata.org/entity/Q183>"
+        ],
+        "true_predicates": [
+            "P106",
+            "P19",
+            "P19",
+            "P17"
+        ]
+    },
+    {
+        "question": "Which instruments does Cat Stevens play?",
+        "relations_wikidata": [
+            "P641"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/property/instrument",
+            "http://dbpedia.org/ontology/starring"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q133163>",
+            "<http://www.wikidata.org/entity/Q154216>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Cat_Stevens"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { <http://www.wikidata.org/entity/Q154216> <http://www.wikidata.org/prop/direct/P1303> ?uri . } ",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q154216>"
+        ],
+        "true_predicates": [
+            "P1303"
+        ]
+    },
+    {
+        "question": "Give me all books written by Danielle Steel.",
+        "relations_wikidata": [
+            "P571"
+        ],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/volume",
+            "http://dbpedia.org/ontology/writer"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q62071617>",
+            "<http://www.wikidata.org/entity/Q72653>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Danielle_Steel"
+        ],
+        "sparql_query": "SELECT DISTINCT ?uri WHERE { ?uri <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q571> . ?uri <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q72653> . } ",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q571>",
+            "<http://www.wikidata.org/entity/Q72653>"
+        ],
+        "true_predicates": [
+            "P31",
+            "P50"
+        ]
+    },
+    {
+        "question": "When did the Ming dynasty dissolve?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/date"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q6864635>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Ming_dynasty"
+        ],
+        "sparql_query": "SELECT DISTINCT ?date WHERE { <http://www.wikidata.org/entity/Q9903> <http://www.wikidata.org/prop/direct/P576> ?date . }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q9903>"
+        ],
+        "true_predicates": [
+            "P576"
+        ]
+    },
+    {
+        "question": "Is Lake Baikal bigger than the Great Bear Lake?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q61029611>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Lake_Baikal",
+            "http://dbpedia.org/resource/Great_Bear_Lake"
+        ],
+        "sparql_query": "ASK WHERE { <http://www.wikidata.org/entity/Q5513> <http://www.wikidata.org/prop/direct/P2046> ?area1 . <http://www.wikidata.org/entity/Q5525> <http://www.wikidata.org/prop/direct/P2046> ?area2 . FILTER(?area1 > ?area2) }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q5513>",
+            "<http://www.wikidata.org/entity/Q5525>"
+        ],
+        "true_predicates": [
+            "P2046",
+            "P2046"
+        ]
+    },
+    {
+        "question": "Was the Cuban Missile Crisis earlier than the Bay of Pigs Invasion?",
+        "relations_wikidata": [],
+        "relations_dbpedia": [
+            "http://dbpedia.org/ontology/date",
+            "http://dbpedia.org/ontology/country"
+        ],
+        "entities_wikidata": [
+            "<http://www.wikidata.org/entity/Q128160>",
+            "<http://www.wikidata.org/entity/Q191721>"
+        ],
+        "entities_dbpedia": [
+            "http://dbpedia.org/resource/Cuba",
+            "http://dbpedia.org/resource/Cuban_Missile_Crisis",
+            "http://dbpedia.org/resource/Bay_of_Pigs_Invasion"
+        ],
+        "sparql_query": "ASK WHERE { <http://www.wikidata.org/entity/Q128160> <http://www.wikidata.org/prop/direct/P582> ?date1 . <http://www.wikidata.org/entity/Q191721> <http://www.wikidata.org/prop/direct/P580> ?date2 . FILTER(?date1 < ?date2) }",
+        "true_entities": [
+            "<http://www.wikidata.org/entity/Q128160>",
+            "<http://www.wikidata.org/entity/Q191721>"
+        ],
+        "true_predicates": [
+            "P582",
+            "P580"
+        ]
+    }
+]

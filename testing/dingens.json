@@ -1,0 +1,502 @@
+{
+  "q_id": "1701",
+  "question": "Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel \/' [Marine Corps Air Station Kaneohe Bay | Airport | architect, caption, location, faaLocationIdentifier, icaoLocationIdentifier, iataLocationIdentifier, runwayDesignation, elevationF, elevation, elevationM, garrison, locmapin, nocat, deathPlace, photos, commander, longSeconds, latDirection, cap, longDirection, runwayLength, designatedNrhpType, nearestCity, latSeconds, cityServed, commands, latMinutes, city, longMinutes, latDegrees, icao, runwaySurface, type, nrhpType, footnotes, r1LengthF, operator, title, r1LengthM, data, governingBody, iata, id, link, website, added, longDegrees, faa, wmo, r1Surface, survey, refnum, r1Number, built, name, used] [New Sanno hotel | Hotel | hotelName, tenant, location, operator, list]",
+  "relations": [
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "Army Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "'Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Army Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Navy Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Army Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Navy Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "[Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Army Navy Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Army Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "'Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "acration Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architectural"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "areport Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Army Army Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "acrosses Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Commanders Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architects"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "designer"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Army Camp Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "acros, Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "acration, Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "achemohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "acoree Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "'Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "acorehe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "acrohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architectural"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sannono hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Navy Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "Army Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "acomposer] [New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "achs",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "acration",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "Army Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "[Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenants"
+      ]
+    ],
+    [
+      [
+        "Marine Corps Air Station Kaneohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotels",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "agohe Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ],
+    [
+      [
+        "agering Bay",
+        "architect"
+      ],
+      [
+        "New Sanno hotel",
+        "tenant"
+      ]
+    ]
+  ]
+}
