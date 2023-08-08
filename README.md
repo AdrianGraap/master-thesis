@@ -13,3 +13,5 @@ Für die Skripte in `testing` wird die Umgebung `master-thesis` benötigt.
 
 Die Skripte in `my_relation_detection` benötigen entweder die Umgebung `master-thesis` oder `tf`, weitere Informationen
 findet man in dem Ordner selbst.
+
+Die Modelle für die jeweiligen Ansätze können von https://www.mediafire.com/file/5656nbe577ddfz2/modelle.zip/file heruntergeladen werden. Dabei muss der `result` Ordner in zugehörigen Ordner des jeweiligen Ansatzes verschoben werden.
